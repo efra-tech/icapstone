@@ -1,1 +1,2 @@
-# icapstone
+# Informatics Capstone: Team Muse
+
