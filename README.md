@@ -1,4 +1,6 @@
-# Informatics Capstone
+# Informatics Capstone   
+This repository contains code for an interactive information web app, created for the 2023 Informatics Capstone course at the UW iSchool.   
+
 ## Team Muse - Project GardenSpace
 
 ### Collaborators:     
