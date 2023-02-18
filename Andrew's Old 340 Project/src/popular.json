@@ -1,0 +1,8 @@
+[
+    {"name":"Netflix", "avgHours":"12", "avgEfficiency":"$0.90", "img":"/img/netflix-icon.png", "time":"month"},
+    {"name":"Disney Plus", "avgHours":"10", "avgEfficiency":"$0.89", "img":"/img/disney-icon.png", "time":"month"},
+    {"name":"Spotify", "avgHours":"8", "avgEfficiency":"$0.30", "img":"/img/spotify-icon.png", "time":"month"},
+    {"name":"Amazon Prime Video", "avgHours":"11", "avgEfficiency":"$1.49", "img":"/img/amazon-video-icon.png", "time":"year"},
+    {"name":"Xbox Game Pass", "avgHours":"15", "avgEfficiency":"$0.39", "img":"/img/xbox-game-pass-icon.png", "time":"year"},
+    {"name":"Apple Music", "avgHours":"7", "avgEfficiency":"$0.80", "img":"/img/apple-music-icon.png", "time":"year"}
+]
