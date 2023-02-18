@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+main, div section:nth-child(2) {
+    flex: 1;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+}
+
+/* default font rules */
+h1, h2, p, a {
+    font-family: "Open Sans", "Courier New", sans-serif;
+}
+
+h3, h4 {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.slogan {
+    margin-top: 0.25rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar div {
+    flex-grow: 1;
+}
+
+.navbar div:nth-child(2) {
+    text-align: center;
+}
+
+.navbar div a {
+    margin-right: 7rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav li { 
+    display: none;  
+}
+
+header .navlink, .slogan {
+    display: none;
+}
+
+header {
+    color:white;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/headerimage.jpeg');
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+}
+
+.mobile-menu {
+    width: 45px;
+    height: 45px;
+    margin-left: 65%;
+}
+
+
+.eventicon, .forumicon, .messagingicon, .usericon {
+    display: none;
+}
+
+
+/* index rules */
+.filter {
+    text-align: center;
+    font-family: "Open Sans", "Courier New", sans-serif;
+}
+
+.filter h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+}
+
+.filter input, .filter select {
+    margin-right: 2rem;
+    font-family: inherit;
+}
+
+h1:first-child {
+    margin-top: 0rem;
+    font-weight: bold;
+}
+
+label {
+    font-weight: 600x;
+}
+
+form {
+    padding: 1rem;
+    margin-top: 0rem;
+    background-color: azure;
+}
+
+form input:nth-child(3){
+    background-color: #ccccff;
+    font-weight: bold;
+}
+
+.input-items {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#genre-input {
+    margin-right: 0rem;
+    margin-left: 1.8rem;
+}
+
+#date-input {
+    margin-left: 2.3rem;
+}
+
+#loc-input, #date-input, select {
+    border-radius: 0.25rem;
+    border-width: thick;
+    border: solid black;
+}
+
+input:last-child {
+    padding-left: 0.1rem;
+}
+
+.container {
+    display: flex;
+    height: 85%;
+}
+
+section:first-child, section:last-child {
+    max-width: 0.5rem;
+}
+
+/* index cards */
+section, .box-of-cards {
+    display: flex;
+}
+
+.box-of-cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.card, .box-of-cards {
+    flex-wrap: wrap;
+}
+
+.big-card, .card {
+    margin: 1rem;
+    background-color: lavender;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    display: block;
+    text-align: center;
+    box-shadow: 1px 1.75px rgb(214, 214, 214), 1.75px 1px rgb(214, 214, 214);
+    /*
+    border-style: groove;
+    border-width: .01rem;
+    border-color: black;
+    */
+}
+
+.card {
+    min-width: 15rem;
+    margin: 1rem;
+    flex: 0 0 2.5rem;
+}
+
+i p {
+    display: inline;
+    margin-left: 0.35rem;
+}
+
+.card img, .big-card img {
+    display: none;
+    min-width: inherit;
+    height: 8rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.text-content i {
+    margin-right: 1.5rem;
+}
+
+.card i {
+    margin-bottom: 0.5rem;
+}
+
+.card p:first-of-type, .big-card p:first-of-type {
+    font-weight: bold;
+}
+
+/* footer rules */
+footer {
+    background-color: lavender;
+    padding-left: 1rem;
+}
+
+footer a {
+    color:black;
+    text-decoration: solid;
+}
+
+footer p {
+    margin: 0.25rem;
+    line-height: 1.5;
+    text-align: center;
+    display: inline;
+}
+
+.footerimage {
+    color:white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/footer.jpeg');
+    text-align: center;
+}
+
+footer p:last-of-type {
+    padding-top: 8px;
+}
+
+/* forum board rules */
+.forum-container, .board-container {
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.forum-board h2 {
+    padding-bottom: 0.5rem;
+}
+
+.forum-option, .board-option {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.forum-container h2, .board-container h2 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.forum-title {
+    flex-direction: column;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.forum-commentcount, .forum-likecount, .forum-postdate {
+    text-align: center;
+}
+
+.forum-likecount p, .forum-commentcount p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.forum-postdate {
+    font-size: 12px;
+}
+
+.forum-postdate, .forum-user h3 {
+    display: none;
+}
+
+.like-button, .comment-button {
+    height: 20px;
+    width: 20px;
+}
+
+.forum-user {
+    padding-top: 20px;
+    width: 15%;
+}
+
+.forum-user h3 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.forum-user p {
+    margin-top: 2px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.post-pfp {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+/* image default size */
+img {
+    height: 35px;
+    width: 35px;
+}
+
+/* forum board rules */
+.board-info {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.board-info h3, .board-info h4, .board-info p {
+    margin-bottom: 0.25rem;
+    margin-top: 0%;
+    width: 100%;
+}
+
+.board-info h3 {
+    font-size: 30px;
+}
+
+.board-info h4, .mobile-boardinfo, .board-following p {
+    display: none;
+}
+
+.board-threadcount, .board-followercount {
+    padding-right: 40px;
+}
+
+.board-threadcount p, .board-followercount p, .board-threadcount h3, .board-followercount h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.board-following {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    width: 15%;
+}
+
+.board-following img {
+    align-self: center;
+}
+
+
+/* desktop size override rules */
+@media (min-width: 600px) {
+    .slogan {
+        display: inline;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    
+    header {
+    color:white;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/headerimage.jpeg');
+    text-align: center;
+    }
+
+    /* header and navbar rules */
+    header .navlink {
+        display: inline;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        background-color: lavender;
+        padding: .1rem .1rem .1rem .1rem;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding:0;
+    }
+    
+    nav li { 
+        margin: 0 1rem;
+        padding: 0;
+        display: inline;  
+    }
+    
+    nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: lavender;
+        border-bottom: .1rem solid black;
+        transition: all .30s ease-in-out;
+    }
+    
+    .navbar h1 {
+        margin-bottom: 0rem;
+    }
+
+    .eventicon, .forumicon, .messagingicon, .usericon {
+        display: inline;
+        height: 35px;
+        width: 35px;
+    }
+
+    .forum-container h2, .board-container h2 {
+        font-size: 40px;
+    }
+
+    .forum-title {
+        font-size: 30px;
+    }
+
+    .forum-user h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .post-pfp {
+        border-radius: 25px;
+        height: 70px;
+        width: 70px;
+    }
+    .mobile-foruminfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-foruminfo .comments-and-likes {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .like-button, .comment-button {
+        height: 50px;
+        width: 50px;
+    }
+
+    .forum-postdate {
+        padding-right: 25px;
+        font-size: 15px;
+        display: inline;
+    }
+
+    .board-info h4 {
+        display: inline;
+    }
+
+    .mobile-boardinfo {
+        display: flex;
+    }
+
+    .board-following p {
+        display: inline;
+        margin-top: 8px;
+    }
+
+    /* Desktop filter data */
+    .filter-items input, #genre-input, .input-items {
+        display: inline;
+    }
+
+    /* Modidying date filter component for Desktop */
+    #date-input, #genre-input {
+        margin-left: 0rem;
+    }
+
+    .big-card {
+        min-width: 24rem;
+        height: 24rem;
+        margin: 1rem 3rem;
+        flex: 0 0 2.5rem;
+    }
+
+    .big-card img {
+        display: block;
+        min-width: inherit;
+        min-height: 12rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .card img {
+        display: block;
+        min-width: inherit;
+        min-height: 7rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .card {
+        margin: 3rem;
+    }
+
+    div section:first-child, div section:last-child {
+        flex-basis: 10rem;
+        display: block;
+    }
+
+}

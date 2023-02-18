@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Alternative",
+        "flavor_text": "For those who go against the grain.",
+        "thread_count": 7462,
+        "follower_count": 14502
+    },
+    {
+        "name": "Country",
+        "flavor_text": "Corn huskin' and beer drinkin'.",
+        "thread_count": 4285,
+        "follower_count": 27305
+    },
+    {
+        "name": "Rock",
+        "flavor_text": "Head banging optional.",
+        "thread_count": 17203,
+        "follower_count": 42952
+    },
+    {
+        "name": "Indie",
+        "flavor_text": "Bedroom studio extraordinaires.",
+        "thread_count": 7462,
+        "follower_count": 14502
+    },
+    {
+        "name": "Folk",
+        "flavor_text": "Simple music for simple people.",
+        "thread_count": 7462,
+        "follower_count": 14502
+    },
+    {
+        "name": "Jazz",
+        "flavor_text": "It don't mean a thing if it ain't got that swing.",
+        "thread_count": 7462,
+        "follower_count": 14502
+    }
+]

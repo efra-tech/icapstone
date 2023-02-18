@@ -1,0 +1,19 @@
+p {
+    margin-bottom: 2rem;
+}
+
+h1, h2, p{
+    font-family: "Open Sans", "Courier New", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: lavender;
+}
