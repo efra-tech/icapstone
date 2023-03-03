@@ -1,0 +1,29 @@
+/* Full page */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+  margin-top: 12vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Navbar */
+nav {
+  background-color: #746B5D;
+}
+
+a {
+  color: #F2F2EC;
+}
+
+/* Calender */
