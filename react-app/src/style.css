@@ -3,18 +3,14 @@
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#body {
+  height: 100vh;
+  background-color: #F2F2EC;
 }
 
 main {
-  align-items: center;
-  text-align: center;
-  margin-top: 12vh;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 2%;
+  margin-top: 1%;
 }
 
 /* Navbar */

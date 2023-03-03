@@ -11,12 +11,12 @@ import AboutPage from './AboutPage';
 
 export default function App(props) {
   return (
-    <div>
-      <main className='container'>
-        <header>
-          <Navbar />
-        </header>
+    <div id='body'>
+      <header>
+        <Navbar />
+      </header>
 
+      <main>
         <Routes>
           <Route path='home' element={ <HomePage /> } />
           <Route path='map' element={ <MapPage /> } />
