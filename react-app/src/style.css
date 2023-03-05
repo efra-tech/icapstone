@@ -8,11 +8,6 @@
   background-color: #F2F2EC;
 }
 
-main {
-  margin-left: 2%;
-  margin-top: 1%;
-}
-
 /* Navbar */
 nav {
   background-color: #746B5D;
@@ -23,30 +18,12 @@ a {
 }
 
 /* Calender */
-.sc-gswNZR.iTFVnU, .sc-ftTHYK.iNsAq {
-  background-color: #829F91;
+.sc-gLLvby.jOyNJ h1 {
+  color: #3F5749 !important;
+  font-weight: 250;
 }
 
-.sc-gLLvby.rWHDB {
-  background-color: #F2F2EC;
-}
-
-calender svg {
-  color: #F2F2EC;
-}
-
-.sc-hLQRIN.gilQaH {
-  background: #668171 !important;
-}
-
-.sc-gLLvby.rWHDB h1 {
-  color: #668171;
-}
-
-.sc-bcXHqe.dLoBpi {
-  border-color: #829F91 !important;
-}
-
-.sc-qZqnM.qeABj, .sc-hLQRIN.kNabDw, .sc-qZqnM.inWglq, .sc-qZqnM.inWglq, .sc-qZqnM.qeABj {
-  background-color: #3F5749 !important;
+.calender-container {
+  margin-right: 10%;
+  margin-left: 10%;
 }
