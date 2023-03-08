@@ -13,13 +13,11 @@ export default function AboutPage(props) {
 
   return (
     <div className='about-us-page'>
-      <div className='header-img'>
-<img src={header} alt={"Rainier Beach P-Patch circa 1980"} /> 
-</div>
-      <div className='mission-header'>
+      <div className="header-img p-5 text-left text-black"></div>
+      <div className='section-header'>
         <h1>Our Mission</h1>
       </div>
-      <div className='mission-body'> 
+      <div className='section-body'> 
         <p>Welcome to GardenSpace! </p>
         <p> </p>
         <p>We are a group of Informatics students at the University of Washington dedicated to contributing to our local BIPOC 
@@ -30,10 +28,10 @@ export default function AboutPage(props) {
         <p> </p>
         <p>Find and cultivate yourself in nature with Garden Space!</p>
       </div>
-      <div className='why-this-matters-header'>
+      <div className='section-header'>
         <h1>Why this Matters</h1>
       </div>
-      <div className='why-this-matters-body'>
+      <div className='section-body'>
         <p>Community is an important aspect of not only fostering lifelong friendships, passion for gardening, and learning, 
         but also for empowerment among people who may face food insecurity or systemic oppression.</p>
         <p> </p>
@@ -41,56 +39,68 @@ export default function AboutPage(props) {
         is how we move forward. Gardening has long had a liberating and radical history; we want to ensure this history 
         continues by providing spaces of access for new gardeners to get involved and feel supported.</p>
       </div>
-      <div className='future-vision-header'>
+      <div className='section-header'>
         <h1>Future Vision</h1>
       </div>
-      <div className='future-vision-body'>
+      <div className='section-body'>
         <p>We hope that our solution will encourage new and experienced BIPOC urban gardeners alike to come together to form 
         valuable bonds as well as participate in an exchange of knowledge and shared love for gardening. We can't wait to 
         see what you grow. </p>
       </div>
       <section className='meet-the-team-section'>
-        <div className='meet-the-team-header'>
+        <div className='section-header meet-the-team-header'>
           <h1>Meet the Team</h1>
         </div>
         <div className='team-imgs'>
-            <div className='Niha-section'>
-              <img id='Niha-img' src={Niha} alt={"Niha"} />
-              <div className='Niha-text'>
-                <h2>Niha Gaddam</h2>
-                <p>DATA SCIENTIST</p>
+          <div className='row'>
+            <div className='column'>
+              <div className='Niha-section'>
+                <img id='team-img' src={Niha} alt={"Niha"} />
+                <div className='team-text'>
+                  <h2>Niha Gaddam</h2>
+                  <p>DATA SCIENTIST</p>
+                </div>
               </div>
             </div>
-            <div className='Efra-section'> 
-              <img id='Efra-img' src={Efra} alt={"Efra"} />
-              <div className='Efra-text'>
-                <h2>Efra Ahsan</h2>
-                <p>FRONTEND DEV</p>
+            <div className='column'>
+              <div className='Efra-section'> 
+                <img id='team-img' src={Efra} alt={"Efra"} />
+                <div className='team-text'>
+                  <h2>Efra Ahsan</h2>
+                  <p>FRONTEND DEV</p>
+                </div>
               </div>
             </div>
-            <div className='Andrew-section'>
-              <img id='Andrew-img' src={Andrew} alt={"Andrew"} />
-              <div className='Andrew-text'>
-                <h2>Andrew Chen</h2>
-                <p>BACKEND DEV</p>
+            <div className='column'>
+              <div className='Andrew-section'>
+                <img id='team-img' src={Andrew} alt={"Andrew"} />
+                <div className='team-text'>
+                  <h2>Andrew Chen</h2>
+                  <p>BACKEND DEV</p>
+                </div>
               </div>
             </div>
-            <div className='Easha-section'>
-              <img id='Easha-img' src={Easha} alt={"Easha"} />
-              <div className='Easha-text'>
-                <h2>Easha Dhillon</h2>
-                <p>UX DESIGNER</p>
+            <div className='column'>
+              <div className='Easha-section'>
+                <img id='team-img' src={Easha} alt={"Easha"} />
+                <div className='team-text'>
+                  <h2>Easha Dhillon</h2>
+                  <p>UX DESIGNER</p>
+                </div>
               </div>
             </div>
-            <div className='Pranav-section'>
-              <img id='Pranav-img' src={Pranav} alt={"Pranav"} />
-              <div className='Pranav-text'>
-                <h2>Pranav Shekar</h2>
-                <p>PROJECT MANAGER</p>
+            <div className='column'>
+              <div className='Pranav-section'>
+                <img id='team-img' src={Pranav} alt={"Pranav"} />
+                <div className='team-text'>
+                  <h2>Pranav Shekar</h2>
+                  <p>PROJECT MANAGER</p>
+                </div>
               </div>
             </div>
           </div>
-    </section>
+        </div>
+      </section>
     </div>
   );
 }
