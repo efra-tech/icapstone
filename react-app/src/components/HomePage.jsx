@@ -1,8 +1,8 @@
 import React from 'react';
 import style from "./HomePage.css";
-import carousel1 from '../imgs/carousel\ 1.png'
-import carousel2 from '../imgs/carousel\ 2.png'
-import carousel3 from '../imgs/carousel\ 3.png'
+import carousel1 from "../imgs/carousel\ 1.png"
+import carousel2 from "../imgs/carousel\ 2.png"
+import carousel3 from "../imgs/carousel\ 3.png"
 
 export default function HomePage(props) {
   return (

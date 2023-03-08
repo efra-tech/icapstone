@@ -100,7 +100,7 @@ export default function AboutPage(props) {
             </div>
           </div>
         </div>
-    </section>
+      </section>
     </div>
   );
 }
