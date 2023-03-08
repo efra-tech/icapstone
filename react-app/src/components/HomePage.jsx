@@ -1,5 +1,8 @@
 import React from 'react';
 import style from "./HomePage.css";
+import carousel1 from '../imgs/carousel\ 1.png'
+import carousel2 from '../imgs/carousel\ 2.png'
+import carousel3 from '../imgs/carousel\ 3.png'
 
 export default function HomePage(props) {
   return (
@@ -38,16 +41,16 @@ export default function HomePage(props) {
         </a>
       </div> */}
 
-      <div id="myCarousel" class="carousel slide pointer-event container" data-bs-ride="carousel">
+      <div id="homeCarousel" class="carousel slide pointer-event container" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div className="carousel-image">
-              <img class="d-block w-100" src="https://d23.com/app/uploads/2015/07/23-jobs-donald-duck-has-tried_OMD-feat-1-780x440-1440537749.jpg" alt="First slide"/>
+              <img class="d-block w-100" src={carousel1} alt="First slide"/>
             </div>
             <div class="container">
               <div class="carousel-caption">
@@ -57,7 +60,7 @@ export default function HomePage(props) {
           </div>
           <div class="carousel-item">
             <div className="carousel-image">
-              <img class="d-block w-100" src="https://www.thefactsite.com/wp-content/uploads/2019/02/donald-duck-history.webp" alt="Second slide"/>
+              <img class="d-block w-100" src={carousel2} alt="Second slide"/>
             </div>
             <div class="container">
               <div class="carousel-caption">
@@ -67,7 +70,7 @@ export default function HomePage(props) {
           </div>
           <div class="carousel-item">
             <div className="carousel-image">
-              <img class="d-block w-100" src="https://i.ytimg.com/vi/bj_l44W8Ku0/maxresdefault.jpg" alt="Third slide"/>
+              <img class="d-block w-100" src={carousel3} alt="Third slide"/>
             </div>
             <div class="container">
               <div class="carousel-caption">
@@ -76,11 +79,11 @@ export default function HomePage(props) {
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>

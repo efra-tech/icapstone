@@ -1,165 +1,61 @@
 .about-us-page {
-  position: relative;
-  background: #F5F5F5;
+  background: #F2F2EC;
 }
 
 .header-img {
-  position: absolute;
-  width: auto;
-  height: 830px;
-    
-  }
+  background-image: url("../imgs/about-us-header.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
 
-.mission-header {
-  position: absolute;
-  width: 1339px;
-  height: 120px;
-  left: 69px;
-  top: 1005px;
+
+.section-header {
+
   
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 500%;
   line-height: 99px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
   
   color: #746B5D;
+  padding: 5% 5% 2% 5%
 }
 
-.mission-body {
-  position: absolute;
-  width: 1364px;
-  height: 538px;
-  left: 74px;
-  top: 1125px;
+.section-body {
+
   
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.5rem;
   line-height: 33px;
   letter-spacing: -0.28px;
   
   color: #2A3B37;
-}
-
-.why-this-matters-header {
-  position: absolute;
-  width: 1368px;
-  height: 120px;
-  left: 69px;
-  top: 1543px;
-
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 99px;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-
-  color: #746B5D;
-}
-
-.why-this-matters-body {
-  position: absolute;
-  width: 1364px;
-  height: 222px;
-  left: 74px;
-  top: 1663px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 33px;
-  letter-spacing: -0.28px;
-
-  color: #2A3B37;
-}
-
-.future-vision-header {
-  position: absolute;
-  width: 1368px;
-  height: 120px;
-  left: 69px;
-  top: 1996px;
-
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 99px;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-
-  color: #746B5D;
-}
-
-.future-vision-body {
-  position: absolute;
-  width: 1364px;
-  height: 212px;
-  left: 74px;
-  top: 2116px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 33px;
-  letter-spacing: -0.28px;
-
-  color: #2A3B37;
+  padding: 0% 5% 5% 5%;
 }
 
 .meet-the-team-section {
   box-sizing: border-box;
-
-  position: absolute;
-  width: 1512px;
-  height: 608px;
-  top: 2328px;
-
   background: #746B5D;
 }
 
 .meet-the-team-header {
-  position: absolute;
-  width: 1368px;
-  height: 120px;
-  left: 74px;
-  top: 2374px;
-  
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 99px;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-  
   color: #F2F2EC;
 }
 
-#Niha-img {
-  position: absolute;
-  width: 266px;
-  height: 263px;
-  left: 74px;
-  top: 2494px;
+#team-img {
+
   
   border-radius: 50%;
+  width: 100%;
 }
 
-.Niha-text {
-  position: absolute;
-  width: 257px;
-  height: 75px;
-  left: 74px;
-  top: 2774px;
+.team-text {
 
   font-family: 'DM Sans';
   font-style: normal;
@@ -173,118 +69,11 @@
   color: #F2F2EC;
 }
 
-#Efra-img {
-  position: absolute;
-  width: 256px;
-  height: 261px;
-  left: 356px;
-  top: 2497px;
-  
-  border-radius: 50%;
+.row {
+  display: flex;
 }
 
-.Efra-text {
-  position: absolute;
-  width: 257px;
-  height: 75px;
-  left: 356px;
-  top: 2774px;
-  
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-  
-  color: #F2F2EC;
-}
-
-#Andrew-img {
-  position: absolute;
-  width: 266px;
-  height: 262px;
-  left: 625px;
-  top: 2497px;
-  
-  border-radius: 50%;
-}
-
-.Andrew-text {
-  position: absolute;
-  width: 257px;
-  height: 75px;
-  left: 627px;
-  top: 2774px;
-  
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-  
-  color: #F2F2EC;
-}
-
-#Easha-img {
-  position: absolute;
-  width: 257px;
-  height: 253px;
-  left: 906px;
-  top: 2502px;
-  
-  border-radius: 50%;
-}
-
-.Easha-text {
-  position: absolute;
-  width: 257px;
-  height: 75px;
-  left: 906px;
-  top: 2774px;
-  
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-  
-  color: #F2F2EC;
-}
-
-#Pranav-img {
-  position: absolute;
-  width: 262px;
-  height: 259px;
-  left: 1180px;
-  top: 2502px;
-  
-  border-radius: 50%;
-}
-
-.Pranav-text {
-  position: absolute;
-  width: 257px;
-  height: 75px;
-  left: 1180px;
-  top: 2774px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  text-transform: capitalize;
-
-  color: #F2F2EC;
+.column {
+  flex: 20%;
+  padding: 2%;
 }
