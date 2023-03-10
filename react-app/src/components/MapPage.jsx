@@ -9,15 +9,22 @@ export default function MapPage(props) {
       {/*<div className='container map-container'>*/}
         {/* <MapComponent isMarkerShown /> */}
       {/*</div>*/}
-        <div className="map-image">
-          <img src={map}/>
-        </div>
-        <div className='map map-panel'>
-          <div className='container'>
-            <input className='p-2 my-5' type="text" placeholder="Search.."/>
-            <MapCardDeck />
+      <div className="row">
+        <div className="col-md-9">
+          <div className="map-image">
+            <img src={map}/>
           </div>
         </div>
+        <div className="col-md-3">
+          <div className='map map-panel'>
+            <div>
+            {/*<div className='container'>*/}
+              <input className='p-2 my-5' type="text" placeholder="Search.."/>
+              <MapCardDeck />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
