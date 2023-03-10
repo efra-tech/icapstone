@@ -1,0 +1,14 @@
+img {
+    height: 49rem;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}

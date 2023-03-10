@@ -1,12 +1,15 @@
 import React from 'react';
 import { GoogleMap, withGoogleMap, Marker } from "react-google-maps";
+import mapImage from "../imgs/map-image.png"
+import style from "./MapPage.css";
 
 export default function MapPage(props) {
   return (
     <div>
-      <div className='container map-container'>
+      {/*<div className='container map-container'>*/}
         {/* <MapComponent isMarkerShown /> */}
-      </div>
+        <MapComponent />
+      {/*</div>*/}
       <div className='map-panel'>
         <div className='container'>
           <input className='p-2 my-5' type="text" placeholder="Search.."/>
@@ -20,9 +23,14 @@ export default function MapPage(props) {
 // Map Component is not working because of conflicting dependencies
 function MapComponent(props) {
   return(
-    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }} >
-      { props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} /> }
-    </GoogleMap>
+    <div>
+      <div className="map-image">
+      <img src={mapImage}/>
+      </div>
+    </div>
+    // <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }} >
+    //   { props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} /> }
+    // </GoogleMap>
   );
 }
 
