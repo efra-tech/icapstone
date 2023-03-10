@@ -54,8 +54,6 @@ a {
   color: #2A3B37;
 }
 
-/* .map-container {
-  background-image: url("../imgs/map-image.png");
-  background-size: cover;
-  background-position: center;
-} */
+.map input {
+  width: 80%;
+}
