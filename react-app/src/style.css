@@ -23,7 +23,22 @@ a {
   font-weight: 250;
 }
 
-.calender-container {
-  margin-right: 10%;
-  margin-left: 10%;
+/* Hide calender's built in events panel and button */
+.sc-fsYeqs.jDWWEP, .sc-qZqnM.FQFIm, .sc-fsYeqs.jyFfxs, .sc-qZqnM.kHuuoX {
+  display: none !important;
+}
+
+#events-panel {
+  background-color: #829F91;
+  padding: 2%;
+  position: fixed;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  border: 1px dotted black;
+}
+
+.sc-beySbM.erssov {
+  margin-right: 30%;
+  margin-top: 7vh;
 }
