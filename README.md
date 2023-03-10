@@ -1,7 +1,7 @@
 # Informatics Capstone 2023
 ## Team Muse  
 
-**GardenSpace** - a React application for connecting urban gardening communities 
+**GardenSpace** - a React application for connecting bipoc urban gardening communities 
 
 Contributers: 
 - Andrew Chen: achen77@uw.edu 
