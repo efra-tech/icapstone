@@ -1,5 +1,6 @@
 import React from 'react';
 import { GoogleMap, withGoogleMap, Marker } from "react-google-maps";
+import map from '../imgs/map-image.png'
 
 export default function MapPage(props) {
   return (
@@ -7,7 +8,8 @@ export default function MapPage(props) {
       <div className='container map-container'>
         {/* <MapComponent isMarkerShown /> */}
       </div>
-      <div className='map-panel'>
+      <img src={map} alt="map image"/>
+      <div className='map map-panel'>
         <div className='container'>
           <input className='p-2 my-5' type="text" placeholder="Search.."/>
           <MapCardDeck />
