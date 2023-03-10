@@ -1,11 +1,13 @@
 import React from 'react';
 import { GoogleMap, withGoogleMap, Marker } from "react-google-maps";
+import mapImage from "../imgs/map-image.png"
+import style from "./MapPage.css";
 import map from '../imgs/map-image.png'
 
 export default function MapPage(props) {
   return (
     <div>
-      <div className='container map-container'>
+      {/*<div className='container map-container'>*/}
         {/* <MapComponent isMarkerShown /> */}
       </div>
       <img src={map} alt="map image"/>
@@ -22,9 +24,14 @@ export default function MapPage(props) {
 // Map Component is not working because of conflicting dependencies
 function MapComponent(props) {
   return(
-    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }} >
-      { props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} /> }
-    </GoogleMap>
+    <div>
+      <div className="map-image">
+      <img src={mapImage}/>
+      </div>
+    </div>
+    // <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }} >
+    //   { props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} /> }
+    // </GoogleMap>
   );
 }
 
