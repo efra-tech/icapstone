@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar(props) {
+
   return (
     <nav className='navbar-expand-lg navbar-nav'>
       <div>

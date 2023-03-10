@@ -17,6 +17,11 @@ a {
   color: #F2F2EC;
 }
 
+.selectedNav {
+  color: green;
+  background-color: pink;
+}
+
 .navbar-brand {
   color: white;
   position: absolute;
