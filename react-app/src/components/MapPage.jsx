@@ -12,7 +12,7 @@ export default function MapPage(props) {
       <div className="row">
         <div className="col-md-9">
           <div className="map-image">
-            <img src={ mapImage }/>
+            <img src={ mapImage } alt={'screenshot of google maps'}/>
           </div>
         </div>
         <div className="col-md-3">

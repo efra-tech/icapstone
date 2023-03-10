@@ -1,87 +1,86 @@
 .homepage {
-    background-color: #F2F2EC;
+  background-color: #F2F2EC;
 }
 
 .bg-image:not(#banner-title) {
-    background-image: url("../imgs/homepage\ banner.png");
-    background-size: cover;
-    background-position: bottom;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    height: 25rem;
-    opacity: 65%;
+  background-image: url("../imgs/homepage\ banner.png");
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  height: 25rem;
+  opacity: 65%;
 }
 
 #banner-title {
-    opacity: 100%;
-    font-weight: 500;
-    color: #746B5D;
+  opacity: 100%;
+  font-weight: 500;
+  color: #746B5D;
 }
 
 .banner {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .carousel-item {
-    height: 20rem;
-    position: relative;
-    background-position: center;
-    background-size: cover;
+  height: 20rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
-
-.carousel-image { /*doesn't work*/
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
+.carousel-image { /* doesn't work */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .message {
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .message-title {
-    color: #829F91;
+  color: #829F91;
 }
 
 .message-text {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .resource {
-    background-color: #879F91;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  background-color: #879F91;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .card {
-    margin: 3%;
+  margin: 3%;
 }
 
 .card-body {
-    color: #746B5D;
+  color: #746B5D;
 }
 
 .contact {
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: #746B5D;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #746B5D;
 }
 
 @media (max-width: 766px) {
-    .overflow-hidden {
-        overflow-x: hidden;
-    }
+  .overflow-hidden {
+    overflow-x: hidden;
+  }
 
-    .overflow-visible {
-        overflow-x:visible;
-    }
+  .overflow-visible {
+    overflow-x: visible;
+  }
 }

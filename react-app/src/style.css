@@ -17,6 +17,16 @@ a {
   color: #F2F2EC;
 }
 
+.navbar-brand {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 1.14%;
+  padding-top: 0.7%;
+  font-size: xx-large;
+}
+
 /* Calender */
 .sc-gLLvby.jOyNJ h1 {
   color: #3F5749 !important;
