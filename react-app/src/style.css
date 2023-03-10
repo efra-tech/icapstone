@@ -17,11 +17,6 @@ a {
   color: #F2F2EC;
 }
 
-.selectedNav {
-  color: green;
-  background-color: pink;
-}
-
 .navbar-brand {
   color: white;
   position: absolute;
@@ -49,6 +44,19 @@ a {
 
 .add-event-btn {
   float: right;
+  font-size: x-large;
+}
+
+.add-event-btn button {
+  color: black;
+  font-size: xx-large;
+  border: solid 2px black;
+}
+
+.add-event-btn button:hover {
+  background-color:rgba(130, 159, 145, 0.53);
+  border: solid 2px gray;
+  color: #746B5D;
 }
 
 /* Map Page */
