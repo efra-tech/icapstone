@@ -1,24 +1,43 @@
-import React from 'react';
-import { GoogleMap, withGoogleMap, Marker } from "react-google-maps";
+import React, { useRef, useEffect, useState } from 'react';
 import style from "./MapPage.css";
 import mapImage from '../imgs/map-image.png';
+// import Map from "react-map-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+
 
 export default function MapPage(props) {
+    const mapContainer = useRef(null);
+    const map = useRef(null);
+    const [longitude, setLongitude] = useState(-122.330062);
+    const [latitude, setLatitude] = useState(47.6038321);
+    const [zoom, setZoom] = useState(12);
+
+    useEffect(() => {
+        if (map.current) {
+            return;
+        }
+        map.current = new mapboxgl.Map({
+            container: mapContainer.current,
+            style: 'mapbox://styles/mapbox/streets-v12',
+            center: [longitude, latitude],
+            zoom: zoom
+        });
+    });
+
   return (
     <div>
-      {/*<div className='container map-container'>*/}
-        {/* <MapComponent isMarkerShown /> */}
-      {/*</div>*/}
       <div className="row">
         <div className="col-md-9">
-          <div className="map-image">
-            <img src={ mapImage } alt={'screenshot of google maps'}/>
+          <div>
+            <div ref={mapContainer} className="map-container" />
           </div>
         </div>
         <div className="col-md-3">
           <div className='map map-panel'>
             <div>
-            {/*<div className='container'>*/}
               <input className='p-2 m-5' type="text" placeholder="Search.."/>
               <MapCardDeck />
             </div>
@@ -32,9 +51,9 @@ export default function MapPage(props) {
 // Map Component is not working because of conflicting dependencies
 function MapComponent(props) {
   return(
-    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }} >
-     { props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} /> }
-    </GoogleMap>
+    <div>
+
+    </div>
   );
 }
 
