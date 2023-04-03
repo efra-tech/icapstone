@@ -18,8 +18,8 @@ export default function EventsPage(props) {
   return (
     <div>
       <div className='d-flex add-event-btn m-5 align-items-center'>
-        <p className='align-self-center'>Submit an Event</p>
-        <button className='rounded-circle p-2 m-3 btn btn-dark' onClick={handleClick}>+</button>
+        <p className='align-self-center float-bottom'>Submit an Event</p>
+        <button className='rounded-circle px-3 m-3 btn' onClick={handleClick}>+</button>
       </div>
       <RevoCalendar
         events={eventsList}
