@@ -2,8 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar(props) {
+
   return (
-    <nav className='navbar-expand-lg'>
+    <nav className='navbar-expand-lg navbar-nav'>
       <div>
         <ul className="list-unstyled navbar-nav">
           <li className='nav-item m-4'><NavLink to="/home">Home</NavLink></li>
@@ -13,6 +14,8 @@ export default function Navbar(props) {
           <li className='nav-item m-4'><NavLink to="/about-us">About Us</NavLink></li>
         </ul>
       </div>
+
+      <a className="navbar-brand" href="./HomePage">GardenSpace</a>
     </nav>
   );
 }

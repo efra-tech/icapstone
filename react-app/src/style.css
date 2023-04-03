@@ -17,6 +17,16 @@ a {
   color: #F2F2EC;
 }
 
+.navbar-brand {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 1.14%;
+  padding-top: 0.7%;
+  font-size: xx-large;
+}
+
 /* Calender */
 .sc-gLLvby.jOyNJ h1 {
   color: #3F5749 !important;
@@ -34,6 +44,19 @@ a {
 
 .add-event-btn {
   float: right;
+  font-size: x-large;
+}
+
+.add-event-btn button {
+  color: black;
+  font-size: xx-large;
+  border: solid 2px black;
+}
+
+.add-event-btn button:hover {
+  background-color:rgba(130, 159, 145, 0.53);
+  border: solid 2px gray;
+  color: #746B5D;
 }
 
 /* Map Page */
