@@ -52,7 +52,7 @@ export default function MapPage(props) {
 function MapComponent(props) {
   return(
     <div>
-
+        
     </div>
   );
 }
