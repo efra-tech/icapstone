@@ -1,38 +1,19 @@
 import React, { useRef, useEffect, useState } from 'react';
 import style from "./MapPage.css";
-import mapImage from '../imgs/map-image.png';
-// import Map from "react-map-gl";
+// import mapImage from '../imgs/map-image.png';
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
-
+import markerImage from "../imgs/marker.png"
+import geoJson from "../data/seattle-sample-data.json";
+import ActualMapComponent from './ActualMapComponent';
 
 export default function MapPage(props) {
-    const mapContainer = useRef(null);
-    const map = useRef(null);
-    const [longitude, setLongitude] = useState(-122.330062);
-    const [latitude, setLatitude] = useState(47.6038321);
-    const [zoom, setZoom] = useState(12);
-
-    useEffect(() => {
-        if (map.current) {
-            return;
-        }
-        map.current = new mapboxgl.Map({
-            container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/streets-v12',
-            center: [longitude, latitude],
-            zoom: zoom
-        });
-    });
-
   return (
     <div>
       <div className="row">
         <div className="col-md-9">
           <div>
-            <div ref={mapContainer} className="map-container" />
+            <ActualMapComponent />
           </div>
         </div>
         <div className="col-md-3">
@@ -50,12 +31,61 @@ export default function MapPage(props) {
 
 // Map Component is not working because of conflicting dependencies
 function MapComponent(props) {
-  return(
-    <div>
-        
-    </div>
-  );
-}
+  // const mapContainerRef = useRef(null);
+  
+  //   // Initialize map when component mounts
+  //   useEffect(() => {
+  //     const map = new mapboxgl.Map({
+  //       container: mapContainerRef.current,
+  //       style: "mapbox://styles/mapbox/streets-v11",
+  //       center: [-87.65, 41.84],
+  //       zoom: 10,
+  //     });
+  
+  //     map.on("load", function () {
+  //       // Add an image to use as a custom marker
+  //       map.loadImage(
+  //         "https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png",
+  //         function (error, image) {
+  //           if (error) throw error;
+  //           map.addImage("custom-marker", image);
+  //           // Add a GeoJSON source with multiple points
+  //           map.addSource("points", {
+  //             type: "geojson",
+  //             data: {
+  //               type: "FeatureCollection",
+  //               features: geoJson.features,
+  //             },
+  //           });
+  //           // Add a symbol layer
+  //           map.addLayer({
+  //             id: "points",
+  //             type: "symbol",
+  //             source: "points",
+  //             layout: {
+  //               "icon-image": "custom-marker",
+  //               // get the title name from the source's "title" property
+  //               "text-field": ["get", "title"],
+  //               "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+  //               "text-offset": [0, 1.25],
+  //               "text-anchor": "top",
+  //             },
+  //           });
+  //         }
+  //       );
+  //     });
+  
+  //     // Add navigation control (the +/- zoom buttons)
+  //     map.addControl(new mapboxgl.NavigationControl(), "top-right");
+  
+  //     // Clean up on unmount
+  //     return () => map.remove();
+  //   }, []);
+  
+  //   return (
+  //     <div className="map-container" ref={mapContainerRef} />
+  //   )
+  };
 
 function MapCardDeck(props){
   return (
