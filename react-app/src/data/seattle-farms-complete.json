@@ -1,0 +1,2248 @@
+{
+  "features": [
+    {
+      "properties": {
+        "ID": 1,
+        "Urban Garden Name": "Angel Morgan",
+        "Street Address": "3956 S Morgan St, Seattle, WA 98118",
+        "Phone": "",
+        "Email": "angelmorganppatch@gmail.com",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/angel-morgan",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "22,650",
+        "No. Plots": 30,
+        "Accessible": ""
+      },
+      "geometry" : {
+        "Longitude": -122.2831964,
+        "Latitude": 47.5445029,
+        "coordinates": [-122.2831964, 47.5445029],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 2,
+        "Urban Garden Name": "Angel Morgan P-Patch",
+        "Street Address": "3956 S Morgan St Seattle, WA 98118",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2014/08/angel-morgan-p-patch.html, https://www.cityfruit.org/angel-morgan-p-patch/",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "22,650",
+        "No. Plots": 30,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2810302,
+        "Latitude": 47.54429038,
+        "coordinates": [-122.2810302, 47.54429038],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 3,
+        "Urban Garden Name": "Ballard",
+        "Street Address": "8527 25th Ave NW, Seattle, WA 98117",
+        "Phone": "",
+        "Email": "info@ballardppatch.org",
+        "Garden Website": "https://www.ballardppatch.org/",
+        "Affiliated Community": "Government, GROW Northwest",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/ballard",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "18,000",
+        "No. Plots": 94,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3914513,
+        "Latitude": 47.6914606,
+        "coordinates": [-122.3914513, 47.6914606],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 4,
+        "Urban Garden Name": "Barton Street",
+        "Street Address": "SW Barton St & 34th Ave SW, Seattle, WA 98126",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.facebook.com/groups/BartonStreetPPatch",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/barton-street",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "12,000",
+        "No. Plots": 45,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3765166,
+        "Latitude": 47.5210725,
+        "coordinates": [-122.3765166, 47.5210725],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 5,
+        "Urban Garden Name": "Beacon Bluff",
+        "Street Address": "1201 15th Ave S, Seattle, WA 98144",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/beacon-bluff",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,500",
+        "No. Plots": 14,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3142172,
+        "Latitude": 47.5885793,
+        "coordinates": [-122.3142172, 47.5885793],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 6,
+        "Urban Garden Name": "Beacon Food Forest",
+        "Street Address": "S Dakota St, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://beaconfoodforest.org/",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/beacon-food-forest",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "27,000",
+        "No. Plots": 27,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3156644,
+        "Latitude": 47.5672453,
+        "coordinates": [-122.3156644, 47.5672453],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 7,
+        "Urban Garden Name": "Belltown",
+        "Street Address": "2520 Elliott Ave. Seattle, WA 98121",
+        "Phone": "",
+        "Email": "seattle.belltown.p.patch@gmail.com",
+        "Garden Website": "https://www.facebook.com/BelltownPPatch/",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/belltown",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,400",
+        "No. Plots": 35,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3515381,
+        "Latitude": 47.6139662,
+        "coordinates": [-122.3515381, 47.6139662],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 8,
+        "Urban Garden Name": "Bitter Lake",
+        "Street Address": "Linden Ave N & N 143rd St, Seattle, WA 98133",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/bitter-lake",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "15,000",
+        "No. Plots": 29,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3483208,
+        "Latitude": 47.7323222,
+        "coordinates": [-122.3483208, 47.7323222],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 9,
+        "Urban Garden Name": "Black Lives Memorial Garden",
+        "Street Address": "1635 11th Ave, Seattle, WA 98122",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://storymaps.arcgis.com/stories/eb09bbc9edb147a09f629c96d09501c7",
+        "Affiliated Community": "Black Star Farmers",
+        "Affiliated Community Contact": "https://blackstarfarmers.org/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.31908,
+        "Latitude": 47.61665497,
+        "coordinates": [-122.31908, 47.61665497],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 10,
+        "Urban Garden Name": "BLOOM Giving Garden",
+        "Street Address": "911 24th Ave, ​Seattle WA 98122",
+        "Phone": "(206) 485-7563 (Wa Na Wari)",
+        "Email": "",
+        "Garden Website": "https://www.wanawari.org/garden",
+        "Affiliated Community": "Wa Na Wari, Yes Farm, The Black Farmers Collective, EarthCorps",
+        "Affiliated Community Contact": "https://www.wanawari.org/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3017845,
+        "Latitude": 47.6104138,
+        "coordinates": [-122.3017845, 47.6104138],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 11,
+        "Urban Garden Name": "Bradner Gardens Park P-Patch",
+        "Street Address": "1730 Bradner Pl S, Seattle 98144",
+        "Phone": "(206) 684-4075 (General)\n(206) 684-7481 (Jefferson Community Center)",
+        "Email": "info@bradnergardenspark.org",
+        "Garden Website": "http://www.bradnergardenspark.org/bradner/index.html",
+        "Affiliated Community": "Government, Tilth Alliance",
+        "Affiliated Community Contact": "https://tilthalliance.org/our-work/urban-farms-gardens/bradner-gardens-park/\nhttps://www.seattle.gov/parks/allparks/bradner-gardens-park",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "14,330",
+        "No. Plots": 60,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2953914,
+        "Latitude": 47.58718745,
+        "coordinates": [-122.2953914, 47.58718745],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 12,
+        "Urban Garden Name": "Brandon Street Orchard",
+        "Street Address": "4625 S Brandon St, Seattle, WA 98118",
+        "Phone": "(206) 723-9411",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/brandon-street-orchard",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,500",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2764107,
+        "Latitude": 47.5531902,
+        "coordinates": [-122.2764107, 47.5531902],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 13,
+        "Urban Garden Name": "Broadway Hill",
+        "Street Address": "500 Federal Ave E, Seattle, WA 98102",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/broadway-hill-",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "",
+        "No. Plots": 16,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3207973,
+        "Latitude": 47.6233369,
+        "coordinates": [-122.3207973, 47.6233369],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 14,
+        "Urban Garden Name": "Burke-Gilman Gardens",
+        "Street Address": "5200 Mithun Pl NE, Seattle, WA 98105",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/burke-gilman-gardens",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,500",
+        "No. Plots": 26,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2813208,
+        "Latitude": 47.6681175,
+        "coordinates": [-122.2813208, 47.6681175],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 15,
+        "Urban Garden Name": "Cascade",
+        "Street Address": "310 Minor Ave N, Seattle, WA 98109",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/cascade",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "7,000",
+        "No. Plots": 57,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3348438,
+        "Latitude": 47.6210332,
+        "coordinates": [-122.3348438, 47.6210332],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 16,
+        "Urban Garden Name": "Cherry Street Farms",
+        "Street Address": "1911 E Cherry St, Seattle, WA 98122",
+        "Phone": "(323) 362-6545",
+        "Email": "info@hiphopisgreen.com",
+        "Garden Website": "https://www.facebook.com/cherrystreetfarms/",
+        "Affiliated Community": "Hip Hop is Green",
+        "Affiliated Community Contact": "https://www.facebook.com/cherrystreetfarms/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": 320,
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3069749,
+        "Latitude": 47.60787786,
+        "coordinates": [-122.3069749, 47.60787786],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 17,
+        "Urban Garden Name": "Children’s Learning Garden",
+        "Street Address": "4649 Sunnyside Ave N, Seattle 98103",
+        "Phone": "(206) 633-0451 (Tilth)",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Tilth Alliance",
+        "Affiliated Community Contact": "https://tilthalliance.org/our-work/urban-farms-gardens/childrens-learning-garden/",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3318611,
+        "Latitude": 47.66338802,
+        "coordinates": [-122.3318611, 47.66338802],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 18,
+        "Urban Garden Name": "Clean Greens Farm & Market",
+        "Street Address": "116 21st Ave., Seattle, WA 98122",
+        "Phone": "(206) 455-3867",
+        "Email": "blackdollarcleangreens@gmail.com",
+        "Garden Website": "https://www.cleangreensfarmmarket.com/",
+        "Affiliated Community": "Project of Black Dollar Days Task Force",
+        "Affiliated Community Contact": "https://www.facebook.com/cleangreensfarmandmarket/\nhttps://www.instagram.com/cleangreensfarmmarket/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3047787,
+        "Latitude": 47.6022213,
+        "coordinates": [-122.3047787, 47.6022213],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 19,
+        "Urban Garden Name": "Climbing Water",
+        "Street Address": "833 Davis Pl S, Seattle, WA 98144",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/climbing-water",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,800",
+        "No. Plots": 13,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3120097,
+        "Latitude": 47.5957558,
+        "coordinates": [-122.3120097, 47.5957558],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 20,
+        "Urban Garden Name": "Colman Park",
+        "Street Address": "1728 32nd Ave S, Seattle, WA 98144",
+        "Phone": "",
+        "Email": "info@colmanpark.org",
+        "Garden Website": "http://colmanpark.org/p-patch/",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/colman-park",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "14,000",
+        "No. Plots": 40,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2926348,
+        "Latitude": 47.5870541,
+        "coordinates": [-122.2926348, 47.5870541],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 21,
+        "Urban Garden Name": "Courtland Place P-Patch",
+        "Street Address": "3600 36th Ave S Seattle, WA 98118",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2013/06/courtland-place-p-patch.html",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,500",
+        "No. Plots": 23,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.288127,
+        "Latitude": 47.57128,
+        "coordinates": [-122.288127, 47.57128],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 22,
+        "Urban Garden Name": "Delridge P-Patch Community",
+        "Street Address": "5078 25th Ave SW, Seattle, WA 98106",
+        "Phone": "(206) 684-0264",
+        "Email": "delridgeppatch@gmail.com",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/delridge",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "9,400",
+        "No. Plots": 30,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3635888,
+        "Latitude": 47.5551563,
+        "coordinates": [-122.3635889, 47.5551563],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 23,
+        "Urban Garden Name": "Eastlake P-Patch Community",
+        "Street Address": "2900 Fairview Ave E, Seattle, WA 98102",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/eastlake",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "7,000",
+        "No. Plots": 47,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3276548,
+        "Latitude": 47.6474455,
+        "coordinates": [-122.3276548, 47.6474455],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 24,
+        "Urban Garden Name": "Estelle Street P-Patch",
+        "Street Address": "3400 Rainier Ave S, Seattle, WA 98144",
+        "Phone": "(206) 684-0464",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2013/06/estelle-street-p-patch.html",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "6,000",
+        "No. Plots": 19,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2920781,
+        "Latitude": 47.57233347,
+        "coordinates": [-122.2920781, 47.57233347],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 25,
+        "Urban Garden Name": "Evanston P-Patch Community",
+        "Street Address": "604 N 101st St, Seattle, WA 98133",
+        "Phone": "(206) 684-2489",
+        "Email": "annefranceskelly@gmail.com",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "11,600",
+        "No. Plots": 42,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3529665,
+        "Latitude": 47.7025258,
+        "coordinates": [-122.3529665, 47.7025258],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 26,
+        "Urban Garden Name": "Fremont P-Patch Community",
+        "Street Address": "3935 Woodland Park Ave N, Seattle, WA 98103",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/fremont",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,270",
+        "No. Plots": 28,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3625413,
+        "Latitude": 47.6551414,
+        "coordinates": [-122.3625413, 47.6551414],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 27,
+        "Urban Garden Name": "Good Shepherd Center P-Patch",
+        "Street Address": "4618 Bagley Ave N, Seattle, WA 98103",
+        "Phone": "(206) 547-0204",
+        "Email": "",
+        "Garden Website": "https://www.facebook.com/goodshepherdppatch/",
+        "Affiliated Community": "Government, Tilth Alliance",
+        "Affiliated Community Contact": "https://tilthalliance.org/our-work/urban-farms-gardens/good-shepherd-center/\nhttps://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/good-shepherd",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "8,400",
+        "No. Plots": 42,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3321276,
+        "Latitude": 47.6633695,
+        "coordinates": [-122.3321276, 47.6633695],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 28,
+        "Urban Garden Name": "Greenwood P-Patch Community",
+        "Street Address": "NW 88th St, Seattle, WA 98117",
+        "Phone": "(206) 223-1361",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/greenwood",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,200",
+        "No. Plots": 32,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3888059,
+        "Latitude": 47.655208,
+        "coordinates": [-122.3888059, 47.655208],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 29,
+        "Urban Garden Name": "Greenwood Station P-Patch Community",
+        "Street Address": "8905 Fremont Ave N, Seattle, WA 98103",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/greenwood",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,500",
+        "No. Plots": 34,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3502347,
+        "Latitude": 47.6933841,
+        "coordinates": [-122.3502347, 47.6933841],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 30,
+        "Urban Garden Name": "Greg's Garden P-Patch Community",
+        "Street Address": "14th Avenue Northwest &, NW 54th St, Seattle, WA 98107",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/gregs-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,500",
+        "No. Plots": 21,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3760655,
+        "Latitude": 47.6677389,
+        "coordinates": [-122.3760655, 47.6677389],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 31,
+        "Urban Garden Name": "Haller Lake P-Patch Community Garden",
+        "Street Address": "13045 1st Ave NE, Seattle, WA 98133",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/haller-lake",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "12,500",
+        "No. Plots": 52,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3293048,
+        "Latitude": 47.72395,
+        "coordinates": [-122.3293048, 47.72395],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 32,
+        "Urban Garden Name": "Hawkins P-Patch Community Garden",
+        "Street Address": "504 Martin Luther King Junior Way",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/hawkins",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,100",
+        "No. Plots": 18,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2966958,
+        "Latitude": 47.6066769,
+        "coordinates": [-122.2966958, 47.6066769],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 33,
+        "Urban Garden Name": "Hazel Heights P-Patch Community Garden",
+        "Street Address": "Baker Ave NW & NW 42nd St",
+        "Phone": "(206) 684-0464",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/hazel-heights",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,000",
+        "No. Plots": 19,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3593717,
+        "Latitude": 47.6578598,
+        "coordinates": [-122.3593717, 47.6578598],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 34,
+        "Urban Garden Name": "High Point Commons Garden P-Patch Community Garden",
+        "Street Address": "3108 SW Graham St, Seattle, WA 98126",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/high-point-commons-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,269",
+        "No. Plots": 46,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3769479,
+        "Latitude": 47.5466192,
+        "coordinates": [-122.3769479, 47.5466192],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 35,
+        "Urban Garden Name": "High Point Juneau P-Patch Community & Market Gardens",
+        "Street Address": "SW Juneau St, Seattle, WA 98126",
+        "Phone": "(206) 372-6593 (Michelle K. Jones), (206) 257-8257(Julie Bryan)",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/high-point-juneau",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,000",
+        "No. Plots": 18,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3737835,
+        "Latitude": 47.55155745,
+        "coordinates": [-122.3737835, 47.55155745],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 36,
+        "Urban Garden Name": "High Point MacArthur Lane Park P-Patch Community Garden",
+        "Street Address": "2726 SW MacArthur Ln, Seattle, WA 98126",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/high-point-macarthur-lane-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,531",
+        "No. Plots": 11,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3704137,
+        "Latitude": 47.5505387,
+        "coordinates": [-122.3704137, 47.5505387],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 37,
+        "Urban Garden Name": "Hillman City P-Patch Community Garden",
+        "Street Address": "4613 S Lucile St, Seattle, WA 98118",
+        "Phone": "(206) 684-0540",
+        "Email": "hcppcommunications@gmail.com",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/hillman-city",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "18,500",
+        "No. Plots": 43,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2794398,
+        "Latitude": 47.5524484,
+        "coordinates": [-122.2794398, 47.5524484],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 38,
+        "Urban Garden Name": "Hillside P-Patch Community Gardens",
+        "Street Address": "2570 M L King Jr Way S Seattle, WA 98144",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2014/07/hillside-garden-p-patch.html",
+        "Affiliated Community": "Government, Mt Baker Housing Association",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "8,000",
+        "No. Plots": "?",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.296412,
+        "Latitude": 47.580628,
+        "coordinates": [-122.296412, 47.580628],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 39,
+        "Urban Garden Name": "Hilltop Urban Gardens",
+        "Street Address": "On the corner of South 19th and Ainsworth\", Tacoma WA 98405",
+        "Phone": "",
+        "Email": "hilltopurbangardens@gmail.com",
+        "Garden Website": "",
+        "Affiliated Community": "Hilltop Neighborhood",
+        "Affiliated Community Contact": "https://www.facebook.com/tacoma.food.sovereignty/\nhttps://www.instagram.com/hilltopurbangardens/?hl=en",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.4567976,
+        "Latitude": 47.24284702,
+        "coordinates": [-122.4567976, 47.24284702],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 40,
+        "Urban Garden Name": "Hoa Mai P-Patch Community Garden",
+        "Street Address": "221 10th Ave S, Seattle, WA 98104",
+        "Phone": "(206) 223-3758",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/hoa-mai",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,045",
+        "No. Plots": 20,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": 122.3206145,
+        "Latitude": 47.6007681,
+        "coordinates": [122.3206145, 47.6007681],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 41,
+        "Urban Garden Name": "Horiuchi Park P-Patch Community Garden",
+        "Street Address": "156 Boren Ave, Seattle, WA 98122",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/horiuchi-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,000",
+        "No. Plots": 28,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3190876,
+        "Latitude": 47.6030741,
+        "coordinates": [-122.3190876, 47.6030741],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 42,
+        "Urban Garden Name": "Howell Collective P-Patch",
+        "Street Address": "1514 E Howell St, Seattle, WA 98122",
+        "Phone": "(206) 684-0464",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/howell-collective",
+        "Affiliated Community": "Governemnt, Howell Collective",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,200",
+        "No. Plots": 1,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3117881,
+        "Latitude": 47.61823394,
+        "coordinates": [-122.3117881, 47.61823394],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 43,
+        "Urban Garden Name": "Ida Mia Garden P-Patch Community Garden",
+        "Street Address": "E Madison St & Lake Washington Blvd E",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/ida-mia-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,600",
+        "No. Plots": 7,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2930358,
+        "Latitude": 47.6260376,
+        "coordinates": [-122.2930358, 47.6260376],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 44,
+        "Urban Garden Name": "Immaculate P-Patch Community Garden",
+        "Street Address": "E Columbia St & 18th Ave",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/immaculate",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,800",
+        "No. Plots": 14,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3084654,
+        "Latitude": 47.609328,
+        "coordinates": [-122.3084654, 47.609328],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 45,
+        "Urban Garden Name": "Interbay P-Patch Community Garden",
+        "Street Address": "2451 15th Ave W, Seattle, WA 98119",
+        "Phone": "(206) 684-4075",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/interbay",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "43,000",
+        "No. Plots": 132,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3814856,
+        "Latitude": 47.6412045,
+        "coordinates": [-122.3814856, 47.6412045],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 46,
+        "Urban Garden Name": "Jackson Park P-Patch Community Garden",
+        "Street Address": "13049 10th Ave NE",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/jackson-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "14,100",
+        "No. Plots": 51,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3184761,
+        "Latitude": 47.7245798,
+        "coordinates": [-122.3184761, 47.7245798],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 47,
+        "Urban Garden Name": "John C. Little P-Patch Community Gardens",
+        "Street Address": "6961 37th Ave S, Seattle, WA 98118",
+        "Phone": "(206) 461-6957",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/john-c-little-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "7,200",
+        "No. Plots": 26,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2866925,
+        "Latitude": 47.54016358,
+        "coordinates": [-122.2866925, 47.54016358],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 48,
+        "Urban Garden Name": "Judkins P-Patch Community Garden",
+        "Street Address": "2321 S Norman St, Seattle, WA 98144",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/judkins",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,600",
+        "No. Plots": 24,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3060883,
+        "Latitude": 47.5927102,
+        "coordinates": [-122.3060883, 47.5927102],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 49,
+        "Urban Garden Name": "Kirke Park P-Patch Community Garden",
+        "Street Address": "7028 9th Ave NW, Seattle, WA 98117",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/kirke-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "7,400",
+        "No. Plots": 28,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.508129,
+        "Latitude": 47.6808608,
+        "coordinates": [-122.508129, 47.6808608],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 50,
+        "Urban Garden Name": "Lake City Court P-Patch Community Garden",
+        "Street Address": "12536 33rd Ave NE, Seattle, WA 98125",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/lake-city-court",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,000",
+        "No. Plots": 22,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2940594,
+        "Latitude": 47.7203064,
+        "coordinates": [-122.2940594, 47.7203064],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 51,
+        "Urban Garden Name": "Leo Street P-Patch Community Garden",
+        "Street Address": "S Leo St, Seattle, WA 98178",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/leo-street",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,400",
+        "No. Plots": 43,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2716208,
+        "Latitude": 47.5028912,
+        "coordinates": [-122.2716208, 47.5028912],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 52,
+        "Urban Garden Name": "Licton Springs P-Patch Community Garden",
+        "Street Address": "College Way N & N 92nd St",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/licton-springs",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "15,000",
+        "No. Plots": 67,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3334901,
+        "Latitude": 47.6962255,
+        "coordinates": [-122.3334901, 47.6962255],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 53,
+        "Urban Garden Name": "Linden Orchard P-Patch Community Garden",
+        "Street Address": "Linden Ave N & N 67th St, Seattle, WA 98103",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/linden-orchard",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,500",
+        "No. Plots": 25,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3479417,
+        "Latitude": 47.6779537,
+        "coordinates": [-122.3479417, 47.6779537],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 54,
+        "Urban Garden Name": "Longfellow Creek P-Patch Community Garden",
+        "Street Address": "SW Thistle St & 25th Ave SW",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/longfellow-creek",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,000",
+        "No. Plots": 22,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3659138,
+        "Latitude": 47.5282665,
+        "coordinates": [-122.3659138, 47.5282665],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 55,
+        "Urban Garden Name": "Maa Nyei Lai Ndeic (My Mother's Garden) P-Patch Community Garden",
+        "Street Address": "4913 Columbia Dr S, Seattle, WA 98108",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/maa-nyei-lai-ndeic-(my-mothers-garden)",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "44,000",
+        "No. Plots": 110,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3070029,
+        "Latitude": 47.557704,
+        "coordinates": [-122.3070029, 47.557704],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 56,
+        "Urban Garden Name": "Madison Valley P-Patch Community Garden",
+        "Street Address": "3000 E Mercer St, Seattle, WA 98112",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/madison-valley",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,500",
+        "No. Plots": 17,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.292965,
+        "Latitude": 47.6249789,
+        "coordinates": [-122.292965, 47.6249789],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 57,
+        "Urban Garden Name": "Magnolia Manor Park P-Patch Community Garden",
+        "Street Address": "3480 27th Ave W, Seattle, WA 98199",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/magnolia-manor-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "15,600",
+        "No. Plots": 46,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3930115,
+        "Latitude": 47.6509047,
+        "coordinates": [-122.3930115, 47.6509047],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 58,
+        "Urban Garden Name": "Magnuson Park P-Patch Community Garden",
+        "Street Address": "7400 Sand Point Way NE",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/magnuson-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "130,680",
+        "No. Plots": 128,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2636669,
+        "Latitude": 47.6822891,
+        "coordinates": [-122.2636669, 47.6822891],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 59,
+        "Urban Garden Name": "Maple Leaf P-Patch Community Garden",
+        "Street Address": "529 NE 103rd St, Seattle, WA 98125",
+        "Phone": "(206) 684-4075",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/maple-leaf",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "16,000",
+        "No. Plots": 22,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3222427,
+        "Latitude": 47.7029568,
+        "coordinates": [-122.3222427, 47.7029568],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 60,
+        "Urban Garden Name": "Marra Farm",
+        "Street Address": "9026 4th Ave S, Seattle, WA 98108",
+        "Phone": "(206)-694-6828",
+        "Email": "marrafarm@solid-ground.org",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/marra-farm",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,600",
+        "No. Plots": 39,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3294611,
+        "Latitude": 47.5220358,
+        "coordinates": [-122.3294611, 47.5220358],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 61,
+        "Urban Garden Name": "McAuliffe Park",
+        "Street Address": "10824 NE 116th St, Kirkland 98034",
+        "Phone": "(425) 587-3000 (City of Kirkland)",
+        "Email": "",
+        "Garden Website": "https://www.kirklandwa.gov/Government/Departments/Parks-and-Community-Services/Parks-Trails-and-Beaches/Community-Gardens/McAuliffe-Park-Pea-Patch",
+        "Affiliated Community": "Government, Tilth Alliance",
+        "Affiliated Community Contact": "https://tilthalliance.org/our-work/urban-farms-gardens/community-learning-garden-at-mcauliffe-park/",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "",
+        "No. Plots": 49,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.1978029,
+        "Latitude": 47.70437344,
+        "coordinates": [-122.1978029, 47.70437344],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 62,
+        "Urban Garden Name": "MLK F.A.M.E. Garden",
+        "Street Address": "3201 E Republican St, Seattle, WA 98112",
+        "Phone": "(206) 257-5465 (MLK F.A.M.E. Community Center)",
+        "Email": "",
+        "Garden Website": "https://www.mlkfame.com/",
+        "Affiliated Community": "Black Star Farmers, MLK F.A.M.E Community Center",
+        "Affiliated Community Contact": "https://blackstarfarmers.org/\nhttps://www.facebook.com/MLKFAMECommunityCenter/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2907179,
+        "Latitude": 47.6232549,
+        "coordinates": [-122.2907179, 47.6232549],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 63,
+        "Urban Garden Name": "New Holly 29 Ave P-Patch Community Garden",
+        "Street Address": "29th Ave S & S Brighton St",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/new-holly-29-ave-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,000",
+        "No. Plots": 9,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2958644,
+        "Latitude": 47.5415141,
+        "coordinates": [-122.2958644, 47.5415141],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 64,
+        "Urban Garden Name": "New Holly Lucky Garden",
+        "Street Address": "S Holly St & Shaffer Ave S, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/new-holly-lucky-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,000",
+        "No. Plots": 9,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2945865,
+        "Latitude": 47.54290497,
+        "coordinates": [-122.2945865, 47.54290497],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 65,
+        "Urban Garden Name": "New Holly Power P-Patch Community Gardens",
+        "Street Address": "7123 Holly Park Dr S, Seattle, WA 98118",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/new-holly-power-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "24,000",
+        "No. Plots": 23,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2880505,
+        "Latitude": 47.53839122,
+        "coordinates": [-122.2880505, 47.53839122],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 66,
+        "Urban Garden Name": "New Holly Rockery Community Garden and Market Garden",
+        "Street Address": "S Holly Park Dr & 40th Ave S, Seattle, WA 98118",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/new-holly-rockery",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "23,000",
+        "No. Plots": 19,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2824535,
+        "Latitude": 47.53635741,
+        "coordinates": [-122.2824535, 47.53635741],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 67,
+        "Urban Garden Name": "New Holly Youth & Family P-Patch Community Gardens",
+        "Street Address": "33rd Pl S Seattle WA 98118",
+        "Phone": "(206) 733-9243",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/new-holly-youth-and-family",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "10,500",
+        "No. Plots": 46,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.2905818,
+        "Latitude": 47.54170427,
+        "coordinates": [-122.2905818, 47.54170427],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 68,
+        "Urban Garden Name": "Nurturing Roots Farm",
+        "Street Address": "6218 Beacon Ave S, Seattle, WA 98108",
+        "Phone": "(206) 880-0971",
+        "Email": "nurturingrootsinfo@gmail.com",
+        "Garden Website": "https://www.nurturingrootsfarm.org/",
+        "Affiliated Community": "Nurturing Roots",
+        "Affiliated Community Contact": "https://www.facebook.com/NurturingRoots206/\nhttps://www.instagram.com/nurturingrootsfarm/?hl=en",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "No plots (https://blog.23andme.com/articles/community-through-farming)",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2993915,
+        "Latitude": 47.54710366,
+        "coordinates": [-122.2993915, 47.54710366],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 69,
+        "Urban Garden Name": "Oxbow Park P-Patch Community Garden",
+        "Street Address": "Carleton Ave S, Seattle, WA 98108",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/oxbow-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,000",
+        "No. Plots": 23,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3257834,
+        "Latitude": 47.5450209,
+        "coordinates": [-122.3257834, 47.5450209],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 70,
+        "Urban Garden Name": "Pelican Tea P-Patch Community Garden",
+        "Street Address": "1909 E Roy St, Seattle, WA 98112",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/pelican-tea-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,000",
+        "No. Plots": 1,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3066161,
+        "Latitude": 47.6248768,
+        "coordinates": [-122.3066161, 47.6248768],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 71,
+        "Urban Garden Name": "Percussion Farms",
+        "Street Address": "507 28th Ave., Seattle, WA 98122",
+        "Phone": "",
+        "Email": "PercussionFarms@gmail.com",
+        "Garden Website": "https://percussionfarms.org/",
+        "Affiliated Community": "Healing Harvest Collective",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2960974,
+        "Latitude": 47.60648816,
+        "coordinates": [-122.2960974, 47.60648816],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 72,
+        "Urban Garden Name": "Phinney Ridge P-Patch Community Garden",
+        "Street Address": "5926 3rd Ave NW, Seattle, WA 98107",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/phinney-ridge",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,600",
+        "No. Plots": 21,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3953088,
+        "Latitude": 47.6723981,
+        "coordinates": [-122.3953088, 47.6723981],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 73,
+        "Urban Garden Name": "Picardo Farm P-Patch",
+        "Street Address": "8040 25th Ave NE, Seattle, WA 98115",
+        "Phone": "(206) 684-4075",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/picardo-farm",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "98,000",
+        "No. Plots": 259,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3005628,
+        "Latitude": 47.68780984,
+        "coordinates": [-122.3005628, 47.68780984],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 74,
+        "Urban Garden Name": "Pinehurst P-Patch Community Garden",
+        "Street Address": "11525 12th Ave NE, Seattle, WA 98125",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/pinehurst",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,000",
+        "No. Plots": 17,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3159776,
+        "Latitude": 47.712743,
+        "coordinates": [-122.3159776, 47.712743],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 75,
+        "Urban Garden Name": "Queen Anne P-Patch Community Garden",
+        "Street Address": "301 Lynn St, Seattle, WA 98109",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/queen-anne",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "15,000",
+        "No. Plots": 73,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3568005,
+        "Latitude": 47.6388534,
+        "coordinates": [-122.3568005, 47.6388534],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 76,
+        "Urban Garden Name": "Queen Pea P-Patch Community Garden",
+        "Street Address": "5th Ave N & Howe St",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/queen-pea",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,000",
+        "No. Plots": 32,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3482445,
+        "Latitude": 47.6357221,
+        "coordinates": [-122.3482445, 47.6357221],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 77,
+        "Urban Garden Name": "Rainier Beach Urban Farm & Wetlands",
+        "Street Address": "5513 S Cloverdale St, Seattle, WA 98118",
+        "Phone": "(206) 633-0451 (Tilth)",
+        "Email": "",
+        "Garden Website": "https://www.instagram.com/rb_urbanfarmandwetlands/?hl=en",
+        "Affiliated Community": "Government, Tilth Alliance",
+        "Affiliated Community Contact": "https://tilthalliance.org/our-work/urban-farms-gardens/rainier-beach-urban-farm-wetlands/",
+        "BIPOC-Owned": "",
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2629734,
+        "Latitude": 47.52647494,
+        "coordinates": [-122.2629734, 47.52647494],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 78,
+        "Urban Garden Name": "Rainier Vista Dakota W P-Patch Community Gardens",
+        "Street Address": "2902 S Dakota St, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2016/11/seattle-community-farm-at-rainier-vista.html",
+        "Affiliated Community": "Government, Solid Ground (Lettuce Link Program)",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "8,461",
+        "No. Plots": 36,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2976643,
+        "Latitude": 47.5674814,
+        "coordinates": [-122.2976643, 47.5674814],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 79,
+        "Urban Garden Name": "Rainier Vista Snoqualmie Garden P-Patch",
+        "Street Address": "2917 S Snoqualmie St, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/rainier-vista-snoqualmie",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,569",
+        "No. Plots": 18,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2949151,
+        "Latitude": 47.56144366,
+        "coordinates": [-122.2949151, 47.56144366],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 80,
+        "Urban Garden Name": "Rainier Vista Sunrise Garden",
+        "Street Address": "4233 33rd Ave S, Seattle, WA 98118",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/rainer-vista-sunrise-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "7,100",
+        "No. Plots": 24,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2913935,
+        "Latitude": 47.56313827,
+        "coordinates": [-122.2913935, 47.56313827],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 81,
+        "Urban Garden Name": "Ravenna P-Patch Community Garden",
+        "Street Address": "5200 Ravenna Ave NE, Seattle, WA 98105",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/ravenna",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,200",
+        "No. Plots": 18,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3036188,
+        "Latitude": 47.66768138,
+        "coordinates": [-122.3036188, 47.66768138],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 82,
+        "Urban Garden Name": "Republican P-Patch Community Gardens",
+        "Street Address": "503 20th Ave E, Seattle, WA 98112",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/republican",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,600",
+        "No. Plots": 23,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3062142,
+        "Latitude": 47.62353053,
+        "coordinates": [-122.3062142, 47.62353053],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 83,
+        "Urban Garden Name": "Roosevelt P-Patch Community Garden",
+        "Street Address": "7012 12th Ave NE, Seattle, WA 98115",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/roosevelt",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,500",
+        "No. Plots": 29,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3153638,
+        "Latitude": 47.68003996,
+        "coordinates": [-122.3153638, 47.68003996],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 84,
+        "Urban Garden Name": "Seattle Community Farm",
+        "Street Address": "4015 MLK Way, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://www.instagram.com/seattlecommunityfarm/\nhttps://acrs2.my.salesforce-sites.com/VolunteerJobs/GW_Volunteers__VolunteersJobListingFS?Calendar=1&volunteerShiftId=a0x4x000001ImijAAC&jobId=a0v4x000002oNNGAA2&dtMonthFilter=2021-5-24%209:30:0",
+        "Affiliated Community": "Asian Counseling and Referral Services, Solid Ground (former)",
+        "Affiliated Community Contact": "https://acrs.org/volunteer/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2978367,
+        "Latitude": 47.56735061,
+        "coordinates": [-122.2978367, 47.56735061],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 85,
+        "Urban Garden Name": "Shiga's P-Patch Community Garden",
+        "Street Address": "5522 University Way NE Seattle, WA 98105",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/shigas-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "",
+        "No. Plots": 18,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3132318,
+        "Latitude": 47.67022456,
+        "coordinates": [-122.3132318, 47.67022456],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 86,
+        "Urban Garden Name": "Small Axe Farm (In development)",
+        "Street Address": "South of Woodinville",
+        "Phone": "",
+        "Email": "smallaxefarmer@gmail.com.",
+        "Garden Website": "https://www.blackfarmerscollective.com/small-axe",
+        "Affiliated Community": "",
+        "Affiliated Community Contact": "https://www.blackfarmerscollective.com/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "4 acres",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": "",
+        "Latitude": "",
+        "coordinates": "",
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 87,
+        "Urban Garden Name": "Snoqualmie P-Patch Community Garden",
+        "Street Address": "4549 13th Ave S, Seattle, WA 98108",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/snoqualmie",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "18,000",
+        "No. Plots": 25,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3209199,
+        "Latitude": 47.5620608,
+        "coordinates": [-122.3209199, 47.5620608],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 88,
+        "Urban Garden Name": "Solstice P-Patch Community Garden",
+        "Street Address": "7400 Fauntleroy Way SW, Seattle, WA 98136",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/solstice",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "13,000",
+        "No. Plots": 34,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3916613,
+        "Latitude": 47.5362655,
+        "coordinates": [-122.3916613, 47.5362655],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 89,
+        "Urban Garden Name": "Spring Street P-Patch Community Garden",
+        "Street Address": "E Spring St, Seattle, WA 98122",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/spring-street",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,900",
+        "No. Plots": 13,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3048187,
+        "Latitude": 47.6116873,
+        "coordinates": [-122.3048187, 47.6116873],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 90,
+        "Urban Garden Name": "Squire Park P-Patch Community Garden",
+        "Street Address": "14th Ave, Seattle, WA 98122",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/squire-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,000",
+        "No. Plots": 35,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.33146,
+        "Latitude": 47.602946,
+        "coordinates": [-122.33146, 47.602946],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 91,
+        "Urban Garden Name": "Thistle P-Patch Community Garden",
+        "Street Address": "Chief Sealth Trl, Seattle, WA 98118",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/thistle",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "130,680",
+        "No. Plots": 77,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2803081,
+        "Latitude": 47.5267660,
+        "coordinates": [-122.2803081, 47.5267660],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 92,
+        "Urban Garden Name": "Thomas Street Gardens P-Patch",
+        "Street Address": "1010 E Thomas St, Seattle, WA 98102",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "http://metropolitangardens.blogspot.com/2012/08/thomas-street-gardens-p-patch.html",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "3,200",
+        "No. Plots": 28,
+        "Accessible": 1
+      },
+      "geometry": {
+        "Longitude": -122.3193393,
+        "Latitude": 47.62161896,
+        "coordinates": [-122.3193393, 47.62161896],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 93,
+        "Urban Garden Name": "Thyme Patch Park P-Patch Community Garden",
+        "Street Address": "2853 NW 58th St, Seattle, WA 98107",
+        "Phone": "(206) 684-4075",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/thyme-patch-park",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,800",
+        "No. Plots": 14,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.5352652,
+        "Latitude": 47.6707518,
+        "coordinates": [-122.5352652, 47.6707518],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 94,
+        "Urban Garden Name": "Troll's Knoll P-Patch Community Garden",
+        "Street Address": "820 N 36th St, Seattle, WA 98103",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/trolls-knoll",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "2,000",
+        "No. Plots": 29,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3479749,
+        "Latitude": 47.6511922,
+        "coordinates": [-122.3479749, 47.6511922],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 95,
+        "Urban Garden Name": "University District P-Patch Community Garden",
+        "Street Address": "4009 8th Ave NE, Seattle, WA 98105",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/university-district",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "14,400",
+        "No. Plots": 46,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3202297,
+        "Latitude": 47.65648889,
+        "coordinates": [-122.3202297, 47.65648889],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 96,
+        "Urban Garden Name": "University Heights P-Patch Community Gardens",
+        "Street Address": "5031 University Way NE, Seattle, WA 98105",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/university-heights",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "5,000",
+        "No. Plots": 31,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3134226,
+        "Latitude": 47.66562579,
+        "coordinates": [-122.3134226, 47.66562579],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 97,
+        "Urban Garden Name": "Unpaving Paradise P-Patch",
+        "Street Address": "200 Summit Ave E, Seattle, WA 98102",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/unpaving-paradise",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "4,600",
+        "No. Plots": 31,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3249102,
+        "Latitude": 47.62003892,
+        "coordinates": [-122.3249102, 47.62003892],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 98,
+        "Urban Garden Name": "UpGarden P-Patch Community Garden",
+        "Street Address": "300 Mercer St, Seattle, WA 98109",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/upgarden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "25,000",
+        "No. Plots": 98,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3545429,
+        "Latitude": 47.6250285,
+        "coordinates": [-122.3545429, 47.6250285],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 99,
+        "Urban Garden Name": "UW Farm",
+        "Street Address": "3501 NE 41st Street, Seattle, 98195",
+        "Phone": "(206) 543-8616",
+        "Email": "uwbg@uw.edu",
+        "Garden Website": "https://botanicgardens.uw.edu/center-for-urban-horticulture/gardens/uw-farm/",
+        "Affiliated Community": "University of Washington Botanical Gardens",
+        "Affiliated Community Contact": "https://botanicgardens.uw.edu/",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1.5 acres",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.2905999,
+        "Latitude": 47.658076,
+        "coordinates": [-122.2905999, 47.658076],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 100,
+        "Urban Garden Name": "West Genesee P-Patch Community Garden",
+        "Street Address": "4100 SW Genesee St, Seattle, WA 98116",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/west-genesee-garden",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,279",
+        "No. Plots": 12,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3870137,
+        "Latitude": 47.564606,
+        "coordinates": [-122.3870137, 47.564606],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 101,
+        "Urban Garden Name": "Yes Farm",
+        "Street Address": "715 Yesler Way, Seattle, WA 98104",
+        "Phone": "",
+        "Email": "connect@blackfarmerscollective.org",
+        "Garden Website": "https://www.blackfarmerscollective.com/yes-farm",
+        "Affiliated Community": "Black Farmers Collective",
+        "Affiliated Community Contact": "https://www.blackfarmerscollective.com/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "65,340",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.323831,
+        "Latitude": 47.601715,
+        "coordinates": [-122.323831, 47.601715],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 102,
+        "Urban Garden Name": "Yesler Terrace: Ballpark P-Patch Community Garden",
+        "Street Address": "819 8th Ave S, Seattle, WA 98104",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/yesler-terrace-ballpark",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "12,843",
+        "No. Plots": 8,
+        "Accessible": ""
+      },
+      "geometry": {
+        "Longitude": -122.3195981,
+        "Latitude": 47.6001452,
+        "coordinates": [-122.3195982, 47.6001452],
+        "type": "Point"
+      }
+    }
+  ]
+}

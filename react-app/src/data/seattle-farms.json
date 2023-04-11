@@ -1,0 +1,144 @@
+{
+  "features": [
+    {
+      "properties": {
+        "ID": 1,
+        "Urban Garden Name": "Yes Farm",
+        "Street Address": "715 Yesler Way, Seattle, WA 98104",
+        "Phone": "",
+        "Email": "connect@blackfarmerscollective.org",
+        "Garden Website": "https://www.blackfarmerscollective.com/yes-farm",
+        "Affiliated Community": "Black Farmers Collective",
+        "Affiliated Community Contact": "https://www.blackfarmerscollective.com/",
+        "BIPOC-Owned": 1,
+        "Plot Size (sq ft)": "65,340",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.323831, 47.601715],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 2,
+        "Urban Garden Name": "Marra Farm",
+        "Street Address": "9026 4th Ave S, Seattle, WA 98108",
+        "Phone": "206-694-6828",
+        "Email": "marrafarm@solid-ground.org",
+        "Garden Website": "",
+        "Affiliated Community": "Solid Ground",
+        "Affiliated Community Contact": "https://www.solid-ground.org/",
+        "BIPOC-Owned": "0",
+        "Plot Size (sq ft)": "5600 (39 garden plots, 24 greenhouse plots, 3 large tract plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.3294611, 47.5220358],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 3,
+        "Urban Garden Name": "Angel Morgan",
+        "Street Address": "3956 S Morgan St, Seattle, WA 98118",
+        "Phone": "",
+        "Email": "angelmorganppatch@gmail.com",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/angel-morgan",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "22650 (30 plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.2831964, 47.5445029],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 4,
+        "Urban Garden Name": "Ballard",
+        "Street Address": "8527 25th Ave NW, Seattle, WA 98117",
+        "Phone": "",
+        "Email": "info@ballardppatch.org",
+        "Garden Website": "https://www.ballardppatch.org/",
+        "Affiliated Community": "Government, GROW Northwest",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/ballard, https://www.grownorthwest.org/",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "18000 (94 plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.3914513,47.6914606],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 5,
+        "Urban Garden Name": "Barton Street",
+        "Street Address": "SW Barton St & 34th Ave SW, Seattle, WA 98126",
+        "Phone": "(206) 684-2489",
+        "Email": "",
+        "Garden Website": "https://www.facebook.com/groups/BartonStreetPPatch",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/barton-street",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "12,000 (45 plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.3765166, 47.5210725],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 6,
+        "Urban Garden Name": "Beacon Bluff",
+        "Street Address": "1201 15th Ave S, Seattle, WA 98144",
+        "Phone": "(206) 684-0264",
+        "Email": "",
+        "Garden Website": "",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/beacon-bluff",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "1,500 (14 plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.3142172, 47.5885793],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "ID": 7,
+        "Urban Garden Name": "Beacon Food Forest",
+        "Street Address": "S Dakota St, Seattle, WA 98108",
+        "Phone": "",
+        "Email": "",
+        "Garden Website": "https://beaconfoodforest.org/",
+        "Affiliated Community": "Government",
+        "Affiliated Community Contact": "https://www.seattle.gov/neighborhoods/p-patch-gardening/garden-list/beacon-food-forest",
+        "BIPOC-Owned": 0,
+        "Plot Size (sq ft)": "27,000 (27 plots)",
+        "No. Plots": "",
+        "Accessible": ""
+      },
+      "geometry": {
+        "coordinates": [-122.3156644, 47.5672453],
+        "type": "Point"
+      }
+    }
+  ]
+}

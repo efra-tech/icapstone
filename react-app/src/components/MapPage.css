@@ -1,5 +1,6 @@
 .map-container {
     height: 100vh;
+    width: 110vh;
 }
 
 .sidebar {
@@ -15,6 +16,11 @@
     border-radius: 4px;
 }
 
+.sidebar2 {
+    overflow: scroll;
+    height: 80vh;
+}
+
 .marker {
     background-image: url('../imgs/mapbox-icon.png');
     background-size: cover;
@@ -23,3 +29,8 @@
     border-radius: 50%;
     cursor: pointer;
   }
+
+.map-panel {
+    position: absolute;
+    height: 100vh;
+}
