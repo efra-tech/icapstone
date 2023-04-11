@@ -4,7 +4,7 @@
         "type": "Feature",
         "properties": {
           "title": "Yes Farm",
-          "description": "715 Yesler Way, Seattle, WA 98104"
+          "address": "715 Yesler Way, Seattle, WA 98104"
         },
         "geometry": {
           "coordinates": [-122.323831, 47.601715],
@@ -15,7 +15,7 @@
         "type": "Feature",
         "properties": {
           "title": "Marra Farm",
-          "description": "9026 4th Ave S, Seattle, WA 98108"
+          "address": "9026 4th Ave S, Seattle, WA 98108"
         },
         "geometry": {
           "coordinates": [-122.3294611, 47.5220358],
@@ -26,7 +26,7 @@
         "type": "Feature",
         "properties": {
           "title": "Angel Morgan",
-          "description": "3956 S Morgan St, Seattle, WA 98118"
+          "address": "3956 S Morgan St, Seattle, WA 98118"
         },
         "geometry": {
           "coordinates": [-122.2831964, 47.5445029],
@@ -37,7 +37,7 @@
         "type": "Feature",
         "properties": {
           "title": "Ballard",
-          "description": "8527 25th Ave NW, Seattle, WA 98117"
+          "address": "8527 25th Ave NW, Seattle, WA 98117"
         },
         "geometry": {
           "coordinates": [-122.3914513, 47.6914606],
@@ -48,7 +48,7 @@
         "type": "Feature",
         "properties": {
           "title": "Barton Street",
-          "description": "SW Barton St & 34th Ave SW, Seattle, WA 98126"
+          "address": "SW Barton St & 34th Ave SW, Seattle, WA 98126"
         },
         "geometry": {
           "coordinates": [-122.3765166, 47.5210725],
@@ -59,7 +59,7 @@
         "type": "Feature",
         "properties": {
           "title": "Beacon Bluff",
-          "description": "1201 15th Ave S, Seattle, WA 98144"
+          "address": "1201 15th Ave S, Seattle, WA 98144"
         },
         "geometry": {
           "coordinates": [-122.3142172, 47.5885793],
@@ -70,7 +70,7 @@
         "type": "Feature",
         "properties": {
           "title": "Beacon Food Forest",
-          "description": "S Dakota St, Seattle, WA 98108"
+          "address": "S Dakota St, Seattle, WA 98108"
         },
         "geometry": {
           "coordinates": [-122.3156644, 47.5672453],
@@ -81,7 +81,7 @@
         "type": "Feature",
         "properties": {
           "title": "Belltown",
-          "description": "2520 Elliott Ave. Seattle, WA 98121"
+          "address": "2520 Elliott Ave. Seattle, WA 98121"
         },
         "geometry": {
           "coordinates": [-122.3515381, 47.6139662],
@@ -92,7 +92,7 @@
         "type": "Feature",
         "properties": {
           "title": "Bitter Lake",
-          "description": "Linden Ave N & N 143rd St, Seattle, WA 98133"
+          "address": "Linden Ave N & N 143rd St, Seattle, WA 98133"
         },
         "geometry": {
           "coordinates": [-122.3483208, 47.7323222],

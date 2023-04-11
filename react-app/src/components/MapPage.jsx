@@ -4,7 +4,7 @@ import style from "./MapPage.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import markerImage from "../imgs/marker.png"
-import geoJson from "../data/seattle-sample-data.json";
+import geoJson from "../data/seattle-farms-complete.json";
 import ActualMapComponent from './ActualMapComponent';
 
 export default function MapPage(props) {
@@ -19,7 +19,7 @@ export default function MapPage(props) {
         <div className="col-md-3">
           <div className='map map-panel'>
             <div>
-              <input className='p-2 m-5' type="text" placeholder="Search.."/>
+              <input className='p-2 m-5' type="text" placeholder="Search.." />
               <MapCardDeck />
             </div>
           </div>
@@ -88,12 +88,28 @@ function MapComponent(props) {
   };
 
 function MapCardDeck(props){
+  const rows = [];
+  for (const garden in geoJson.features) {
+    rows.push(<div role="button"
+      onClick={ () => alert("You pressed on a garden.")}
+      ><MapCard key={geoJson.features[garden].properties["ID"]}
+        title={geoJson.features[garden].properties["Urban Garden Name"]}
+        address={geoJson.features[garden].properties["Street Address"]}
+        telephone={geoJson.features[garden].properties["Phone"]} />
+      </div>
+    );
+  }
+
+  
   return (
-    <div>
-      <MapCard title={'EastLake P-Patch'} address={'2900 Fairview Ave E'} telephone={'206-684-2489'} />
-      <MapCard title={'Yes Farm'} address={'727 Yesler Way'} telephone={'206-256-7019'} />
-      <MapCard title={'Queen Pea P-Patch'} address={'5th Ave N'} telephone={'206-684-2489'} />
+    <div className="sidebar2">
+      {rows}
     </div>
+    // <div>
+    //   <MapCard title={'EastLake P-Patch'} address={'2900 Fairview Ave E'} telephone={'206-684-2489'} />
+    //   <MapCard title={'Yes Farm'} address={'727 Yesler Way'} telephone={'206-256-7019'} />
+    //   <MapCard title={'Queen Pea P-Patch'} address={'5th Ave N'} telephone={'206-684-2489'} />
+    // </div>
   );
 
   function MapCard(props) {

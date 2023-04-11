@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import "./MapPage.css";
-import geoJson from "../data/seattle-sample-data.json";
+import geoJson from "../data/seattle-farms-complete.json";
 import markerImage from "../imgs/marker.png";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
@@ -57,7 +57,7 @@ const ActualMapComponent = () => {
               layout: {
                 "icon-image": "custom-marker",
                 // get the title name from the source's "title" property
-                "text-field": ["get", "title"],
+                "text-field": ["get", "Urban Garden Name"],
                 "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
                 "text-offset": [0, 1.6],
                 "text-anchor": "top",
