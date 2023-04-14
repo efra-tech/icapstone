@@ -40,13 +40,14 @@ a {
 }
 
 /* Calender */
-.sc-gLLvby.jOyNJ h1 {
-  color: #3F5749 !important;
-  font-weight: 250;
+.container-main {
+  padding-right: 0.15rem;
+  padding-left: 0.15rem;
 }
 
-.sc-beySbM.erssov {
-  margin-top: 7vh;
+.sc-gLDzan.hFwyWE h1 {
+  color: #3F5749 !important;
+  font-weight: 250;
 }
 
 .sc-iBdmCd.jVGblD:hover {

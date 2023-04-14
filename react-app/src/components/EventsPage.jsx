@@ -71,7 +71,7 @@ export default function EventsPage(props) {
 
 
   return (
-    <div className='container'>
+    <div className='container-main'>
       <div className='d-flex add-event-btn m-5 align-items-center'>
         <p className='align-self-center float-bottom'>Submit an Event</p>
         <button className='rounded-circle px-3 m-3 btn' onClick={handleClick}>+</button>
