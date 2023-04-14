@@ -11,6 +11,18 @@
 /* Navbar */
 nav {
   background-color: #746B5D;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #F2F2EC;
+}
+
+nav:hover {
+  color: #7D8B80;
 }
 
 a {
@@ -28,13 +40,14 @@ a {
 }
 
 /* Calender */
-.sc-gLLvby.jOyNJ h1 {
-  color: #3F5749 !important;
-  font-weight: 250;
+.container-main {
+  padding-right: 0.15rem;
+  padding-left: 0.15rem;
 }
 
-.sc-beySbM.erssov {
-  margin-top: 7vh;
+.sc-gLDzan.hFwyWE h1 {
+  color: #3F5749 !important;
+  font-weight: 250;
 }
 
 .sc-iBdmCd.jVGblD:hover {
@@ -54,7 +67,7 @@ a {
 }
 
 .add-event-btn button:hover {
-  background-color:rgba(130, 159, 145, 0.53);
+  background-color: rgba(130, 159, 145, 0.53);
   border: solid 2px gray;
   color: #746B5D;
 }

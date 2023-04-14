@@ -7,10 +7,9 @@ import carousel3 from "../imgs/carousel\ 3.png"
 export default function HomePage(props) {
   return (
     <div className="homepage">
-
       <div className="banner">
         <div className="bg-image p-5 text-left text-black">
-          <h1 id="banner-title">Garden Space</h1>
+          <h1 id="banner-title">WELCOME TO GARDEN SPACE</h1>
         </div>
       </div>
 
