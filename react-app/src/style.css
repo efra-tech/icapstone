@@ -11,6 +11,8 @@
 /* Navbar */
 nav {
   background-color: #746B5D;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 a {
@@ -28,7 +30,7 @@ a {
 }
 
 /* Calender */
-.sc-gLLvby.jOyNJ h1 {
+.sc-gLDzan.hFwyWE h1 {
   color: #3F5749 !important;
   font-weight: 250;
 }
@@ -37,7 +39,7 @@ a {
   margin-top: 7vh;
 }
 
-.sc-iBdmCd.jVGblD:hover {
+.sc-iAEyYk.goFHZF:hover {
   background-color: #2A3B37;
   color: white;
 }
