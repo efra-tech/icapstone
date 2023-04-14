@@ -11,12 +11,12 @@ export default function MapPage(props) {
   return (
     <div>
       <div className="row">
-        <div className="col-md-9">
+        <div className="col-9">
           <div>
             <ActualMapComponent />
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-3">
           <div className='map map-panel'>
             <div>
               <input className='p-2 m-5' type="text" placeholder="Search.." />
