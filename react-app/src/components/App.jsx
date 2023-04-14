@@ -21,7 +21,6 @@ export default function App(props) {
           <Route path='home' element={ <HomePage /> } />
           <Route path='map' element={ <MapPage /> } />
           <Route path='events' element={ <EventsPage /> } />
-          <Route path='bulletin' element={ <BulletinPage /> } />
           <Route path='about-us' element={ <AboutPage /> } />
           <Route path='*' element={ <Navigate to='home' /> } />
         </Routes>

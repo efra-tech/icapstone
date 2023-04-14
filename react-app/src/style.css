@@ -11,6 +11,18 @@
 /* Navbar */
 nav {
   background-color: #746B5D;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #F2F2EC;
+}
+
+nav:hover {
+  color: #7D8B80;
 }
 
 a {

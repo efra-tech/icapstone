@@ -60,6 +60,7 @@ export default function EventsPage(props) {
 //         }
 //         openDetailsOnDateSelection={
 //           true
+//          <button type="button" class="btn btn-light rounded-pill">RSVP</button>
 //         }
 //         timeFormat24={
 //           true
