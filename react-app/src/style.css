@@ -54,7 +54,7 @@ a {
 }
 
 .add-event-btn button:hover {
-  background-color:rgba(130, 159, 145, 0.53);
+  background-color: rgba(130, 159, 145, 0.53);
   border: solid 2px gray;
   color: #746B5D;
 }
