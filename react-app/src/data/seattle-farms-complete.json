@@ -874,9 +874,9 @@
         "Accessible": ""
       },
       "geometry": {
-        "Longitude": 122.3206145,
+        "Longitude": -122.3206145,
         "Latitude": 47.6007681,
-        "coordinates": [122.3206145, 47.6007681],
+        "coordinates": [-122.3206145, 47.6007681],
         "type": "Point"
       }
     },
