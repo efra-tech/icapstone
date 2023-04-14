@@ -19,7 +19,7 @@
   color: #4B4438;
   font-style: normal;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 45px;
   line-height: 123px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
@@ -75,10 +75,20 @@
 
 .card {
   margin: 3%;
+  border-color: #4B4438;
 }
 
-.card-body {
+
+
+a {
+  text-decoration: none;
+  font-family: 'DM Sans';
+  border-radius: 50%;
   color: #746B5D;
+}
+
+a:hover {
+color: #F2F2EC; 
 }
 
 .contact {
