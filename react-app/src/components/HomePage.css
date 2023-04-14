@@ -84,12 +84,24 @@ a {
   text-decoration: none;
   font-family: 'DM Sans';
   border-radius: 50%;
-  color: #746B5D;
+  color: #F2F2EC;
+  ;
 }
 
 a:hover {
-color: #F2F2EC; 
+color: #7D8B80;
 }
+
+.resource-link {
+  text-decoration: none;
+  font-family: 'DM Sans';
+  border-radius: 50%;
+  color: #746B5D;
+}
+
+.resource-link:hover {
+  color: #F2F2EC; 
+  }
 
 .contact {
   text-align: center;
