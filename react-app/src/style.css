@@ -11,6 +11,8 @@
 /* Navbar */
 nav {
   background-color: #746B5D;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   font-family: 'DM Sans';
   font-style: normal;
   font-size: 20px;
@@ -50,7 +52,7 @@ a {
   font-weight: 250;
 }
 
-.sc-iBdmCd.jVGblD:hover {
+.sc-iAEyYk.goFHZF:hover {
   background-color: #2A3B37;
   color: white;
 }

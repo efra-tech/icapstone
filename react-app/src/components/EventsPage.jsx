@@ -69,92 +69,93 @@ export default function EventsPage(props) {
     }
   };
 
-
   return (
-    <div className='container-main'>
-      <div className='d-flex add-event-btn m-5 align-items-center'>
-        <p className='align-self-center float-bottom'>Submit an Event</p>
-        <button className='rounded-circle px-3 m-3 btn' onClick={handleClick}>+</button>
-      </div>
-      <RevoCalendar
-        events={eventsList}
-        style={{
-          borderRadius: "5px",
-          border: "5px solid #829F91",
-        }}
-        highlightToday={true}
-        lang="en"
-        primaryColor="#829F91"
-        secondaryColor="#F2F2EC"
-        todayColor="#829F91"
-        textColor="#333333"
-        indicatorColor="#3F5749"
-        animationSpeed={
-          300
-        }
-        sidebarWidth={
-          180
-        }
-        detailWidth={
-          280
-        }
-        showDetailToggler={
-          true
-        }
-        showSidebarToggler={
-          true
-        }
-        onePanelAtATime={
-          false
-        }
-        allowDeleteEvent={
-          false
-        }
-        allowAddEvent={
-          true
-        }
-        openDetailsOnDateSelection={
-          true
-        }
-        timeFormat24={
-          true
-        }
-        showAllDayLabel={
-          true
-        }
-        detailDateFormat="DD/MM/YYYY"
-        addEvent={
-          (date) => {
-            handleDateClick(date)
+    <div>
+      <div className='container-main mt-5 mx-5'>
+        <div className='d-flex add-event-btn m-5 align-items-center'>
+          <p className='align-self-center float-bottom'>Submit an Event</p>
+          <button className='rounded-circle px-3 m-3 btn' onClick={handleClick}>+</button>
+        </div>
+        <RevoCalendar
+          events={eventsList}
+          style={{
+            borderRadius: "5px",
+            border: "5px solid #829F91",
+          }}
+          highlightToday={true}
+          lang="en"
+          primaryColor="#829F91"
+          secondaryColor="#F2F2EC"
+          todayColor="#829F91"
+          textColor="#333333"
+          indicatorColor="#3F5749"
+          animationSpeed={
+            300
           }
-        }
-      />
-      <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
-        <Modal.Header closeButton>
-          <Modal.Title>Enter Event Details</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="description">
-              <Form.Label>Description</Form.Label>
-              <Form.Control
-                as="textarea"
-                rows={3}
-                value={description}
-                onChange={(event) => setDescription(event.target.value)}
-              />
-            </Form.Group>
-          </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(false)}>
-            Cancel
-          </Button>
-          <Button variant="primary" onClick={handleSubmit}>
-            Save
-          </Button>
-        </Modal.Footer>
-      </Modal>
+          sidebarWidth={
+            180
+          }
+          detailWidth={
+            280
+          }
+          showDetailToggler={
+            true
+          }
+          showSidebarToggler={
+            true
+          }
+          onePanelAtATime={
+            false
+          }
+          allowDeleteEvent={
+            false
+          }
+          allowAddEvent={
+            true
+          }
+          openDetailsOnDateSelection={
+            true
+          }
+          timeFormat24={
+            true
+          }
+          showAllDayLabel={
+            true
+          }
+          detailDateFormat="DD/MM/YYYY"
+          addEvent={
+            (date) => {
+              handleDateClick(date)
+            }
+          }
+        />
+        <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
+          <Modal.Header closeButton>
+            <Modal.Title>Enter Event Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form onSubmit={handleSubmit}>
+              <Form.Group controlId="description">
+                <Form.Label>Description</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  value={description}
+                  onChange={(event) => setDescription(event.target.value)}
+                />
+              </Form.Group>
+            </Form>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={() => setShowModal(false)}>
+              Cancel
+            </Button>
+            <Button variant="primary" onClick={handleSubmit}>
+              Save
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
     </div>
   );
 }
