@@ -9,8 +9,22 @@ export default function HomePage(props) {
     <div className="homepage">
       <div className="banner">
         <div className="bg-image p-5 text-left text-black">
-          <h1 id="banner-title">WELCOME TO GARDEN SPACE</h1>
+          <h1 id="banner-title">WELCOME TO <br></br> GARDENSPACE</h1>
         </div>
+      </div>
+
+      <div className="message">
+        <div className="row">
+          <div className="col-5">
+            <h2 className="message-title">Welcome to GardenSpace!</h2>
+          </div>
+          <div className="col-7">
+            <p className="message-text">GardenSpace aims to create a safe space for BIPOC community gardeners and connect with their local gardens
+              by alerting them about events, giving information about local organizations, or to highlight education opportunities.
+              We want to get you gardening with a community you love.</p>
+          </div>
+        </div>
+        <p className="message-final">Find and cultivate yourself in nature with Garden Space!</p>
       </div>
 
       {/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -40,7 +54,7 @@ export default function HomePage(props) {
         </a>
       </div> */}
 
-      <div id="homeCarousel" class="carousel slide pointer-event container" data-bs-ride="carousel">
+      <div id="homeCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
           <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -53,7 +67,7 @@ export default function HomePage(props) {
             </div>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Image 1</h1>
+                {/* <h1>Image 1</h1> */}
               </div>
             </div>
           </div>
@@ -63,7 +77,7 @@ export default function HomePage(props) {
             </div>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Image 2</h1>
+                {/* <h1>Image 2</h1> */}
               </div>
             </div>
           </div>
@@ -73,7 +87,7 @@ export default function HomePage(props) {
             </div>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Image 3</h1>
+                {/* <h1>Image 3</h1> */}
               </div>
             </div>
           </div>
@@ -86,17 +100,6 @@ export default function HomePage(props) {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-
-      <div className="message">
-        <h2 className="message-title">Welcome to GardenSpace!</h2>
-        <p className="message-text">GardenSpace aims to create a safe space for BIPOC community gardeners and connect with their local gardens
-          by alerting them about events, giving information about local organizations, or to highlight education opportunities.
-          We want to get you gardening with a community you love.
-          <br></br>
-          <br></br>
-          Find and cultivate yourself in nature with Garden Space!</p>
       </div>
 
       <div className="resource">
