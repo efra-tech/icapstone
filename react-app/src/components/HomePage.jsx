@@ -104,7 +104,7 @@ export default function HomePage(props) {
 
       <div className="resource">
         <div className="resource-title p-5 text-left text-black">
-          <h2 id="banner-title">Additional Resources</h2>
+          <h2 id="banner-title-resource">Additional Resources</h2>
           <div class="row">
             <div class="col-sm-6">
               <div class="card btn">

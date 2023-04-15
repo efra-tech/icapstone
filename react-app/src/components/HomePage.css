@@ -13,7 +13,7 @@
 }
 
 #banner-title {
-  opacity: 100%;
+  opacity: 100% !important;
   font-family: 'Fraunces';
   font-weight: 500;
   color: #4B4438;
@@ -24,6 +24,19 @@
   letter-spacing: -0.28px;
   text-transform: capitalize;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#banner-title-resource {
+  opacity: 100%;
+  font-family: 'Fraunces';
+  font-weight: 500;
+  color: #4B4438;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 123px;
+  letter-spacing: -0.28px;
+  text-transform: capitalize;
 }
 
 .banner {
