@@ -13,6 +13,18 @@ nav {
   background-color: #746B5D;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #F2F2EC;
+}
+
+nav:hover {
+  color: #7D8B80;
 }
 
 a {
@@ -30,13 +42,14 @@ a {
 }
 
 /* Calender */
+.container-main {
+  padding-right: 0.15rem;
+  padding-left: 0.15rem;
+}
+
 .sc-gLDzan.hFwyWE h1 {
   color: #3F5749 !important;
   font-weight: 250;
-}
-
-.sc-beySbM.erssov {
-  margin-top: 7vh;
 }
 
 .sc-iAEyYk.goFHZF:hover {
