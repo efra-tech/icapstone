@@ -68,7 +68,7 @@ function EventCard(props){
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
-            learn more
+            event details
           </CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0" className='card-drop'>
