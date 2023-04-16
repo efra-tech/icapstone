@@ -1,3 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+@keyframes tilt-shaking {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(13deg);}
+  50% {transform: rotate(0eg);}
+  75% {transform: rotate(-13deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.column:hover img {
+  animation: tilt-shaking 2s;
+}
+
+.column:hover h2 {
+  color: #99AB45;
+}
+
 .about-us-page {
   background: #F2F2EC;
 }
@@ -9,32 +29,25 @@
   height: 30rem;
 }
 
-
 .section-header {
-
-  
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 500%;
   line-height: 99px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
-  
   color: #746B5D;
   padding: 5% 5% 2% 5%
 }
 
 .section-body {
-
-  
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 33px;
   letter-spacing: -0.28px;
-  
   color: #2A3B37;
   padding: 0% 5% 5% 5%;
 }
@@ -48,14 +61,13 @@
   color: #F2F2EC;
 }
 
-#team-img {
+.team-img {
   border-radius: 50%;
   width: 100%;
 }
 
 .team-text {
-
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -63,7 +75,6 @@
   text-align: center;
   letter-spacing: -0.28px;
   text-transform: capitalize;
-
   color: #F2F2EC;
 }
 
@@ -73,5 +84,10 @@
 
 .column {
   flex: 20%;
-  padding: 2%;
+  padding: 2.5%;
+}
+
+.footer {
+  border-bottom: 15px solid #655C4E;
+  padding-bottom: 2%;
 }

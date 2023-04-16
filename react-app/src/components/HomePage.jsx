@@ -15,8 +15,10 @@ export default function HomePage(props) {
 
       <div className="message">
         <div className="row">
-          <div className="col-5">
-            <h2 className="message-title">Welcome to GardenSpace!</h2>
+          <div className="col-5 d-flex flex-column p-0">
+            <p></p>
+            <h2 className="message-title align-self-center p-2 ">Welcome to GardenSpace!</h2>
+            <p></p>
           </div>
           <div className="col-7">
             <p className="message-text">GardenSpace aims to create a safe space for BIPOC community gardeners and connect with their local gardens
@@ -24,130 +26,130 @@ export default function HomePage(props) {
               We want to get you gardening with a community you love.</p>
           </div>
         </div>
-        <p className="message-final">Find and cultivate yourself in nature with Garden Space!</p>
+        <p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>
       </div>
 
-      {/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://d23.com/app/uploads/2015/07/23-jobs-donald-duck-has-tried_OMD-feat-1-780x440-1440537749.jpg" alt="First slide"/>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src="https://d23.com/app/uploads/2015/07/23-jobs-donald-duck-has-tried_OMD-feat-1-780x440-1440537749.jpg" alt="First slide"/>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://www.fortressofsolitude.co.za/wp-content/uploads/2023/01/Donald-Duck-Disney.jpeg" alt="Second slide"/>
+          <div className="carousel-item">
+            <img className="d-block w-100" src="https://www.fortressofsolitude.co.za/wp-content/uploads/2023/01/Donald-Duck-Disney.jpeg" alt="Second slide"/>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://nationaltoday.com/wp-content/uploads/2021/06/donald_duck.jpg" alt="Third slide"/>
+          <div className="carousel-item">
+            <img className="d-block w-100" src="https://nationaltoday.com/wp-content/uploads/2021/06/donald_duck.jpg" alt="Third slide"/>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
         </a>
       </div> */}
 
-      <div id="homeCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      <div id="homeCarousel" className="carousel slide pointer-event" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" className=""></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <div className="carousel-image">
-              <img class="d-block w-100" src={carousel1} alt="First slide"/>
+              <img className="d-block w-100" src={carousel1} alt="First slide"/>
             </div>
-            <div class="container">
-              <div class="carousel-caption">
+            <div className="container">
+              <div className="carousel-caption">
                 {/* <h1>Image 1</h1> */}
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="carousel-image">
-              <img class="d-block w-100" src={carousel2} alt="Second slide"/>
+              <img className="d-block w-100" src={carousel2} alt="Second slide"/>
             </div>
-            <div class="container">
-              <div class="carousel-caption">
+            <div className="container">
+              <div className="carousel-caption">
                 {/* <h1>Image 2</h1> */}
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="carousel-image">
-              <img class="d-block w-100" src={carousel3} alt="Third slide"/>
+              <img className="d-block w-100" src={carousel3} alt="Third slide"/>
             </div>
-            <div class="container">
-              <div class="carousel-caption">
+            <div className="container">
+              <div className="carousel-caption">
                 {/* <h1>Image 3</h1> */}
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
 
       <div className="resource">
         <div className="resource-title p-5 text-left text-black">
           <h2 id="banner-title-resource">Additional Resources</h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                   <a className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                   <a className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                   <a className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                   <a className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                 <a className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card btn">
-                <div class="card-body" className="d-grid gap-2">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
                 <a className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
                 </div>
               </div>

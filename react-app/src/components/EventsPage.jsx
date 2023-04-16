@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { Modal, Form, Button } from "react-bootstrap";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
+import EventCardDeck from './EventCards';
 
 export default function EventsPage(props) {
   let eventsList = [
@@ -36,12 +37,6 @@ export default function EventsPage(props) {
     setEvents(fetchedEvents);
   }
 
-  // "add event" button on details sidebar
-  const handleDateClick = (date) => {
-    setShowModal(true);
-    setDate(date);
-  };
-
   // submitting add event modal
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -70,25 +65,22 @@ export default function EventsPage(props) {
   };
 
   return (
-    <div>
-      <div className='container-main mt-5 mx-5'>
-        <div className='d-flex add-event-btn m-5 align-items-center'>
-          <p className='align-self-center float-bottom'>Submit an Event</p>
-          <button className='rounded-circle px-3 m-3 btn' onClick={handleClick}>+</button>
-        </div>
+    <div className='container-main mt-5'>
+      <EventCardDeck />
+      <div className='calendar-container lead'>
         <RevoCalendar
           events={eventsList}
           style={{
-            borderRadius: "5px",
-            border: "5px solid #829F91",
+            borderRadius: "1px",
+            border: "5px solid #2A3B37",
           }}
           highlightToday={true}
           lang="en"
-          primaryColor="#829F91"
-          secondaryColor="#F2F2EC"
+          primaryColor="#2A3B37"
+          secondaryColor="#CCD4D0"
           todayColor="#829F91"
           textColor="#333333"
-          indicatorColor="#3F5749"
+          indicatorColor="#F5F5F5"
           animationSpeed={
             300
           }
@@ -111,7 +103,7 @@ export default function EventsPage(props) {
             false
           }
           allowAddEvent={
-            true
+            false
           }
           openDetailsOnDateSelection={
             true
@@ -123,39 +115,11 @@ export default function EventsPage(props) {
             true
           }
           detailDateFormat="DD/MM/YYYY"
-          addEvent={
-            (date) => {
-              handleDateClick(date)
-            }
-          }
         />
-        <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
-          <Modal.Header closeButton>
-            <Modal.Title>Enter Event Details</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Form onSubmit={handleSubmit}>
-              <Form.Group controlId="description">
-                <Form.Label>Description</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={3}
-                  value={description}
-                  onChange={(event) => setDescription(event.target.value)}
-                />
-              </Form.Group>
-            </Form>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={() => setShowModal(false)}>
-              Cancel
-            </Button>
-            <Button variant="primary" onClick={handleSubmit}>
-              Save
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </div>
+      <footer className='pt-5'>
+        <button className='mb-5 add-event-btn' onClick={handleClick}>Submit an Event</button>
+      </footer>
     </div>
   );
 }
