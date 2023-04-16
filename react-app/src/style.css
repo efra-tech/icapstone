@@ -8,12 +8,17 @@
   background-color: #F2F2EC;
 }
 
+footer {
+  background-color: #746B5D;
+  border-bottom: 15px solid #655C4E;
+}
+
 /* Navbar */
 nav {
   background-color: #746B5D;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 500;
@@ -21,10 +26,14 @@ nav {
   text-align: center;
   letter-spacing: -0.28px;
   color: #F2F2EC;
+  border-bottom: 4px solid #655C4E;
+  text-shadow: 1px 2px 4px #594F3E;
+  border-top: 3px solid #847A6B;
 }
 
 nav:hover {
-  color: #7D8B80;
+  color: #99AB45;
+  font-weight: 500;
 }
 
 a {
@@ -36,42 +45,45 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 1.14%;
-  padding-top: 0.7%;
+  padding-right: 1.85%;
+  padding-top: 3%;
   font-size: xx-large;
 }
 
 /* Calender */
 .container-main {
-  padding-right: 0.15rem;
-  padding-left: 0.15rem;
+  background-color: #F2F2EC;
 }
 
-.sc-gLDzan.hFwyWE h1 {
-  color: #3F5749 !important;
-  font-weight: 250;
+.calendar-container {
+  margin-bottom: 5%;
+}
+
+.sc-gLDzan.diNHWo h1 {
+  color: #2A3B37 !important;
+  font-weight: 500;
 }
 
 .sc-iAEyYk.goFHZF:hover {
-  background-color: #2A3B37;
+  background-color: #829F91;
   color: white;
 }
 
 .add-event-btn {
-  float: right;
-  font-size: x-large;
-}
-
-.add-event-btn button {
   color: black;
-  font-size: xx-large;
+  font-size: large;
   border: solid 2px black;
+  border-radius: 7rem;
+  width: 30%;
+  padding: 1.6%;
+  margin-left: 33%;
+  background-color: #F2F2EC;
 }
 
-.add-event-btn button:hover {
-  background-color: rgba(130, 159, 145, 0.53);
+.add-event-btn:hover {
+  background-color: rgba(130, 159, 145, 0.2);
   border: solid 2px gray;
-  color: #746B5D;
+  color: white;
 }
 
 /* Map Page */
@@ -94,4 +106,10 @@ a {
 
 .map input {
   width: 80%;
+}
+
+/* Event Cards */
+.card-details {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

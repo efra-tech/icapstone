@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.message:hover .message-title {
+  animation: tilt-n-move-shaking 5s;
+  font-size: 310%;
+  text-shadow: 3px 5px 1px white;
+}
+
 .homepage {
   background-color: #F2F2EC;
 }
@@ -14,11 +32,10 @@
 
 #banner-title {
   opacity: 100% !important;
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   color: #4B4438;
   font-style: normal;
-  font-weight: 100;
   font-size: 70px;
   line-height: 123px;
   letter-spacing: -0.28px;
@@ -28,11 +45,10 @@
 
 #banner-title-resource {
   opacity: 100%;
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   color: #4B4438;
   font-style: normal;
-  font-weight: 100;
   font-size: 45px;
   line-height: 123px;
   letter-spacing: -0.28px;
@@ -73,25 +89,26 @@ h2 {
 .message-final {
   text-align: center;
   font-size: 5rem;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 1.5rem;
-  margin: 8% 10% 0 10%;;
+  margin: 8% 10% 0 10%;
   font-weight: 600;
 }
 
 .message-title {
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 600;
   color: #829F91;
   text-align: center;
   margin-left: 10%;
   padding-top: 10%;
+  text-shadow: 1px 1px 1px white;
 }
 
 .message-text {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 1.5rem;
   margin-left: 10%;
@@ -101,9 +118,11 @@ h2 {
 
 .resource {
   background-color: #879F91;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 5%;
   margin-top: 10%;
+  border-top: 60px solid #81988b;
+  border-bottom: 60px solid #81988b;
 }
 
 .card {
@@ -111,37 +130,36 @@ h2 {
   border-color: #4B4438;
 }
 
-
-
 a {
   text-decoration: none;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   border-radius: 50%;
   color: #F2F2EC;
-  ;
 }
 
 a:hover {
-color: #7D8B80;
+  color: #99AB45;
+  text-shadow: 0.1px 0.1px 0.1px #99AB45;
 }
 
 .resource-link {
   text-decoration: none;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   border-radius: 50%;
   color: #746B5D;
 }
 
 .resource-link:hover {
-  color: #F2F2EC; 
-  }
+  color: #F2F2EC;
+}
 
 .contact {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: #746B5D;
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
+  border-bottom: 15px solid #655C4E;
 }
 
 @media (max-width: 766px) {
