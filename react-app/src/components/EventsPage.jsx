@@ -1,6 +1,5 @@
 import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
-import { Modal, Form, Button } from "react-bootstrap";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
 import EventCardDeck from './EventCards.jsx';
 

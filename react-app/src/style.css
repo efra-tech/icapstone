@@ -109,7 +109,47 @@ a {
 }
 
 /* Event Cards */
-.card-details {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.cardy {
+  background-color: #2A3B37;
+  color: #F2F2EC;
+  padding-left: 0;
+  width: 30rem;
+  border-top: 3px solid #99AB45;
+}
+
+.details-btn {
+  border: 1px solid #F2F2EC;
+  background-color: #2A3B37;
+  color: #F2F2EC;
+  border-radius: 0.9em;
+  padding: 2.5%;
+  margin-top: 5%;
+}
+
+.details-btn:hover {
+  background-color: rgba(255, 255, 255, 0.122);
+}
+
+.card-drop {
+  background-color: #99AB45;
+  color: white;
+}
+
+.main {
+  width: 50%;
+}
+
+.container-cards {
+  margin-left: 8.5%;
+}
+
+.card-header {
+  border-top: 10px solid #99AB45;
+}
+
+.card-details p {
+  color: #b1b0ad;
+  padding: 1%;
+  margin: 0;
+  margin-left: 1%;
 }
