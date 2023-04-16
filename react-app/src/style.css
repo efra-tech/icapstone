@@ -1,6 +1,7 @@
 /* Full page */
 * {
   box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 
 #body {
@@ -81,9 +82,10 @@ a {
 }
 
 .add-event-btn:hover {
-  background-color: rgba(130, 159, 145, 0.2);
-  border: solid 2px gray;
+  background-color: #99AB45;
+  border: solid 2px #abc04d;
   color: white;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.071);
 }
 
 /* Map Page */
@@ -152,4 +154,66 @@ a {
   padding: 1%;
   margin: 0;
   margin-left: 1%;
+}
+
+/* RSVP Form */
+.modal-body {
+  background-color: #759384;
+  padding: 5%;
+  text-align: center;
+}
+
+.modal-footer {
+  background-color: #746B5D;
+}
+
+.modal-header {
+  background-color: #746B5D;
+  color: #F2F2EC;
+  text-decoration: wavy overline #d9f463;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.form-control {
+  background-color: #F2F2EC;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.cancel-btn, .submit-btn {
+  background-color: #d9f463;
+  color: #2A3B37;
+  border: 1px solid #d9f463;
+}
+
+.cancel-btn {
+  opacity: 80%;
+}
+
+.cancel-btn:hover {
+  background-color: #d9f463;
+  border: 1px solid #3e461c;
+  color: rgb(226, 255, 98);
+}
+
+.submit-btn:hover {
+  border: 1px solid #3e461c;
+  background-color: #d9f463;
+  color: green;
+}
+
+.radios {
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.modal {
+  background-color: #3e461c24;
+}
+
+.form-extra-text {
+  margin-top: 4.2%;
 }
