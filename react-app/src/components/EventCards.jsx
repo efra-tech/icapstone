@@ -9,17 +9,17 @@ export default function EventCardDeck(props){
   return(
     <div className='container-cards row'>
       <div className='d-flex row mb-5'>
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hello'
+        <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hellooo'
+        <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hellooooo'
+        <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='a'
+        <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
         />
       </div>
     </div>
@@ -29,7 +29,7 @@ export default function EventCardDeck(props){
 function EventCard(props){
 
   const [showModal, setShowModal] = useState(false);
-  const [formDetails, setFormDetails] = useState({name: '', email: '', numFriends: ''});
+  const [formDetails, setFormDetails] = useState({name: '', email: '', numFriends: '', notes: ''});
 
   function handleRsvpSubmit(evt){
     console.log('submitted');
@@ -57,12 +57,18 @@ function EventCard(props){
     // formDetails.numFriends = null;
   }
 
+  function handleDetailEntry(evt){
+    const notes = evt.target.value;
+    console.log(notes);
+    // formDetails.notes = notes;
+  }
+
   return(
     <Accordion defaultActiveKey="1" className='p-0 m-0 main'>
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
-            learn more
+            event details
           </CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0" className='card-drop'>
@@ -71,24 +77,21 @@ function EventCard(props){
             <Button className='px-3 details-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
               <Modal.Header closeButton>
-                <Modal.Title>RSVP to {props.name} on {props.date} from {props.time}</Modal.Title>
+                <Modal.Title className='modal-title'>RSVP to {props.name} !!</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Form onSubmit={handleRsvpSubmit}>
                   <Form.Group className="mb-4" controlId="formPersonName">
-                    <Form.Label>Your Full Name</Form.Label>
-                    <Form.Control placeholder="FirstName LastName" onChange={handleNameEntry} />
+                    <Form.Label>First and last name</Form.Label>
+                    <Form.Control placeholder="Enter name" onChange={handleNameEntry} />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Your Email address</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" onChange={handleEmailEntry} />
-                    <Form.Text className="text-muted">
-                      We'll send you a reminder closer to the event.
-                    </Form.Text>
                   </Form.Group>
-                  <Form.Group className="mb-3">
+                  <Form.Group className="mb-3 mt-5">
                     <Form.Label>How many people might you bring?</Form.Label>
-                    <div key={`default-radio`} className="mb-3 px-3">
+                    <div key={`default-radio`} className="mb-3 radios">
                       <Form.Check className="px-4"
                         inline
                         type={'radio'}
@@ -119,13 +122,17 @@ function EventCard(props){
                       />
                     </div>
                   </Form.Group>
+                  <Form.Group className="mb-3 form-extra-text" controlId="form-text-area">
+                    <Form.Label>Questions/Comments/Concerns?</Form.Label>
+                    <Form.Control as="textarea" rows={2} placeholder="Enter them here" onChange={handleDetailEntry} />
+                  </Form.Group>
                 </Form>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={() => setShowModal(false)}>
+                <Button className='cancel-btn' onClick={() => setShowModal(false)}>
                   Cancel
                 </Button>
-                <Button variant="primary" onClick={handleRsvpSubmit}>
+                <Button className='submit-btn' onClick={handleRsvpSubmit}>
                   Save
                 </Button>
               </Modal.Footer>

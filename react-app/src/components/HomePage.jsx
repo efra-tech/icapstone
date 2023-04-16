@@ -65,7 +65,7 @@ export default function HomePage(props) {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="carousel-image">
-              <img className="d-block w-100" src={carousel1} alt="First slide"/>
+              <img className="d-block w-100" src={carousel3} alt="First slide"/>
             </div>
             <div className="container">
               <div className="carousel-caption">
@@ -85,7 +85,7 @@ export default function HomePage(props) {
           </div>
           <div className="carousel-item">
             <div className="carousel-image">
-              <img className="d-block w-100" src={carousel3} alt="Third slide"/>
+              <img className="d-block w-100" src={carousel1} alt="Third slide"/>
             </div>
             <div className="container">
               <div className="carousel-caption">

@@ -15,7 +15,7 @@
 }
 
 .column:hover h2 {
-  color: #99AB45;
+  color: #a5b94c;
 }
 
 .about-us-page {
@@ -64,6 +64,8 @@
 .team-img {
   border-radius: 50%;
   width: 100%;
+  border: 0.9px solid #655C4E;
+  box-shadow: 2px 5px 9px #655C4E;
 }
 
 .team-text {
@@ -76,6 +78,7 @@
   letter-spacing: -0.28px;
   text-transform: capitalize;
   color: #F2F2EC;
+  padding-top: 3%;
 }
 
 .row {

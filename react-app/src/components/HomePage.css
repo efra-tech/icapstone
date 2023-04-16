@@ -151,6 +151,7 @@ a:hover {
 
 .resource-link:hover {
   color: #F2F2EC;
+  text-decoration: wavy overline #d6f062;
 }
 
 .contact {
