@@ -39,7 +39,7 @@ export default function EventsPage(props) {
     }
   ];
   function handleClick(event){
-    window.open('https://media.tenor.com/DbLIdKFZdesAAAAM/hello-hi.gif', '_blank', 'noreferrer');
+    window.open('https://forms.gle/Vz8jnRsiDLjuTh4r8', '_blank', 'noreferrer');
   }
 
   const [showModal, setShowModal] = useState(false);
