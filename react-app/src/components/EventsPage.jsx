@@ -7,8 +7,35 @@ export default function EventsPage(props) {
   let eventsList = [
     {
       name: "Green Goblins Gardening Onboarding",
-      date: Date.now(),
-      allDay: true
+      date: Date.parse('18 April 2023 05:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        text: '9 RSVPs'
+      }
+    },
+    {
+      name: "Green Goblins Gardening Onboarding",
+      date: Date.parse('21 April 2023 04:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        text: '10 RSVPs'
+      }
+    },
+    {
+      name: "Summer Prep Workshop for Kids",
+      date: Date.parse('24 April 2023 10:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        text: '12 RSVPs'
+      }
+    },
+    {
+      name: "Pumkin Harvest at Parlington",
+      date: Date.parse('02 Oct 2023 10:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        text: '9 RSVPs'
+      }
     }
   ];
   function handleClick(event){

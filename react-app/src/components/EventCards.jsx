@@ -9,17 +9,17 @@ export default function EventCardDeck(props){
   return(
     <div className='container-cards row'>
       <div className='d-flex row mb-5'>
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hello'
+        <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hellooo'
+        <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='Hellooooo'
+        <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
         />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 14, 2023' time='5-7pm'
-          desc='a'
+        <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
         />
       </div>
     </div>
