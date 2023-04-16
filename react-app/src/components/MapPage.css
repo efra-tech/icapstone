@@ -25,6 +25,28 @@
     height: 80vh;
 }
 
+.back-button {
+    margin-top: .5rem;
+    margin-left: .5rem;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.card-head {
+    display:flex;
+    overflow-wrap: break-word;
+}
+
+.detailed-card {
+    padding: 2rem;
+    word-break: break-word;
+}
+
 .marker {
     background-image: url('../imgs/mapbox-icon.png');
     background-size: cover;
