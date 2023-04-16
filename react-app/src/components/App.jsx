@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Navbar from './Nav';
@@ -10,6 +10,12 @@ import AboutPage from './AboutPage';
 
 
 export default function App(props) {
+
+  const [showCard, setCard] = useState(false);
+  const [gardenID, setGarden] = useState(0);
+  const [searchTerm, setSearch] = useState("");
+
+
   return (
     <div id='body'>
       <header>
@@ -19,7 +25,8 @@ export default function App(props) {
       <main>
         <Routes>
           <Route path='home' element={ <HomePage /> } />
-          <Route path='map' element={ <MapPage /> } />
+          <Route path='map' element={ 
+            <MapPage showCard={showCard} setCard={setCard} gardenID={gardenID} setGarden={setGarden} searchTerm={searchTerm} setSearch={setSearch} /> } />
           <Route path='events' element={ <EventsPage /> } />
           <Route path='about-us' element={ <AboutPage /> } />
           <Route path='*' element={ <Navigate to='home' /> } />

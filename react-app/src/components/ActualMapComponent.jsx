@@ -19,7 +19,7 @@ const Marker = ({ onClick, children, feature }) => {
     );
   };
 
-const ActualMapComponent = () => {
+const ActualMapComponent = (props) => {
     const mapContainerRef = useRef(null);
   
     // Initialize map when component mounts
@@ -27,8 +27,8 @@ const ActualMapComponent = () => {
       const map = new mapboxgl.Map({
         container: mapContainerRef.current,
         style: "mapbox://styles/mapbox/streets-v12",
-        center: [-122.330062, 47.6038321],
-        zoom: 12.5,
+        center: props.center[0],
+        zoom: props.center[1],
       });
   
       map.on("load", function () {
