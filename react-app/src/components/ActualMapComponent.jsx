@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from 'mapbox-gl';
 import "./MapPage.css";
 import geoJson from "../data/seattle-farms-complete.json";
 import markerImage from "../imgs/marker.png";
+
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 

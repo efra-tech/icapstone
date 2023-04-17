@@ -164,7 +164,7 @@ export default function HomePage(props) {
         <br></br>
         University of Washington Capstone 2023
         <br></br>
-        © 2023</p>
+        ©2023</p>
       </div>
     </div>
   );
