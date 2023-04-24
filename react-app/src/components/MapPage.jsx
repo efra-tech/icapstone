@@ -11,6 +11,30 @@ export default function MapPage(props) {
   const [center, setCenter] = useState([[-122.330062, 47.6038321], 12.5])
   const [mapRefresh, setMapRefresh] = React.useState(0);
 
+  const [selectedGardens, setSelectedGardens] = useState([]);
+  let [bipocSelected, setBIPOC] = useState(false);
+  let [pPatchSelected, setPPatch] = useState(false);
+
+    useEffect(()=>{
+
+      const gardensFiltered = geoJson.features.filter(garden => 
+        (bipocSelected && garden.properties["BIPOC-Owned"] == 1) ||
+        (pPatchSelected && garden.properties["Garden Website"].toLowerCase().includes("p-patch") ||
+        pPatchSelected && garden.properties["Affiliated Community Contact"].toLowerCase().includes("p-patch") ||
+        pPatchSelected && garden.properties["Urban Garden Name"].toLowerCase().includes("p-patch")) ||
+        (!bipocSelected && !pPatchSelected));
+      setSelectedGardens(gardensFiltered);
+    }, [geoJson.features, bipocSelected, pPatchSelected])
+
+  const handleBIPOC = () => {
+    setBIPOC(!bipocSelected);
+    setPPatch(pPatchSelected = false);
+  };
+  const handlePPatch = () => {
+    setPPatch(!pPatchSelected);
+    setBIPOC(bipocSelected = false);
+  };
+
   return (
     <div>
       <div className="row">
@@ -23,7 +47,13 @@ export default function MapPage(props) {
           <div className='map map-panel'>
             <div>
               <input className='p-2 m-5' type="text" placeholder="Search..." onChange={event => {props.setSearch(event.target.value)}}/>
-              {!props.showCard && <MapCardDeck setCard={props.setCard} setGarden={props.setGarden} searchTerm={props.searchTerm} setCenter={setCenter} setMapRefresh={setMapRefresh} />}
+              {!props.showCard && <button className={bipocSelected ? "clicked" : "notClicked"} onClick={handleBIPOC} style={{
+                backgroundColor: bipocSelected ? '#655C4E' : 'white',
+              }}>BIPOC-Owned Gardens</button>}
+              {!props.showCard && <button className={pPatchSelected ? "clicked" : "notClicked"} onClick={handlePPatch} style={{
+                backgroundColor: pPatchSelected ? '#655C4E' : 'white',
+              }}>P-Patches</button>}
+              {!props.showCard && <MapCardDeck setCard={props.setCard} setGarden={props.setGarden} searchTerm={props.searchTerm} setCenter={setCenter} setMapRefresh={setMapRefresh} selectedGardens={selectedGardens}/>}
               {props.showCard && <DetailedCard setCard={props.setCard} setGarden={props.setGarden} gardenID={props.gardenID} />}
             </div>
           </div>
@@ -94,13 +124,15 @@ function MapComponent(props) {
 function MapCardDeck(props){
   return (
     <div className="sidebar2">
-      {geoJson.features.filter((garden) => {
+      {props.selectedGardens.filter((garden) => {
         if (props.searchTerm == "") {
           return garden
-        } else if (garden.properties["Urban Garden Name"].toLowerCase().includes(props.searchTerm.toLowerCase())) {
+        } else if (garden.properties["Urban Garden Name"].toLowerCase().includes(props.searchTerm.toLowerCase()) || 
+                    garden.properties["Street Address"].toLowerCase().includes(props.searchTerm.toLowerCase()) ||
+                    garden.properties["Phone"].toLowerCase().includes(props.searchTerm.toLowerCase())) {
           return garden
         }
-      }).map((garden) => {
+      }).map((garden) => {  
         return (
           <div role="button" onClick={() => {props.setCard(true); props.setGarden(garden.properties["ID"]); props.setCenter([garden.geometry["coordinates"], 15]); props.setMapRefresh(key => key + 1)}}>
             <MapCard key={garden.properties["ID"]}

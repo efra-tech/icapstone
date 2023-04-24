@@ -63,3 +63,18 @@
     border-top: 0px;
     border-bottom: 0px;
 }
+
+.clicked {
+    margin: 0rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    border: .1rem solid black;
+}
+
+.notClicked {
+    margin: 0rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: .1rem solid black;
+}
