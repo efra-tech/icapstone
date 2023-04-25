@@ -51,11 +51,20 @@ a {
   font-size: xx-large;
 }
 
-/* Calender */
+/* Get Involved Page */
 .container-main {
   background-color: #F2F2EC;
 }
 
+/* card carousal */
+.card-carousal {
+  margin-bottom: 7%;
+  margin-top: 7%;
+  margin-right: 0.3%;
+  margin-left: 0.3%;
+}
+
+/* calendar */
 .calendar-container {
   margin-bottom: 5%;
 }
@@ -123,6 +132,7 @@ a {
   padding-left: 0;
   width: 30rem;
   border-top: 3px solid #99AB45;
+  margin-right: 5%;
 }
 
 .details-btn {
@@ -143,16 +153,13 @@ a {
   color: white;
 }
 
-.main {
+.mainy {
   width: 50%;
-}
-
-.container-cards {
-  margin-left: 8.5%;
 }
 
 .card-header {
   border-top: 10px solid #99AB45;
+  height: 18rem;
 }
 
 .card-details p {
