@@ -1,9 +1,9 @@
 import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
-import EventCardDeck from './EventCards.jsx';
-import CardCarousel from '@homeaway/react-card-carousel';
-
+import EventCard from './EventCards.jsx';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export default function EventsPage(props) {
   const rsvpIconStr = "M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09           4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z";
@@ -46,9 +46,33 @@ export default function EventsPage(props) {
       }
     }
   ];
+
   function handleClick(event){
     window.open('https://forms.gle/Vz8jnRsiDLjuTh4r8', '_blank', 'noreferrer');
   }
+
+  // carousal screen-size response
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1
+    }
+  };
 
   const [showModal, setShowModal] = useState(false);
   const [description, setDescription] = useState("");
@@ -98,41 +122,37 @@ export default function EventsPage(props) {
     }
   };
 
-  // calender styling:
-  /// width of side panels
-  /// border size
-  /// indicator color
-  /// color schema
-
-  function handleEventClick(evt, index){
-    console.log(evt.currentTarget);
-    console.log(index);
-  }
-
   return (
     <div className='container-main mt-5'>
       <div>
-        <CardCarousel
-          actionText={'See More'}
-          actionHref={'https://www.homeaway.com'}
-          actionHrefTarget={'_blank'}
-          breakpoints={{
-              '820': 4,
-              '540': 3,
-              '0': 2
-          }}
-          cardIndex={this.state.index}
-          getControlOffset={this.getControlOffset(this.aspectRatio)}
-          onActionClick={this.actionClick}
-          onNextClick={this.handlePrevNext}
-          onPreviousClick={this.handlePrevNext}
-          nextLabel={'Next'}
-          paging
-          previousLabel={'Previous'}
-          title={'Secondary Action Carousel'}
+        <Carousel
+          responsive={responsive}
+          centerMode={true}
+          swipeable={true}
+          draggable={true}
+          focusOnSelect={true}
+          keyBoardControl={true}
+          customTransition="all .5"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style"
+          className="card-carousal"
         >
-                {<EventCardDeck />}
-        </CardCarousel>
+          <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
+          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
+          />
+          <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+          />
+          <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
+          />
+          <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
+          />
+          <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
+          />
+        </Carousel>
       </div>
       <div className='calendar-container lead'>
         <div className='btn-container' style={{backgroundColor: "#2A3B37"}}>

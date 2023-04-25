@@ -5,28 +5,28 @@ import Card from 'react-bootstrap/Card';
 import { Modal, Form, Button } from "react-bootstrap";
 
 
-export default function EventCardDeck(props){
-  return(
-    <div className='container-cards row'>
-      <div className='d-flex row mb-5'>
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
-        />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
-        />
-        <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
-        />
-        <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
-        />
-      </div>
-    </div>
-  );
-}
+// export default function EventCardDeck(props){
+//   return(
+//     <div className='container-cards row'>
+//       <div className='d-flex row mb-5'>
+//         <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
+//           desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
+//         />
+//         <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
+//           desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+//         />
+//         <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
+//           desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
+//         />
+//         <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+//           desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
+//         />
+//       </div>
+//     </div>
+//   );
+// }
 
-function EventCard(props){
+export default function EventCard(props){
 
   const [showModal, setShowModal] = useState(false);
   const [formDetails, setFormDetails] = useState({name: '', email: '', numFriends: '', notes: ''});
@@ -64,7 +64,7 @@ function EventCard(props){
   }
 
   return(
-    <Accordion defaultActiveKey="1" className='p-0 m-0 main'>
+    <Accordion defaultActiveKey="1" className='p-0 m-0 mainy'>
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
@@ -74,7 +74,7 @@ function EventCard(props){
         <Accordion.Collapse eventKey="0" className='card-drop'>
           <Card.Body>
             <p>{props.desc}</p>
-            <Button className='px-3 details-btn' onClick={handleClick}>RSVP</Button>
+            <Button className='px-3 rsvp-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
               <Modal.Header closeButton>
                 <Modal.Title className='modal-title'>RSVP to {props.name} !!</Modal.Title>
