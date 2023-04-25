@@ -111,30 +111,14 @@ export default function HomePage(props) {
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
-                  <a className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
-                  <a className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
                 </div>
               </div>
             </div>
@@ -143,14 +127,30 @@ export default function HomePage(props) {
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
-                <a className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
-                <a className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                <a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                <a target="_blank" rel="noreferrer" className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
                 </div>
               </div>
             </div>

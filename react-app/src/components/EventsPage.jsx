@@ -2,12 +2,14 @@ import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
 import EventCardDeck from './EventCards.jsx';
+// import CardCarousel from '@homeaway/react-card-carousel';
+
 
 export default function EventsPage(props) {
   let eventsList = [
     {
       name: "Green Goblins Gardening Onboarding",
-      date: Date.parse('18 April 2023 05:00:00 GMT-7'),
+      date: Date.parse('18 April 2023 17:00:00 GMT-7'),
       allDay: false,
       extra: {
         text: '9 RSVPs'
@@ -15,7 +17,7 @@ export default function EventsPage(props) {
     },
     {
       name: "Green Goblins Gardening Onboarding",
-      date: Date.parse('21 April 2023 04:00:00 GMT-7'),
+      date: Date.parse('21 April 2023 16:00:00 GMT-7'),
       allDay: false,
       extra: {
         text: '10 RSVPs'
@@ -90,31 +92,67 @@ export default function EventsPage(props) {
     }
   };
 
+  // calender styling:
+  /// width of side panels
+  /// border size
+  /// indicator color
+  /// color schema
+
   return (
     <div className='container-main mt-5'>
       <EventCardDeck />
+      {/* <div>
+        <CardCarousel
+          actionText={'See More'}
+          actionHref={'https://www.homeaway.com'}
+          actionHrefTarget={'_blank'}
+          breakpoints={{
+              '820': 4,
+              '540': 3,
+              '0': 2
+          }}
+          cardIndex={this.state.index}
+          getControlOffset={this.getControlOffset(this.aspectRatio)}
+          onActionClick={this.actionClick}
+          onNextClick={this.handlePrevNext}
+          onPreviousClick={this.handlePrevNext}
+          nextLabel={'Next'}
+          paging
+          previousLabel={'Previous'}
+          title={'Secondary Action Carousel'}
+        >
+                {<EventCardDeck />}
+        </CardCarousel>
+      </div> */}
       <div className='calendar-container lead'>
+        <div className='btn-container' style={{backgroundColor: "#2A3B37"}}>
+          <button className='mb-5 add-event-btn' onClick={handleClick}>Submit an Event</button>
+        </div>
         <RevoCalendar
           events={eventsList}
           style={{
             borderRadius: "1px",
-            border: "5px solid #2A3B37",
+            borderRight: "50px solid #2A3B37",
+            borderLeft: "50px solid #2A3B37",
+            borderTop: "60px solid #2A3B37",
+            borderBottom: "200px solid #2A3B37",
+            height: "59vw"
           }}
           highlightToday={true}
           lang="en"
-          primaryColor="#2A3B37"
-          secondaryColor="#CCD4D0"
+          primaryColor="#283834"
+          secondaryColor="#f1f4e3"
           todayColor="#829F91"
           textColor="#333333"
-          indicatorColor="#F5F5F5"
+          indicatorColor="#FF6720"
           animationSpeed={
             300
           }
           sidebarWidth={
-            180
+            200
           }
           detailWidth={
-            280
+            480
           }
           showDetailToggler={
             true
@@ -143,9 +181,6 @@ export default function EventsPage(props) {
           detailDateFormat="DD/MM/YYYY"
         />
       </div>
-      <footer className='pt-5'>
-        <button className='mb-5 add-event-btn' onClick={handleClick}>Submit an Event</button>
-      </footer>
     </div>
   );
 }
