@@ -2,16 +2,19 @@ import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
 import EventCardDeck from './EventCards.jsx';
-// import CardCarousel from '@homeaway/react-card-carousel';
+import CardCarousel from '@homeaway/react-card-carousel';
 
 
 export default function EventsPage(props) {
+  const rsvpIconStr = "M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09           4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z";
+
   let eventsList = [
     {
       name: "Green Goblins Gardening Onboarding",
       date: Date.parse('18 April 2023 17:00:00 GMT-7'),
       allDay: false,
       extra: {
+        icon: rsvpIconStr,
         text: '9 RSVPs'
       }
     },
@@ -20,6 +23,7 @@ export default function EventsPage(props) {
       date: Date.parse('21 April 2023 16:00:00 GMT-7'),
       allDay: false,
       extra: {
+        icon: rsvpIconStr,
         text: '10 RSVPs'
       }
     },
@@ -28,6 +32,7 @@ export default function EventsPage(props) {
       date: Date.parse('24 April 2023 10:00:00 GMT-7'),
       allDay: false,
       extra: {
+        icon: rsvpIconStr,
         text: '12 RSVPs'
       }
     },
@@ -36,6 +41,7 @@ export default function EventsPage(props) {
       date: Date.parse('02 Oct 2023 10:00:00 GMT-7'),
       allDay: false,
       extra: {
+        icon: rsvpIconStr,
         text: '9 RSVPs'
       }
     }
@@ -98,10 +104,14 @@ export default function EventsPage(props) {
   /// indicator color
   /// color schema
 
+  function handleEventClick(evt, index){
+    console.log(evt.currentTarget);
+    console.log(index);
+  }
+
   return (
     <div className='container-main mt-5'>
-      <EventCardDeck />
-      {/* <div>
+      <div>
         <CardCarousel
           actionText={'See More'}
           actionHref={'https://www.homeaway.com'}
@@ -123,7 +133,7 @@ export default function EventsPage(props) {
         >
                 {<EventCardDeck />}
         </CardCarousel>
-      </div> */}
+      </div>
       <div className='calendar-container lead'>
         <div className='btn-container' style={{backgroundColor: "#2A3B37"}}>
           <button className='mb-5 add-event-btn' onClick={handleClick}>Submit an Event</button>
@@ -132,8 +142,8 @@ export default function EventsPage(props) {
           events={eventsList}
           style={{
             borderRadius: "1px",
-            borderRight: "50px solid #2A3B37",
-            borderLeft: "50px solid #2A3B37",
+            borderRight: "57px solid #2A3B37",
+            borderLeft: "57px solid #2A3B37",
             borderTop: "60px solid #2A3B37",
             borderBottom: "200px solid #2A3B37",
             height: "59vw"
@@ -160,6 +170,12 @@ export default function EventsPage(props) {
           showSidebarToggler={
             true
           }
+          sidebarDefault={
+            false
+          }
+          detailDefault={
+            true
+          }
           onePanelAtATime={
             false
           }
@@ -173,12 +189,12 @@ export default function EventsPage(props) {
             true
           }
           timeFormat24={
-            true
+            false
           }
           showAllDayLabel={
             true
           }
-          detailDateFormat="DD/MM/YYYY"
+          detailDateFormat="dddd, MMMM nth"
         />
       </div>
     </div>

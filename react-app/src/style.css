@@ -61,7 +61,7 @@ a {
 }
 
 .sc-gLDzan.cWoErk h1 {
-  color: #2A3B37 !important;
+  color: #293935 !important;
   font-weight: 500;
 }
 
@@ -73,7 +73,7 @@ a {
 .add-event-btn {
   color: black;
   font-size: large;
-  border: solid 2px black;
+  border: solid 2px #bad155;
   border-radius: 7rem;
   width: 30%;
   padding: 1.6%;
