@@ -128,11 +128,12 @@ export default function EventsPage(props) {
         <Carousel
           responsive={responsive}
           centerMode={true}
-          // focusOnSelect={true}
-          infinite={true}          //do we want infinite?
+          swipeable={true}
+          draggable={true}
+          focusOnSelect={true}
           keyBoardControl={true}
           customTransition="all .5"
-          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
           className="card-carousal"
         >
@@ -144,6 +145,9 @@ export default function EventsPage(props) {
           />
           <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
             desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
+          />
+          <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
           />
           <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
             desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'

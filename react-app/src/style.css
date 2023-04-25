@@ -60,8 +60,8 @@ a {
 .card-carousal {
   margin-bottom: 7%;
   margin-top: 7%;
-  margin-right: 0.3%;
-  margin-left: 0.3%;
+  margin-right: 2.4%;
+  margin-left: 2.4%;
 }
 
 /* calendar */
@@ -130,22 +130,27 @@ a {
   background-color: #2A3B37;
   color: #F2F2EC;
   padding-left: 0;
-  width: 30rem;
   border-top: 3px solid #99AB45;
   margin-right: 5%;
+  width: 19rem;
 }
 
-.details-btn {
+.details-btn, .rsvp-btn {
   border: 1px solid #F2F2EC;
   background-color: #2A3B37;
   color: #F2F2EC;
   border-radius: 0.9em;
   padding: 2.5%;
-  margin-top: 5%;
+  margin-top: 15%;
+  margin-left: 88%;
 }
 
-.details-btn:hover {
-  background-color: rgba(255, 255, 255, 0.122);
+.rsvp-btn {
+  margin-left: 70%;
+}
+
+.details-btn:hover, .rsvp-btn:hover {
+  background-color: rgba(255, 255, 255, 0.285);
 }
 
 .card-drop {
@@ -159,12 +164,14 @@ a {
 
 .card-header {
   border-top: 10px solid #99AB45;
-  height: 18rem;
+  height: 20rem;
+  width: 19rem;
 }
 
 .card-details p {
   color: #b1b0ad;
-  padding: 1%;
+  padding-left: 1%;
+  padding-top: 5%;
   margin: 0;
   margin-left: 1%;
 }

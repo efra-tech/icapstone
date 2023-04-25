@@ -74,7 +74,7 @@ export default function EventCard(props){
         <Accordion.Collapse eventKey="0" className='card-drop'>
           <Card.Body>
             <p>{props.desc}</p>
-            <Button className='px-3 details-btn' onClick={handleClick}>RSVP</Button>
+            <Button className='px-3 rsvp-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
               <Modal.Header closeButton>
                 <Modal.Title className='modal-title'>RSVP to {props.name} !!</Modal.Title>
