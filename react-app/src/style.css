@@ -56,12 +56,15 @@ a {
   background-color: #F2F2EC;
 }
 
-/* card carousal */
-.card-carousal {
-  margin-bottom: 7%;
-  margin-top: 7%;
-  margin-right: 2.4%;
-  margin-left: 2.4%;
+h1.events-subtitle {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  color: #746B5D;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 123px;
+  letter-spacing: -0.28px;
+  padding-left: 4%;
 }
 
 /* calendar */

@@ -1,8 +1,8 @@
 import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
-import EventCard from './EventCards.jsx';
-import Carousel from 'react-multi-carousel';
+import EventCardDeck from './EventCards.jsx';
+import EventImg from '../imgs/event-banner.png';
 import 'react-multi-carousel/lib/styles.css';
 
 export default function EventsPage(props) {
@@ -123,36 +123,11 @@ export default function EventsPage(props) {
   };
 
   return (
-    <div className='container-main mt-5'>
-      <div>
-        <Carousel
-          responsive={responsive}
-          centerMode={true}
-          swipeable={true}
-          draggable={true}
-          focusOnSelect={true}
-          keyBoardControl={true}
-          customTransition="all .5"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style"
-          className="card-carousal"
-        >
-          <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
-          />
-          <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
-          />
-          <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
-          />
-          <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
-          />
-          <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
-          />
-        </Carousel>
+    <div className='container-main mt-5 mt-0'>
+      <img src={EventImg} alt='' style={{paddingBottom: '3rem'}} />
+      <div className='col'>
+          <h1 className='events-subtitle'>Upcoming Events</h1>
+          <EventCardDeck />
       </div>
       <div className='calendar-container lead'>
         <div className='btn-container' style={{backgroundColor: "#2A3B37"}}>
