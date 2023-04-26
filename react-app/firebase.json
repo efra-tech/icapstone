@@ -1,7 +1,4 @@
 {
-  "storage": {
-    "rules": "storage.rules"
-  },
   "hosting": {
     "public": "build",
     "ignore": [
@@ -15,5 +12,8 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }
