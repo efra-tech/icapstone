@@ -2,7 +2,6 @@ import { React, useState, useEffect } from 'react';
 import RevoCalendar from 'revo-calendar';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
 import EventCardDeck from './EventCards.jsx';
-import EventImg from '../imgs/event-banner.png';
 import 'react-multi-carousel/lib/styles.css';
 
 export default function EventsPage(props) {
@@ -123,33 +122,37 @@ export default function EventsPage(props) {
   };
 
   return (
-    <div className='container-main mt-5 mt-0'>
-      <img src={EventImg} alt='' style={{paddingBottom: '3rem'}} />
-      <div className='col'>
-          <h1 className='events-subtitle'>Upcoming Events</h1>
+    <div className='container-main'>
+      <div className='event-banner'></div>
+      <div className=''>
+          <div className='d-flex my-3'>
+            <h1 className='events-subtitle'>Upcoming Events</h1>
+            <button className='add-event-btn' onClick={handleClick}>Submit an event</button>
+          </div>
           <EventCardDeck />
       </div>
       <div className='calendar-container lead'>
-        <div className='btn-container' style={{backgroundColor: "#2A3B37"}}>
-          <button className='mb-5 add-event-btn' onClick={handleClick}>Submit an Event</button>
-        </div>
+        <h1 className='events-subtitle'>Calendar</h1>
         <RevoCalendar
           events={eventsList}
           style={{
             borderRadius: "1px",
-            borderRight: "57px solid #2A3B37",
-            borderLeft: "57px solid #2A3B37",
-            borderTop: "60px solid #2A3B37",
-            borderBottom: "200px solid #2A3B37",
-            height: "59vw"
+            borderRight: "60px solid #2A3B37",
+            borderLeft: "60px solid #2A3B37",
+            borderTop: "150px solid #2A3B37",
+            borderBottom: "150px solid #2A3B37",
+            marginBottom: "0",
+            paddingBottom: "0",
+            height: "59vw",
+            fontFamily: 'Fraunces, serif'
           }}
           highlightToday={true}
           lang="en"
-          primaryColor="#283834"
+          primaryColor="#829F91"
           secondaryColor="#f1f4e3"
           todayColor="#829F91"
           textColor="#333333"
-          indicatorColor="#FF6720"
+          indicatorColor="#FF6820"
           animationSpeed={
             300
           }
@@ -191,6 +194,14 @@ export default function EventsPage(props) {
           }
           detailDateFormat="dddd, MMMM nth"
         />
+      </div>
+      <div className="contact" style={{marginTop: "0"}}>
+        <h3 className="contact-title text-white">Contact us!</h3>
+        <p className="text-white">teammuse@gmail.com
+        <br></br>
+        University of Washington Capstone 2023
+        <br></br>
+        ©2023</p>
       </div>
     </div>
   );

@@ -3,24 +3,48 @@ import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
 import { Modal, Form, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function EventCardDeck(props){
+
+  const [angleBtnDown, setAngleBtn] =  useState(true);
+  const [cardStackClass, setCardStackClass] = useState(' hide-card')
+
+  function handleAngleClick(evt){
+    if(angleBtnDown === true){
+      setAngleBtn(false);
+      setCardStackClass(' show-card');
+    } else {
+      setAngleBtn(true);
+      setCardStackClass(' hide-card');
+    }
+  }
+
+  let angleTransformClass = 'scale(1.5,1)';
+  if(angleBtnDown === false){
+    angleTransformClass = 'scale(1.5,1) rotate(180deg)'
+  }
+
   return(
     <div className='container-cards'>
-      <div className='d-flex mb-5' style={{backgroundColor: '#BDC8BF', paddingBottom: '7%', paddingTop: '7%'}}>
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
-        />
-        <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
-        />
-        <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
-        />
-        <EventCard name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
-          desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
-        />
+      <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
+        <div className='d-flex row'>
+          <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
+          />
+          <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+          />
+          <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
+          />
+          <EventCard hideClass={cardStackClass} name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
+            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
+          />
+        </div>
+        <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>
       </div>
     </div>
   );
@@ -64,7 +88,7 @@ function EventCard(props){
   }
 
   return(
-    <Accordion defaultActiveKey="1" className='p-0 m-0 mainy'>
+    <Accordion defaultActiveKey="1" className={'mx-4 ml-4 col-md-9 my-2' + (props.hideClass && props.hideClass)} style={{width: "25rem"}}>
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
