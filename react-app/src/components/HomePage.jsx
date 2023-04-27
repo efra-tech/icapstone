@@ -104,63 +104,11 @@ export default function HomePage(props) {
         </button>
       </div>
 
-      <div className="resource">
-        <div className="resource-title p-5 text-left text-black">
-          <h2 id="banner-title-resource">Additional Resources</h2>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                <a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                <a target="_blank" rel="noreferrer" className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <div className="contact">
         <h3 className="contact-title text-white">Contact us!</h3>
-        <p className="text-white">teammuse@gmail.com
+        <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
         University of Washington Capstone 2023
         <br></br>

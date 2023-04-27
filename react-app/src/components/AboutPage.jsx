@@ -14,38 +14,99 @@ export default function AboutPage(props) {
   return (
     <div className='about-us-page'>
       <div className="header-img p-5 text-left text-black"></div>
-      <div className='section-header'>
+      <div className='section-header' id="header-txt">
         <h1>Our Mission</h1>
       </div>
       <div className='section-body'>
         <p>Welcome to GardenSpace! </p>
         <p> </p>
-        <p>We are a group of Informatics students at the University of Washington dedicated to contributing to our local BIPOC
-        community gardens. Through this web application, we hope to provide BIPOC urban gardeners, whether new or experienced,
-        with a way to stay connected with their local gardens and farms. GardenSpace aims to connect users with their gardens
-        by alerting them about events, giving information about local organizations, or to highlight education opportunities.
-        We want to get you gardening with a community you love.</p>
+        <p>A web application developed by a group of Informatics students from the University of Washington. As part of our 
+          2023 Capstone project, we've created GardenSpace with the aim of supporting BIPOC (Black, Indigenous, People of Color) 
+          urban gardeners and promoting sustainable agriculture in our local communities. Our team is committed to empowering 
+          gardeners of all levels by providing a centralized platform for discovering gardening events, connecting with local 
+          organizations, and accessing resources. Whether you're a seasoned gardener or just starting out, GardenSpace is 
+          here to help you grow your green thumb and discover community in nature.</p>
         <p> </p>
         <p>Find and cultivate yourself in nature with Garden Space!</p>
       </div>
       <div className='section-header'>
-        <h1>Why this Matters</h1>
+        <h1>Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
-        <p>Community is an important aspect of not only fostering lifelong friendships, passion for gardening, and learning,
-        but also for empowerment among people who may face food insecurity or systemic oppression.</p>
-        <p> </p>
-        <p>The folks at GardenSpace strongly believe that community-building and creating spaces for people to work together
-        is how we move forward. Gardening has long had a liberating and radical history; we want to ensure this history
-        continues by providing spaces of access for new gardeners to get involved and feel supported.</p>
+        <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 
+          1960s. Back then, community gardens began to sprout up in urban areas as a way to combat poverty and food insecurity. 
+          However, not all communities were able to access these resources, and BIPOC folks in particular faced systemic barriers 
+          to accessing land and resources. In response, the 1980s and 1990s saw the emergence of organizations like Seattle Tilth 
+          and Got Green, which were led by BIPOC community members and sought to empower their communities through sustainable 
+          agriculture and environmental justice. Nowadays, groups like the Black Farmers Collective and Urban Farm Collective 
+          continue to build upon this legacy by growing fresh, healthy produce and advocating for food justice in Seattle. 
+          The BIPOC urban gardening community is a vibrant and important part of Seattle's social and environmental fabric.</p>
       </div>
       <div className='section-header'>
-        <h1>Future Vision</h1>
+        <h1>Why This Matters</h1>
       </div>
       <div className='section-body'>
-        <p>We hope that our solution will encourage new and experienced BIPOC urban gardeners alike to come together to form
-        valuable bonds as well as participate in an exchange of knowledge and shared love for gardening. We can't wait to
-        see what you grow. </p>
+        <p>Community-building is a crucial component of the BIPOC urban gardening movement in Seattle. By fostering connections 
+          between individuals who may face food insecurity or systemic oppression, gardening can empower communities and create 
+          a sense of belonging. GardenSpace recognizes the importance of community-building and is committed to providing spaces 
+          where new gardeners can get involved, feel supported, and make lifelong connections. Gardening has a long radical 
+          history of liberation, and GardenSpace aims to continue this tradition by creating access points for individuals to 
+          join the BIPOC urban gardening community in Seattle. Through community-building and support, GardenSpace hopes to 
+          empower individuals and promote a more just and equitable food system in the city. It is only through the support 
+          of our community that we may create a brighter future for us all!</p>
+      </div>
+      <div className="resource">
+        <div className="resource-title p-5 text-left text-black">
+          <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                <a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card btn">
+                <div className="card-body" className="d-grid gap-2">
+                <a target="_blank" rel="noreferrer" className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <section className='meet-the-team-section'>
         <div className='section-header meet-the-team-header'>

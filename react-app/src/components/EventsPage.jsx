@@ -197,7 +197,7 @@ export default function EventsPage(props) {
       </div>
       <div className="contact" style={{marginTop: "0"}}>
         <h3 className="contact-title text-white">Contact us!</h3>
-        <p className="text-white">teammuse@gmail.com
+        <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
         University of Washington Capstone 2023
         <br></br>
