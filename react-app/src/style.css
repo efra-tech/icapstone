@@ -56,24 +56,41 @@ a {
   background-color: #F2F2EC;
 }
 
+.event-banner {
+  background-image: url('./imgs/event-banner.png');
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+}
+
 h1.events-subtitle {
   font-family: 'Fraunces', serif;
   font-weight: 600;
   color: #746B5D;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.4rem;
   line-height: 123px;
   letter-spacing: -0.28px;
   padding-left: 4%;
 }
 
-/* calendar */
-.calendar-container {
-  margin-bottom: 5%;
+.angle-btn {
+  border: none;
+  background: transparent;
+  padding-left: 0.09%;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 4%;
 }
 
+.angle-btn:hover {
+  background-color: rgba(255, 255, 255, 0.184);
+}
+
+/* calendar */
 .sc-gLDzan.cWoErk h1 {
-  color: #293935 !important;
+  color: #2A3B37 !important;
   font-weight: 500;
 }
 
@@ -83,27 +100,25 @@ h1.events-subtitle {
 }
 
 .add-event-btn {
-  color: black;
+  color: white;
   font-size: large;
-  border: solid 2px #bad155;
+  border: solid 2.5px #BDC8BF;
   border-radius: 7rem;
-  width: 30%;
-  padding: 1.6%;
-  margin-left: 33%;
-  background-color: #F2F2EC;
+  width: 14%;
+  height: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 47%;
+  background: #2D3935;
+  margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .add-event-btn:hover {
   background-color: #99AB45;
-  border: solid 2px #abc04d;
+  border: solid 2.5px #BDC8BF;
   color: white;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.071);
-}
-
-.btn-container {
-  padding-top: 7%;
-  padding-bottom: 3%;
-  border-top: 9px solid #23322f;
 }
 
 /* Map Page */
@@ -129,13 +144,20 @@ h1.events-subtitle {
 }
 
 /* Event Cards */
+.row {
+  width: 100%;
+  padding-right: 4%;
+  padding-left: 0.2%;
+  justify-content: space-between;
+}
+
 .cardy {
   background-color: #2A3B37;
   color: #F2F2EC;
   padding-left: 0;
   border-top: 3px solid #99AB45;
   margin-right: 5%;
-  width: 19rem;
+  width: 27rem;
 }
 
 .details-btn, .rsvp-btn {
@@ -144,12 +166,20 @@ h1.events-subtitle {
   color: #F2F2EC;
   border-radius: 0.9em;
   padding: 2.5%;
-  margin-top: 15%;
-  margin-left: 88%;
+  margin-top: 8%;
+  margin-left: 0.4%;
+}
+
+.hide-card {
+  display: none;
+}
+
+.show-card {
+  display: block;
 }
 
 .rsvp-btn {
-  margin-left: 70%;
+  margin-left: 78%;
 }
 
 .details-btn:hover, .rsvp-btn:hover {
@@ -162,13 +192,14 @@ h1.events-subtitle {
 }
 
 .mainy {
-  width: 50%;
+  width: 1%;
 }
 
 .card-header {
   border-top: 10px solid #99AB45;
-  height: 20rem;
-  width: 19rem;
+  height: 17rem;
+  width: 27rem;
+  margin: 0;
 }
 
 .card-details p {
