@@ -33,27 +33,35 @@ export default function AboutPage(props) {
         <h1>Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
-        <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 
-          1960s. Back then, community gardens began to sprout up in urban areas as a way to combat poverty and food insecurity. 
-          However, not all communities were able to access these resources, and BIPOC folks in particular faced systemic barriers 
-          to accessing land and resources. In response, the 1980s and 1990s saw the emergence of organizations like Seattle Tilth 
-          and Got Green, which were led by BIPOC community members and sought to empower their communities through sustainable 
-          agriculture and environmental justice. Nowadays, groups like the Black Farmers Collective and Urban Farm Collective 
-          continue to build upon this legacy by growing fresh, healthy produce and advocating for food justice in Seattle. 
-          The BIPOC urban gardening community is a vibrant and important part of Seattle's social and environmental fabric.</p>
+        <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 1960s. 
+          Back then, community gardens began to sprout up in urban areas as a way to combat poverty and food insecurity. However, 
+          not all communities were able to access these resources, and BIPOC folks in particular faced systemic barriers to accessing 
+          land and resources. In response, the 1980s and 1990s saw the emergence of organizations like Seattle Tilth (now Tilth Alliance), 
+          which were led by BIPOC community members and sought to empower their communities through sustainable agriculture and environmental 
+          justice. Nowadays, groups like the Black Farmers Collective and Got Green continue to build upon this legacy by growing fresh, 
+          healthy produce and advocating for food justice in Seattle. The BIPOC urban gardening community is a vibrant and important part of 
+          Seattle's social and environmental fabric.
+      </p>
       </div>
       <div className='section-header'>
         <h1>Why This Matters</h1>
       </div>
       <div className='section-body'>
-        <p>Community-building is a crucial component of the BIPOC urban gardening movement in Seattle. By fostering connections 
-          between individuals who may face food insecurity or systemic oppression, gardening can empower communities and create 
-          a sense of belonging. GardenSpace recognizes the importance of community-building and is committed to providing spaces 
-          where new gardeners can get involved, feel supported, and make lifelong connections. Gardening has a long radical 
-          history of liberation, and GardenSpace aims to continue this tradition by creating access points for individuals to 
-          join the BIPOC urban gardening community in Seattle. Through community-building and support, GardenSpace hopes to 
-          empower individuals and promote a more just and equitable food system in the city. It is only through the support 
-          of our community that we may create a brighter future for us all!</p>
+        <p>Community-building is a crucial component of the BIPOC urban gardening movement in Seattle, and it plays an important role in 
+          promoting health and well-being for BIPOC folks. By fostering connections between individuals who may face food insecurity or 
+          systemic oppression, gardening can empower communities and create a sense of belonging. For BIPOC folks, who are disproportionately 
+          impacted by food insecurity and other health disparities, urban gardening can provide a source of fresh, healthy produce and a means 
+          of accessing culturally appropriate foods. Additionally, gardening has been shown to have mental health benefits, including reducing 
+          stress and promoting feelings of calm and relaxation.
+    <p> </p>
+<p>
+          GardenSpace recognizes the importance of community-building and is committed to providing spaces where new gardeners can get involved, 
+          feel supported, and make lifelong connections. Gardening has a long radical history of liberation, and GardenSpace aims to continue this 
+          tradition by creating access points for individuals to join the BIPOC urban gardening community in Seattle. Through community-building 
+          and support, GardenSpace hopes to empower individuals and promote a more just and equitable food system in the city. It is only through 
+          the support of our community that we may create a brighter future for us all!
+</p>
+</p>
       </div>
       <div className="resource">
         <div className="resource-title p-5 text-left text-black">
