@@ -127,7 +127,7 @@ export default function AboutPage(props) {
                 <img className='team-img' src={Niha} alt={"Niha"} />
                 <div className='team-text'>
                   <h2>Niha Gaddam</h2>
-                  <p>DATA SCIENTIST</p>
+                  <p>FRONTEND DEV</p>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function AboutPage(props) {
                 <img className='team-img' src={Efra} alt={"Efra"} />
                 <div className='team-text'>
                   <h2>Efra Ahsan</h2>
-                  <p>FRONTEND DEV</p>
+                  <p>FULLSTACK DEV</p>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function AboutPage(props) {
                 <img className='team-img' src={Andrew} alt={"Andrew"} />
                 <div className='team-text'>
                   <h2>Andrew Chen</h2>
-                  <p>BACKEND DEV</p>
+                  <p>FULLSTACK DEV</p>
                 </div>
               </div>
             </div>
