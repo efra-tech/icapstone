@@ -101,7 +101,7 @@ function EventCard(props){
             <Button className='px-3 rsvp-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
               <Modal.Header closeButton>
-                <Modal.Title className='modal-title'>RSVP to {props.name} !!</Modal.Title>
+                <Modal.Title className='modal-title'>RSVP to {props.name} on { props.date.slice(0, -6) } !!</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Form onSubmit={handleRsvpSubmit}>
