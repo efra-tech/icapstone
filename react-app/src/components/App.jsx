@@ -24,12 +24,12 @@ export default function App(props) {
 
       <main>
         <Routes>
-          <Route path='home' element={ <HomePage /> } />
-          <Route path='map' element={
+          <Route path='/' element={ <HomePage /> } />
+          <Route path='/map' element={
             <MapPage showCard={showCard} setCard={setCard} gardenID={gardenID} setGarden={setGarden} searchTerm={searchTerm} setSearch={setSearch} /> } />
-          <Route path='get-involved' element={ <EventsPage /> } />
-          <Route path='about-us' element={ <AboutPage /> } />
-          <Route path='*' element={ <Navigate to='home' /> } />
+          <Route path='/about-us' element={ <AboutPage /> } />
+          <Route path='/get-involved' element={ <EventsPage /> } />
+          <Route path='*' element={ <Navigate to='/' /> } />
         </Routes>
       </main>
     </div>

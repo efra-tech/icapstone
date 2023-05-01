@@ -17,13 +17,13 @@ export default function HomePage(props) {
         <div className="row">
           <div className="col-5 d-flex flex-column p-0">
             <p></p>
-            <h2 className="message-title align-self-center p-2 ">Welcome to GardenSpace!</h2>
+            <h2 className="message-title align-self-center p-5">Welcome to GardenSpace!</h2>
             <p></p>
           </div>
           <div className="col-7">
-            <p className="message-text">GardenSpace is a welcoming community for BIPOC (Black, Indigenous, and People of Color) 
-            urban gardeners in Seattle. Our goal is to create a safe space where gardeners can connect with local gardens, 
-            discover new events, and access information about local organizations. We believe that gardening should be a 
+            <p className="message-text">GardenSpace is a welcoming community for BIPOC (Black, Indigenous, and People of Color)
+            urban gardeners in Seattle. Our goal is to create a safe space where gardeners can connect with local gardens,
+            discover new events, and access information about local organizations. We believe that gardening should be a
             collaborative and inclusive experience, and we're dedicated to helping you find a community that shares your passion.
             </p>
           </div>
@@ -34,11 +34,11 @@ export default function HomePage(props) {
             <h1>Project Overview</h1>
       </div>
       <div className='section-body'>
-        <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as 
-          part of their Capstone Program. The team, consisting of Pranav Shekar, Niha Gaddam, Andrew Chen, Efra Ahsan, 
-          and Easha Dhillon, worked on the project from January 2023 to June 2023. The web application’s mission is to 
-          connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community 
-          in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for 
+        <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as
+          part of their Capstone Program. The team, consisting of Pranav Shekar, Niha Gaddam, Andrew Chen, Efra Ahsan,
+          and Easha Dhillon, worked on the project from January 2023 to June 2023. The web application’s mission is to
+          connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community
+          in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for
           individuals to join the BIPOC urban gardening community.</p>
       </div>
 

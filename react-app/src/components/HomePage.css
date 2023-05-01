@@ -21,26 +21,24 @@
 }
 
 .bg-image {
-  background-image: url("../imgs/homepage\ banner.png");
+  background-image: url("../imgs/homepage-banner.jpeg");
   background-size: cover;
-  background-position: bottom;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  height: 35rem;
-  opacity: 65%;
+  background-position: center;
+  height: 38rem;
+  opacity: 74%;
 }
 
 #banner-title {
   opacity: 100% !important;
   font-family: 'Fraunces', serif;
   font-weight: 500;
-  color: #4B4438;
+  color: #bbd496;
   font-style: normal;
   font-size: 70px;
   line-height: 123px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.482);
 }
 
 
@@ -70,6 +68,16 @@ h2 {
   position: relative;
   background-position: center;
   background-size: cover;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: #00000028;
+  height: 40rem;
+  margin-top: 5rem;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  background-color: #bbd49632;
 }
 
 .carousel-image { /* doesn't work */
@@ -103,7 +111,7 @@ h2 {
   font-weight: 600;
   color: #829F91;
   text-align: center;
-  margin-left: 10%;
+  margin-left: 6%;
   padding-top: 10%;
   text-shadow: 1px 1px 1px white;
 }
@@ -112,8 +120,7 @@ h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 1.5rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 17%;
   text-align: left;
 }
 
