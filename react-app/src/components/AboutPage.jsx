@@ -66,7 +66,7 @@ export default function AboutPage(props) {
       <div className="resource">
         <div className="resource-title p-5 text-left text-black">
           <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
-          <div className="row">
+          <div className="row about-us-row">
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
@@ -82,7 +82,7 @@ export default function AboutPage(props) {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row about-us-row">
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
@@ -98,7 +98,7 @@ export default function AboutPage(props) {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row about-us-row">
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
@@ -121,7 +121,7 @@ export default function AboutPage(props) {
           <h1>Meet the Team</h1>
         </div>
         <div className='team-imgs'>
-          <div className='row footer'>
+          <div className='row about-us-row footer'>
             <div className='column'>
               <div className='Niha-section'>
                 <img className='team-img' src={Niha} alt={"Niha"} />

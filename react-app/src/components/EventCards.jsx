@@ -30,7 +30,7 @@ export default function EventCardDeck(props){
   return(
     <div className='container-cards'>
       <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
-        <div className='d-flex row'>
+        <div className='d-flex row card-row'>
           <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
             desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
           />
