@@ -9,7 +9,7 @@ export default function HomePage(props) {
     <div className="homepage">
       <div className="banner">
         <div className="bg-image p-5 text-left text-black">
-          <h1 id="banner-title">WELCOME TO <br></br> GARDENSPACE</h1>
+          <h1 id="banner-title"><br></br>GARDENSPACE</h1>
         </div>
       </div>
 
@@ -21,12 +21,25 @@ export default function HomePage(props) {
             <p></p>
           </div>
           <div className="col-7">
-            <p className="message-text">GardenSpace aims to create a safe space for BIPOC community gardeners and connect with their local gardens
-              by alerting them about events, giving information about local organizations, or to highlight education opportunities.
-              We want to get you gardening with a community you love.</p>
+            <p className="message-text">GardenSpace is a welcoming community for BIPOC (Black, Indigenous, and People of Color) 
+            urban gardeners in Seattle. Our goal is to create a safe space where gardeners can connect with local gardens, 
+            discover new events, and access information about local organizations. We believe that gardening should be a 
+            collaborative and inclusive experience, and we're dedicated to helping you find a community that shares your passion.
+            </p>
           </div>
         </div>
         <p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>
+      </div>
+      <div className='section-header'>
+            <h1>Project Overview</h1>
+      </div>
+      <div className='section-body'>
+        <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as 
+          part of their Capstone Program. The team, consisting of Pranav Shekar, Niha Gaddam, Andrew Chen, Efra Ahsan, 
+          and Easha Dhillon, worked on the project from January 2023 to June 2023. The web application’s mission is to 
+          connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community 
+          in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for 
+          individuals to join the BIPOC urban gardening community.</p>
       </div>
 
       {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -104,63 +117,11 @@ export default function HomePage(props) {
         </button>
       </div>
 
-      <div className="resource">
-        <div className="resource-title p-5 text-left text-black">
-          <h2 id="banner-title-resource">Additional Resources</h2>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space">Reclaiming Public Space</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview">Yes Farms i-D Piece</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/">Farming for Change</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                  <a target="_blank" rel="noreferrer" className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                <a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle's Youth Urban Farming Program</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="card btn">
-                <div className="card-body" className="d-grid gap-2">
-                <a target="_blank" rel="noreferrer" className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <div className="contact">
         <h3 className="contact-title text-white">Contact us!</h3>
-        <p className="text-white">teammuse@gmail.com
+        <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
         University of Washington Capstone 2023
         <br></br>

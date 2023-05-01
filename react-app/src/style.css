@@ -144,7 +144,7 @@ h1.events-subtitle {
 }
 
 /* Event Cards */
-.row {
+.card-row {
   width: 100%;
   padding-right: 4%;
   padding-left: 0.2%;
@@ -271,3 +271,6 @@ h1.events-subtitle {
 .form-extra-text {
   margin-top: 4.2%;
 }
+
+/*About Us Page*/
+
