@@ -15,7 +15,9 @@
 }
 
 .column:hover h2 {
-  color: #a5b94c;
+  color: #bbd496;
+  text-shadow: 20px 12px 12px #685f51;
+  font-weight: 900;
 }
 
 .about-us-page {
@@ -23,10 +25,11 @@
 }
 
 .header-img {
-  background-image: url("../imgs/about-us-header.jpeg");
+  background-image: url("../imgs/aboutUs-banner.png");
   background-size: cover;
-  background-position: center;
-  height: 30rem;
+  background-position: bottom;
+  height: 33rem;
+  opacity: 67%;
 }
 
 .section-header {
@@ -38,7 +41,7 @@
   letter-spacing: -0.28px;
   text-transform: capitalize;
   color: #746B5D;
-  padding: 5% 5% 2% 5%
+  padding: 5% 5% 2% 5%;
 }
 
 .section-body {
@@ -96,7 +99,7 @@ a:hover {
 }
 
 .meet-the-team-header {
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   color: #F2F2EC;
 }
 

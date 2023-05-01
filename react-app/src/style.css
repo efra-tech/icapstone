@@ -10,26 +10,26 @@
 }
 
 footer {
-  background-color: #746B5D;
+  background-color: #685f51;
   border-bottom: 15px solid #655C4E;
 }
 
 /* Navbar */
 nav {
-  background-color: #746B5D;
+  background-color: #685f51;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 22.2px;
   font-weight: 500;
   line-height: 25px;
   text-align: center;
   letter-spacing: -0.28px;
   color: #F2F2EC;
-  border-bottom: 4px solid #655C4E;
+  border-bottom: 9px solid #655C4E;
   text-shadow: 1px 2px 4px #594F3E;
-  border-top: 3px solid #847A6B;
+  border-top: 6px solid #776e60;
 }
 
 nav:hover {
@@ -46,9 +46,27 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 1.85%;
-  padding-top: 3%;
+  padding-right: 1.9%;
+  padding-top: 3.3%;
   font-size: xx-large;
+}
+
+.navbar-brand:hover {
+  color: linear-gradient(to right, black 50%, white 50%);
+  transition: all 0.7s ease-in-out;
+}
+
+.list-unstyled a:hover {
+  text-decoration: wavy overline #bbd496;
+  color: white;
+  text-shadow: 1px 2px 4px #bbd49629;
+}
+
+.navbar-brand:hover {
+  text-decoration: wavy underline #423c32;
+  color: #bbd496;
+  font-weight: 900;
+  text-shadow: 70px 170px 370px #d0ff00;
 }
 
 /* Get Involved Page */
@@ -59,8 +77,8 @@ a {
 .event-banner {
   background-image: url('./imgs/event-banner.png');
   background-size: cover;
-  background-position: center;
-  height: 40rem;
+  background-position: bottom;
+  height: 35rem;
 }
 
 h1.events-subtitle {
@@ -271,6 +289,3 @@ h1.events-subtitle {
 .form-extra-text {
   margin-top: 4.2%;
 }
-
-/*About Us Page*/
-
