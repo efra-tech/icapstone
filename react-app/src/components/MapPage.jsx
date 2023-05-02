@@ -46,7 +46,8 @@ export default function MapPage(props) {
         <div className="col-3">
           <div className='map map-panel'>
             <div>
-              <input className='p-2 m-5' type="text" placeholder="Search..." onChange={event => {props.setSearch(event.target.value)}}/>
+              <h2 className="panel-text">Find Gardens Near You!</h2>
+              <input className='p-2 m-4 justy-content-center' type="text" placeholder="Search..." onChange={event => {props.setSearch(event.target.value)}}/>
               {!props.showCard && <button className={bipocSelected ? "clicked" : "notClicked"} onClick={handleBIPOC} style={{
                 backgroundColor: bipocSelected ? '#655C4E' : 'white',
               }}>BIPOC-Owned Gardens</button>}

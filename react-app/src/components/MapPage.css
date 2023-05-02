@@ -2,6 +2,17 @@
     box-sizing: border-box;
   }
 
+h2.panel-text {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: #746B5D;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: -0.28px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .map-container {
     height: 100vh;
     width: 91.5%;
