@@ -78,7 +78,9 @@ a {
   background-image: url('./imgs/event-banner.png');
   background-size: cover;
   background-position: bottom;
-  height: 35rem;
+  height: 34.9rem;
+  opacity: 85%;
+  background-color:rgba(130, 159, 145, 0.53);
 }
 
 h1.events-subtitle {
@@ -103,7 +105,7 @@ h1.events-subtitle {
 }
 
 .angle-btn:hover {
-  background-color: rgba(255, 255, 255, 0.184);
+  background-color: #B0BEB3;
 }
 
 /* calendar */

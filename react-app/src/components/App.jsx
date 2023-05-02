@@ -28,7 +28,7 @@ export default function App(props) {
           <Route path='/map' element={
             <MapPage showCard={showCard} setCard={setCard} gardenID={gardenID} setGarden={setGarden} searchTerm={searchTerm} setSearch={setSearch} /> } />
           <Route path='/about-us' element={ <AboutPage /> } />
-          <Route path='/get-involved' element={ <EventsPage /> } />
+          <Route path='/events' element={ <EventsPage /> } />
           <Route path='*' element={ <Navigate to='/' /> } />
         </Routes>
       </main>

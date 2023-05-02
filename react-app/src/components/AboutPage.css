@@ -28,7 +28,8 @@
   background-image: url("../imgs/aboutUs-banner.png");
   background-size: cover;
   background-position: bottom;
-  height: 33rem;
+  height: 35rem;
+  background-color:rgba(130, 159, 145, 0.53);
   opacity: 67%;
 }
 
