@@ -120,7 +120,7 @@ export default function AboutPage(props) {
           <h1>Meet the Team</h1>
         </div>
         <div className='team-imgs'>
-          <div className='row about-us-row footer'>
+          <div className='row footer'>
             <div className='column'>
               <div className='Niha-section'>
                 <img className='team-img' src={Niha} alt={"Niha"} />
@@ -150,7 +150,7 @@ export default function AboutPage(props) {
             </div>
             <div className='column'>
               <div className='Easha-section'>
-                <img className='team-img gentle-tilt-move-shake' src={Easha} alt={"Easha"} />
+                <img className='team-img' src={Easha} alt={"Easha"} />
                 <div className='team-text'>
                   <h2>Easha Dhillon</h2>
                   <p>UX DESIGNER</p>

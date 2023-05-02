@@ -9,7 +9,7 @@ export default function Navbar(props) {
         <ul className="list-unstyled navbar-nav">
           <li id='nav-item-1' className='nav-item m-4'><NavLink to="/home"> Home </NavLink></li>
           <li className='nav-item m-4'><NavLink to="/map"> Map </NavLink></li>
-          <li className='nav-item m-4'><NavLink to="/events"> Get Involved </NavLink></li>
+          <li className='nav-item m-4'><NavLink to="/get-involved"> Get Involved </NavLink></li>
           <li className='nav-item m-4'><NavLink to="/about-us"> About Us </NavLink></li>
         </ul>
       </div>
