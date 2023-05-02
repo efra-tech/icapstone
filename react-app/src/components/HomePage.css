@@ -24,7 +24,8 @@
   background-image: url("../imgs/homepage-banner.jpeg");
   background-size: cover;
   background-position: center;
-  height: 35rem;
+  background-color:rgba(130, 159, 145, 0.53);
+  height: 35.5rem;
   opacity: 74%;
 }
 
@@ -71,7 +72,7 @@ h2 {
 }
 
 .carousel-control-next, .carousel-control-prev {
-  background-color: #00000028;
+  background-color: #00000012;
   height: 40rem;
   margin-top: 5rem;
 }

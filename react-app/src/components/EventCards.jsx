@@ -31,17 +31,17 @@ export default function EventCardDeck(props){
     <div className='container-cards'>
       <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
         <div className='d-flex row card-row'>
-          <EventCard name='Green Goblins Gardening Onboarding' date='April 18, 2023' time='5-7pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'
+          <EventCard name='Green Goblins Gardening Onboarding' date='May 18, 2023' time='5-7pm'
+            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
           />
-          <EventCard name='Green Goblins Gardening Onboarding' date='April 21, 2023' time='4-7pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+          <EventCard name='Green Goblins Gardening Onboarding' date='May 21, 2023' time='4-7pm'
+            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
           />
-          <EventCard name='Summer Prep Workshop for Kids' date='April 24, 2023' time='10-2pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique.'
+          <EventCard name='Summer Prep Workshop for Kids' date='May 24, 2023' time='10-2pm'
+            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
           />
-          <EventCard hideClass={cardStackClass} name='Pumkin Harvest at Parlington' date='October 2, 2023' time='10-4pm'
-            desc='Lorem ipsum vero eos et accusamus et iusto odio dignissimos ducimus qui.'
+          <EventCard hideClass={cardStackClass} name='Pumkin Harvest at Parlington' date='June 2, 2023' time='10-4pm'
+            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
           />
         </div>
         <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>

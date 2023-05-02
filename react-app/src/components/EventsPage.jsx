@@ -10,7 +10,7 @@ export default function EventsPage(props) {
   let eventsList = [
     {
       name: "Green Goblins Gardening Onboarding",
-      date: Date.parse('18 April 2023 17:00:00 GMT-7'),
+      date: Date.parse('18 May 2023 17:00:00 GMT-7'),
       allDay: false,
       extra: {
         icon: rsvpIconStr,
@@ -19,7 +19,7 @@ export default function EventsPage(props) {
     },
     {
       name: "Green Goblins Gardening Onboarding",
-      date: Date.parse('21 April 2023 16:00:00 GMT-7'),
+      date: Date.parse('21 May 2023 16:00:00 GMT-7'),
       allDay: false,
       extra: {
         icon: rsvpIconStr,
@@ -28,7 +28,7 @@ export default function EventsPage(props) {
     },
     {
       name: "Summer Prep Workshop for Kids",
-      date: Date.parse('24 April 2023 10:00:00 GMT-7'),
+      date: Date.parse('24 May 2023 10:00:00 GMT-7'),
       allDay: false,
       extra: {
         icon: rsvpIconStr,
@@ -37,7 +37,7 @@ export default function EventsPage(props) {
     },
     {
       name: "Pumkin Harvest at Parlington",
-      date: Date.parse('02 Oct 2023 10:00:00 GMT-7'),
+      date: Date.parse('02 June 2023 10:00:00 GMT-7'),
       allDay: false,
       extra: {
         icon: rsvpIconStr,
@@ -137,8 +137,8 @@ export default function EventsPage(props) {
           events={eventsList}
           style={{
             borderRadius: "1px",
-            borderRight: "60px solid #2A3B37",
-            borderLeft: "60px solid #2A3B37",
+            borderRight: "70px solid #2A3B37",
+            borderLeft: "70px solid #2A3B37",
             borderTop: "150px solid #2A3B37",
             borderBottom: "150px solid #2A3B37",
             marginBottom: "0",
