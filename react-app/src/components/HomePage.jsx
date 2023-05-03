@@ -40,6 +40,7 @@ export default function HomePage(props) {
           connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community
           in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for
           individuals to join the BIPOC urban gardening community.</p>
+        <p>As of Spring 2023, this project is turning open-source. If you would like to contribute to GardenSpace, please contact the Information School at the University of Washington.</p>
       </div>
 
       {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
