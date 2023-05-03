@@ -53,6 +53,7 @@ export default function AboutPage(props) {
           of accessing culturally appropriate foods. Additionally, gardening has been shown to have mental health benefits, including reducing
           stress and promoting feelings of calm and relaxation.
     <p> </p>
+    </p>
 <p>
           GardenSpace recognizes the importance of community-building and is committed to providing spaces where new gardeners can get involved,
           feel supported, and make lifelong connections. Gardening has a long radical history of liberation, and GardenSpace aims to continue this
@@ -60,8 +61,14 @@ export default function AboutPage(props) {
           and support, GardenSpace hopes to empower individuals and promote a more just and equitable food system in the city. It is only through
           the support of our community that we may create a brighter future for us all!
 </p>
-</p>
-      </div>
+</div>
+        <div className='section-header-2'>
+          <h3>Get in Touch with Us!</h3>
+        </div>
+        <div className='section-body-2'>
+          <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
+          <p>We look forward to chatting with you.</p>
+        </div>
       <div className="resource">
         <div className="resource-title p-5 text-left text-black">
           <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
@@ -108,7 +115,7 @@ export default function AboutPage(props) {
             <div className="col-sm-6">
               <div className="card btn">
                 <div className="card-body" className="d-grid gap-2">
-                <a target="_blank" rel="noreferrer" className="resource-link" href="https://thehomegarden.com/fun/">Fun Gardening Quizzes</a>
+                <a target="_blank" rel="noreferrer" className="resource-link" href="https://www.tandfonline.com/doi/abs/10.1080/13549839.2022.2137788">Seattle's CHOP guerrilla garden</a>
                 </div>
               </div>
             </div>

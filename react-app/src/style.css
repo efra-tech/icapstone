@@ -47,12 +47,14 @@ a {
   top: 0;
   right: 0;
   padding-right: 1.9%;
-  padding-top: 3.3%;
+  padding-top: 1%;
+  padding-bottom: 5%;
   font-size: xx-large;
 }
 
 .navbar-brand:hover {
   color: linear-gradient(to right, black 50%, white 50%);
+  text-decoration: wavy overline #bbd496;
   transition: all 0.7s ease-in-out;
 }
 
