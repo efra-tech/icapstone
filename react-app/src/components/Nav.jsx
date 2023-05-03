@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../imgs/logo.png'
 
 export default function Navbar(props) {
 
@@ -14,7 +15,7 @@ export default function Navbar(props) {
         </ul>
       </div>
 
-      <a className="navbar-brand" href="./HomePage"> GardenSpace </a>
+      <a className="navbar-brand" href="./HomePage"> <img src={logo} alt="gardenspace logo" height={100} /> </a>
     </nav>
   );
 }
