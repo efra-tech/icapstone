@@ -56,5 +56,5 @@ Our team unfortunately was not able to implement everything we wanted to in the 
 - Andrew Chen: achen77@uw.edu 
 - Niha Gaddam: niha@uw.edu
 - Efra Ahsan: eahsan@uw.edu
-- Pranav Shekar
-- Easha Dhillon
+- Pranav Shekar: pranavsh@uw.edu
+- Easha Dhillon: eashad@uw.edu
