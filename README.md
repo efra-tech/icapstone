@@ -10,6 +10,8 @@ As the Capstone project ended, we decided to make the source code available to a
 ### Starting Documentation
 - Quarter 1 Minimum Viable Product Presentation: https://pitch.com/public/c73361f2-ac7c-4611-bda3-f41e03ae78e9/a0f506d9-fb5d-4b84-9787-688d6876a8c7
 - Survey: https://docs.google.com/forms/d/e/1FAIpQLSfksUv3SuByLZC70aJwq9NPAu9TQY-HJoIHEDcZJVPjpvVDeA/viewform?pli=1
+- Presentation Deck Link: https://pitch.com/public/5e80ae9b-fbd2-4f1b-bf14-9f6ec16aa010
+- GardenSpace Demo Video: https://youtu.be/2dqyczsycW8
 
 As part of the research process, we sent out a Google Form to urban farmers in Seattle and received 108 responses. We also conducted user interviews with 7 of these people, further validation with 3 of them, and then user testing of the application with 5 people. If you would like to see this data, please contact one of the team members or the University of Washington to request access. A cleaned version without identifying information is included as a .csv file in the Survey Data Analysis folder.
 
