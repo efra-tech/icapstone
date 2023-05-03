@@ -8,7 +8,6 @@ This application was developed for a capstone project as part of the undergradua
 As the Capstone project ended, we decided to make the source code available to anyone wanting to improve on the application. Below are starting documentation and instructions on how to acquire relevant API keys and libraries.
 
 ### Starting Documentation
-- Quarter 1 Presentation: https://docs.google.com/presentation/d/1sgeMXxnpza_A3SJHibl6iijl83tOTqqlSN_QZKyz7JA/edit?usp=sharing
 - Quarter 1 Minimum Viable Product Presentation: https://pitch.com/public/c73361f2-ac7c-4611-bda3-f41e03ae78e9/a0f506d9-fb5d-4b84-9787-688d6876a8c7
 - Survey: https://docs.google.com/forms/d/e/1FAIpQLSfksUv3SuByLZC70aJwq9NPAu9TQY-HJoIHEDcZJVPjpvVDeA/viewform?pli=1
 
@@ -51,6 +50,8 @@ Our team unfortunately was not able to implement everything we wanted to in the 
 - Improved web-scaling for different screen sizes
 - A bulletin board feature where users can submit photos, videos, recipes, guides, and more to a spread-view of content. Ideally, the content is related to the gardens that users would go to. Other users can see these and comment or like them. Below is a prototype image of what this page might look like. There would also ideally be filers for the different type of posts that users can see.
 <img src="https://i.imgur.com/GVEIM1X.png" />
+
+<b>We hope you can continue this project and help to build an even better resource for BIPOC gardeners in Seattle, and even potentially beyond. Thank you!</b>
 
 ### Contributers: 
 - Andrew Chen: achen77@uw.edu 
