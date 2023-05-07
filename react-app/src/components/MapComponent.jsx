@@ -20,7 +20,7 @@ const Marker = ({ onClick, children, feature }) => {
     );
   };
 
-const ActualMapComponent = (props) => {
+const MapComponent = (props) => {
     const mapContainerRef = useRef(null);
   
     // Initialize map when component mounts
@@ -78,7 +78,7 @@ const ActualMapComponent = (props) => {
     return <div className="map-container" ref={mapContainerRef} />;
   };
   
-  export default ActualMapComponent;
+  export default MapComponent;
 
 
   // Old Map Component

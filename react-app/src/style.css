@@ -9,6 +9,11 @@
   background-color: #F2F2EC;
 }
 
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+}
+
 footer {
   background-color: #685f51;
   border-bottom: 15px solid #655C4E;
