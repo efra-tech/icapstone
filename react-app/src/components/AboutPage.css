@@ -56,6 +56,29 @@
   padding: 0% 5% 0% 5%;
 }
 
+.section-header-2 {
+  font-family: "Fraunces", serif !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 500%;
+  line-height: 99px;
+  letter-spacing: -0.28px;
+  text-transform: capitalize;
+  color: #746B5D;
+  padding: 5% 5% 1% 5%;
+}
+
+.section-body-2 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 25px;
+  letter-spacing: -0.28px;
+  color: #2A3B37;
+  padding: 0% 5% 0% 5%;
+}
+
 .card {
   margin: 3%;
   border-color: #4B4438;
