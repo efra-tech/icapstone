@@ -94,6 +94,12 @@ a:hover {
   text-decoration: wavy overline #d6f062;
 }
 
+#banner-title-resource {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .meet-the-team-section {
   box-sizing: border-box;
   background: #746B5D;
