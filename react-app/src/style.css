@@ -19,6 +19,14 @@ footer {
   border-bottom: 15px solid #655C4E;
 }
 
+.contact-title {
+  padding-top: 2%;
+}
+
+.footer-break {
+  margin-bottom: 10rem;
+}
+
 /* Navbar */
 nav {
   background-color: #685f51;
@@ -85,7 +93,7 @@ a {
   background-image: url('./imgs/event-banner.jpg');
   background-size: cover;
   background-position: bottom;
-  height: 35rem;
+  height: 30rem;
   opacity: 85%;
   background-color:rgba(130, 159, 145, 0.53);
 }

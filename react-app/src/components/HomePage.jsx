@@ -117,11 +117,13 @@ export default function HomePage(props) {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
+      <div className='footer-break'>
+      <p> </p>
+      </div>
 
 
       <div className="contact">
-        <h3 className="contact-title text-white">Contact us!</h3>
+        <h3 className="contact-title text-white">Contact Us!</h3>
         <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
         University of Washington Capstone 2023

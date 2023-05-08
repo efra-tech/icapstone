@@ -28,9 +28,23 @@
   background-image: url("../imgs/aboutUs-banner.png");
   background-size: cover;
   background-position: bottom;
-  height: 35rem;
+  height: 30rem;
   background-color:rgba(130, 159, 145, 0.53);
   opacity: 67%;
+}
+
+.logo {
+  box-sizing: border-box;
+
+}
+
+.logo-img {
+  width: 20%;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 .section-header {

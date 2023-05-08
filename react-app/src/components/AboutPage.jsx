@@ -6,6 +6,7 @@ import Andrew from '../imgs/andrew-pic.png'
 import Easha from '../imgs/eash-pic.png'
 import Pranav from '../imgs/pranav-pic.JPG'
 import Card from './ResourceCards.jsx';
+import logo from '../imgs/logo.png';
 
 export default function AboutPage(props) {
 
@@ -27,6 +28,9 @@ export default function AboutPage(props) {
           here to help you grow your green thumb and discover community in nature.</p>
         <p> </p>
         <p>Find and cultivate yourself in nature with Garden Space!</p>
+      </div>
+      <div className="logo">
+      <img className='logo-img' src={logo} alt={"garden space logo"} />
       </div>
       <div className='section-header'>
         <h1>Urban Gardening in Seattle</h1>
@@ -131,8 +135,11 @@ export default function AboutPage(props) {
           </div>
         </div>
       </section>
+      <div className='footer-break'>
+      <p> </p>
+      </div>
       <div className="contact">
-        <h3 className="contact-title text-white">Contact us!</h3>
+        <h3 className="contact-title text-white">Contact Us!</h3>
         <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
         University of Washington Capstone 2023
