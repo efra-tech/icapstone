@@ -27,7 +27,7 @@ class Cards extends Component {
                     <Card imgsrc={resource4} title = {<a target="_blank" rel="noreferrer" className="resource-link" href="https://muse.jhu.edu/book/78593">Public Gardens and Livable Cities</a>}/>
                     </div>
                     <div className="col-md-4"> 
-                    <Card imgsrc={resource5} title = {<a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle Youth Urban Farming Program</a>}/>
+                    <Card imgsrc={resource5} title = {<a target="_blank" rel="noreferrer" className="resource-link" href="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/">Seattle Youth Urban Farming</a>}/>
                     </div>
                     <div className="col-md-4"> 
                     <Card imgsrc={resource6} title = {<a target="_blank" rel="noreferrer" className="resource-link" href="https://www.tandfonline.com/doi/abs/10.1080/13549839.2022.2137788">Seattle's CHOP guerrilla garden</a>}/>
