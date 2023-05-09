@@ -63,6 +63,13 @@ h2 {
   font-size: 3rem;
 }
 
+.home-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15rem;
+}
+
 .carousel-item {
   margin-top: 5rem;
   height: 40rem;
@@ -102,7 +109,7 @@ h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 1.5rem;
-  margin: 8% 10% 0 10%;
+  margin: 5% 10% 0 10%;
   font-weight: 600;
 }
 
@@ -113,7 +120,7 @@ h2 {
   color: #829F91;
   text-align: center;
   margin-left: 6%;
-  padding-top: 10%;
+  margin-top: -15%;
   text-shadow: 1px 1px 1px white;
 }
 

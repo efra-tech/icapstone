@@ -7,23 +7,9 @@ import markerImage from "../imgs/marker.png";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
-//Somehow route this to side panel
-const Marker = ({ onClick, children, feature }) => {
-    const _onClick = () => {
-      onClick(feature.properties.description);
-    };
-  
-    return (
-      <button onClick={_onClick} className="marker">
-        {children}
-      </button>
-    );
-  };
-
 const MapComponent = (props) => {
     const mapContainerRef = useRef(null);
   
-    // Initialize map when component mounts
     useEffect(() => {
       const map = new mapboxgl.Map({
         container: mapContainerRef.current,
@@ -33,7 +19,7 @@ const MapComponent = (props) => {
       });
   
       map.on("load", function () {
-        // Add an image to use as a custom marker
+        // Add images as markers
         map.loadImage(markerImage,
           function (error, image) {
             if (error) {
@@ -41,7 +27,7 @@ const MapComponent = (props) => {
             }
             map.addImage("custom-marker", image);
 
-            //json file here
+            // Load JSON file
             map.addSource("points", {
               type: "geojson",
               data: {
@@ -50,7 +36,7 @@ const MapComponent = (props) => {
               },
             });
             
-            // Add a symbol layer
+            // Layer for markers
             map.addLayer({
               id: "points",
               type: "symbol",
@@ -68,10 +54,9 @@ const MapComponent = (props) => {
         );
       });
   
-      // Add navigation control (the +/- zoom buttons)
+      // Add map control
       map.addControl(new mapboxgl.NavigationControl(), "top-right");
-  
-      // Clean up on unmount
+
       return () => map.remove();
     }, []);
   
@@ -79,24 +64,3 @@ const MapComponent = (props) => {
   };
   
   export default MapComponent;
-
-
-  // Old Map Component
-//   export default function MapPage(props) {
-//     const mapContainer = useRef(null);
-//     const map = useRef(null);
-//     const [lng, setLng] = useState(-122.330062);
-//     const [lat, setLat] = useState(47.6038321);
-//     const [zoom, setZoom] = useState(12);
-
-//     useEffect(() => {
-//         if (map.current) {
-//             return;
-//         }
-//         map.current = new mapboxgl.Map({
-//             container: mapContainer.current,
-//             style: 'mapbox://styles/mapbox/streets-v12',
-//             center: [lng, lat],
-//             zoom: zoom
-//         });
-//     });

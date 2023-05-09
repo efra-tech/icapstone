@@ -1,5 +1,6 @@
 import React from 'react';
 import style from "./HomePage.css";
+import logo from '../imgs/logo.png'
 import carousel1 from "../imgs/carousel\ 1.png"
 import carousel2 from "../imgs/carousel\ 2.png"
 import carousel3 from "../imgs/carousel\ 3.png"
@@ -18,6 +19,7 @@ export default function HomePage(props) {
           <div className="col-5 d-flex flex-column p-0">
             <p></p>
             <h2 className="message-title align-self-center p-5">Welcome to GardenSpace!</h2>
+            <div><img className="home-logo" src={logo} /></div>
             <p></p>
           </div>
           <div className="col-7">

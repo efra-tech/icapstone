@@ -32,7 +32,7 @@ h2.panel-text {
 }
 
 .sidebar2 {
-    overflow: scroll;
+    overflow: auto;
     height: 80vh;
 }
 

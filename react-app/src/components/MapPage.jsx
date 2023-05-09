@@ -72,6 +72,14 @@ export default function MapPage(props) {
           </div>
         </div>
       </div>
+      <div className="contact">
+        <h3 className="contact-title text-white">Contact us!</h3>
+        <p className="text-white">gardenspacemuse@gmail.com
+        <br></br>
+        University of Washington Capstone 2023
+        <br></br>
+        ©2023</p>
+      </div>
     </div>
   );
 }

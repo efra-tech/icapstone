@@ -52,7 +52,6 @@ export default function AboutPage(props) {
           impacted by food insecurity and other health disparities, urban gardening can provide a source of fresh, healthy produce and a means
           of accessing culturally appropriate foods. Additionally, gardening has been shown to have mental health benefits, including reducing
           stress and promoting feelings of calm and relaxation.
-    <p> </p>
     </p>
 <p>
           GardenSpace recognizes the importance of community-building and is committed to providing spaces where new gardeners can get involved,
