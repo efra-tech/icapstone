@@ -25,7 +25,7 @@
   background-size: cover;
   background-position: center;
   background-color:rgba(130, 159, 145, 0.53);
-  height: 35rem;
+  height: 30rem;
   opacity: 74%;
 }
 
@@ -33,7 +33,7 @@
   opacity: 100% !important;
   font-family: 'Fraunces', serif;
   font-weight: 500;
-  color: #bbd496;
+  color: #e6f3dc;
   font-style: normal;
   font-size: 70px;
   line-height: 123px;
