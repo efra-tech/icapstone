@@ -43,8 +43,8 @@
   position: relative;
   margin-left: 40%;
   margin-top: 0%;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .section-header {
@@ -57,6 +57,7 @@
   text-transform: capitalize;
   color: #746B5D;
   padding: 5% 5% 2% 5%;
+  margin-top: 0;
 }
 
 .section-body {

@@ -18,7 +18,7 @@ export default function MapPage(props) {
 
     useEffect(()=>{
 
-      const gardensFiltered = geoJson.features.filter(garden => 
+      const gardensFiltered = geoJson.features.filter(garden =>
         (bipocSelected && garden.properties["BIPOC-Owned"] == 1) ||
         (accessibleSelected && garden.properties["Accessible"] == 1) ||
         (pPatchSelected && garden.properties["Garden Website"].toLowerCase().includes("p-patch") ||
@@ -59,7 +59,7 @@ export default function MapPage(props) {
               <input className='p-2 m-4 justy-content-center' type="text" placeholder="Search..." onChange={event => {props.setSearch(event.target.value)}}/>
               {!props.showCard && <button className={bipocSelected ? "clicked" : "notClicked"} onClick={handleBIPOC} style={{
                 backgroundColor: bipocSelected ? '#655C4E' : 'white',
-              }}>BIPOC-Owned Gardens</button>}
+              }}>BIPOC-Owned</button>}
               {!props.showCard && <button className={accessibleSelected ? "clicked" : "notClicked"} onClick={handleAccessible} style={{
                 backgroundColor: accessibleSelected ? '#655C4E' : 'white',
               }}>Accessible</button>}
@@ -82,12 +82,12 @@ function MapCardDeck(props){
       {props.selectedGardens.filter((garden) => {
         if (props.searchTerm == "") {
           return garden
-        } else if (garden.properties["Urban Garden Name"].toLowerCase().includes(props.searchTerm.toLowerCase()) || 
+        } else if (garden.properties["Urban Garden Name"].toLowerCase().includes(props.searchTerm.toLowerCase()) ||
                     garden.properties["Street Address"].toLowerCase().includes(props.searchTerm.toLowerCase()) ||
                     garden.properties["Phone"].toLowerCase().includes(props.searchTerm.toLowerCase())) {
           return garden
         }
-      }).map((garden) => {  
+      }).map((garden) => {
         return (
           <div role="button" onClick={() => {props.setCard(true); props.setGarden(garden.properties["ID"]); props.setCenter([garden.geometry["coordinates"], 15]); props.setMapRefresh(key => key + 1)}}>
             <MapCard key={garden.properties["ID"]}
