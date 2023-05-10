@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import style from "./MapPage.css";
-// import mapImage from '../imgs/map-image.png';
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import markerImage from "../imgs/marker.png"
@@ -72,7 +71,7 @@ export default function MapPage(props) {
           </div>
         </div>
       </div>
-      <div className="contact" style={{marginTop: "0"}}>
+      <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
         <p className="text-white">gardenspacemuse@gmail.com
         <br></br>
