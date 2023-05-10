@@ -33,12 +33,12 @@ export default function AboutPage(props) {
           organizations, and accessing resources. Whether you're a seasoned gardener or just starting out, GardenSpace is
           here to help you grow your green thumb and discover community in nature.</p>
         <p> </p>
-        <p>Find and cultivate yourself in nature with Garden Space!</p>
+        <p style={{fontWeight: '800'}}>Cultivate yourself and your block with Garden Space!</p>
       </div>
       <div className="logo">
-      <img className='logo-img' src={logo} alt={"garden space logo"} />
+      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '35%', marginLeft: '63%', transform: 'scaleX(-1)'}} />
       </div>
-      <div className='section-header'>
+      <div className='section-header pt-0'>
         <h1>Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
@@ -128,7 +128,7 @@ export default function AboutPage(props) {
         <div className='team-imgs'>
           <div className='row footer'>
             <div className='column'>
-              <div className='Niha-section'>
+              <div className='Niha-section' onClick={()=> window.open('https://www.linkedin.com/in/nihagaddam/', "_blank", "noreferrer")}>
                 <img className='team-img' src={Niha} alt={"Niha"} />
                 <div className='team-text'>
                   <h2>Niha Gaddam</h2>
@@ -137,7 +137,7 @@ export default function AboutPage(props) {
               </div>
             </div>
             <div className='column'>
-              <div className='Efra-section'>
+              <div className='Efra-section' onClick={()=> window.open('https://www.linkedin.com/in/efra-ahsan-4b49a0228/', "_blank", "noreferrer")}>
                 <img className='team-img' src={Efra} alt={"Efra"} />
                 <div className='team-text'>
                   <h2>Efra Ahsan</h2>
@@ -146,7 +146,7 @@ export default function AboutPage(props) {
               </div>
             </div>
             <div className='column'>
-              <div className='Andrew-section'>
+              <div className='Andrew-section' onClick={()=> window.open('https://www.linkedin.com/in/andrew-jia-ming-chen-64b47a1ba/', "_blank", "noreferrer")}>
                 <img className='team-img' src={Andrew} alt={"Andrew"} />
                 <div className='team-text'>
                   <h2>Andrew Chen</h2>
@@ -155,7 +155,7 @@ export default function AboutPage(props) {
               </div>
             </div>
             <div className='column'>
-              <div className='Easha-section'>
+              <div className='Easha-section' onClick={()=> window.open('https://www.linkedin.com/in/easha-dhillon/', "_blank", "noreferrer")}>
                 <img className='team-img' src={Easha} alt={"Easha"} />
                 <div className='team-text'>
                   <h2>Easha Dhillon</h2>
@@ -164,7 +164,7 @@ export default function AboutPage(props) {
               </div>
             </div>
             <div className='column'>
-              <div className='Pranav-section'>
+              <div className='Pranav-section' onClick={()=> window.open('https://www.linkedin.com/in/pranav-shekar/', "_blank", "noreferrer")}>
                 <img className='team-img' src={Pranav} alt={"Pranav"} />
                 <div className='team-text'>
                   <h2>Pranav Shekar</h2>

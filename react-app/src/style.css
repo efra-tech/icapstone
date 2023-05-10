@@ -59,29 +59,24 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 1.9%;
-  padding-top: 1%;
-  padding-bottom: 5%;
+  padding-right: 2%;
+  padding-top: 4%;
   font-size: xx-large;
 }
 
 .navbar-brand:hover {
   color: linear-gradient(to right, black 50%, white 50%);
-  text-decoration: wavy overline #bbd496;
   transition: all 0.7s ease-in-out;
+  color: #bbd496;
+  font-weight: 900;
+  text-shadow: 70px 170px 370px #d0ff00;
+  text-decoration: wavy underline #423c32;
 }
 
 .list-unstyled a:hover {
   text-decoration: wavy overline #bbd496;
   color: white;
   text-shadow: 1px 2px 4px #bbd49629;
-}
-
-.navbar-brand:hover {
-  text-decoration: wavy underline #423c32;
-  color: #bbd496;
-  font-weight: 900;
-  text-shadow: 70px 170px 370px #d0ff00;
 }
 
 /* Get Involved Page */
@@ -245,23 +240,36 @@ h1.events-subtitle {
   margin-left: 1%;
 }
 
+.link-btn {
+  background: none;
+  border: none;
+}
+
+.link-btn:hover {
+  background-color: rgba(255, 255, 255, 0.186);
+  border-radius: 1rem;
+}
+
 /* RSVP Form */
 .modal-body {
   background-color: #759384;
   padding: 5%;
   text-align: center;
+  border-top: 7px solid #655C4E;
+  border-bottom: 7px solid #655C4E;
 }
 
 .modal-footer {
   background-color: #746B5D;
+  border: 7px solid #655C4E;
 }
 
 .modal-header {
   background-color: #746B5D;
   color: #F2F2EC;
-  text-decoration: wavy overline #d9f463;
   padding-top: 3%;
   padding-left: 3%;
+  border: 7px solid #655C4E;
 }
 
 .form-control {
@@ -300,14 +308,27 @@ h1.events-subtitle {
 }
 
 .modal {
-  background-color: #3e461c24;
+  background-color: #34240cbf;
 }
 
 .form-extra-text {
   margin-top: 4.2%;
 }
 
-
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.25) !important;
+}
+
+.confirmation {
+  background-color: #d9f4636e;
+}
+
+.confirmation .modal-header {
+  border-bottom: 25px solid #655C4E;
+  border-top: 25px solid #655C4E;
+}
+
+.modal-title i {
+  text-decoration: wavy overline #d9f463;
+  font-style: normal;
 }
