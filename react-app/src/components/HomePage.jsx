@@ -39,12 +39,18 @@ export default function HomePage(props) {
         </div>
         {/*<p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>*/}
       </div>
-          <div className='d-flex'>
+        <div className="container cta">
+          <div className='d-flex row cta'>
+            <div className="col">
               <a href="/map"><img id="cta" src={cta1} onMouseOver={e => e.currentTarget.src = cta1click}
                 onMouseOut={e => e.currentTarget.src = cta1} alt="Find a Garden Button" height={250}/></a>
+            </div>
+            <div className="col">
               <a href="/get-involved"><img id="cta" src={cta2} onMouseOver={e => e.currentTarget.src = cta2click}
                 onMouseOut={e => e.currentTarget.src = cta2} alt="Get Involved Button" height={250}/></a>
+            </div>
           </div>
+        </div>
       <div className='section-header'>
             <h1>Project Overview</h1>
       </div>
@@ -98,7 +104,8 @@ export default function HomePage(props) {
             </div>
             <div className="container">
               <div className="carousel-caption">
-                {/* <h1>Image 1</h1> */}
+                <h3>Emily Tzeng of Local Color Farm and Fiber, at home in the lettuce field.</h3>
+                <p>IMAGE: Rylea Foehl/ SeattleMet Rylea Foehl</p>
               </div>
             </div>
           </div>
@@ -108,7 +115,8 @@ export default function HomePage(props) {
             </div>
             <div className="container">
               <div className="carousel-caption">
-                {/* <h1>Image 2</h1> */}
+                <h3>Natalie Garcia tends to the community garden at the MLK FAME Community Center on Oct. 22, 2020.</h3>
+                <p>IMAGE: Dorothy Edwards/Crosscut</p>
               </div>
             </div>
           </div>
@@ -118,7 +126,8 @@ export default function HomePage(props) {
             </div>
             <div className="container">
               <div className="carousel-caption">
-                {/* <h1>Image 3</h1> */}
+                <h3>The Danny Woo Community Garden, the largest green space in the Chinatown- International District, sitting with a view of the Smith Tower.</h3>
+                <p>IMAGE: Interim CDA</p>
               </div>
             </div>
           </div>

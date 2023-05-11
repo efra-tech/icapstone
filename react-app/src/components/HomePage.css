@@ -71,9 +71,12 @@ h2 {
 }
 
 #cta {
-  margin-left: 11rem;
   position: relative;
-  margin-right: auto;
+  margin-top: 0%;
+}
+
+.cta {
+  justify-content: center;
 }
 
 #cta:hover {
@@ -108,9 +111,21 @@ h2 {
   background-size: cover;
 }
 
+.carousel-caption {
+  text-shadow:
+-1px -1px 0 #000,
+0 -1px 0 #000,
+1px -1px 0 #000,
+1px 0 0 #000,
+1px 1px 0 #000,
+0 1px 0 #000,
+-1px 1px 0 #000,
+-1px 0 0 #000;
+}
+
 .message {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 }
 
 .message-final {

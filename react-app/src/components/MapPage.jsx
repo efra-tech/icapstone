@@ -85,7 +85,7 @@ export default function MapPage(props) {
 
 function MapCardDeck(props){
   return (
-    <div className="sidebar2">
+    <div className="sidebar">
       {props.selectedGardens.filter((garden) => {
         if (props.searchTerm == "") {
           return garden
