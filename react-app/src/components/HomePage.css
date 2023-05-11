@@ -73,10 +73,11 @@ h2 {
 #cta {
   position: relative;
   margin-top: 0%;
+  margin-left: 5rem;
 }
 
 .cta {
-  justify-content: center;
+justify-content: center;
 }
 
 #cta:hover {
