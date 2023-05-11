@@ -70,6 +70,21 @@ h2 {
   height: 15rem;
 }
 
+.cta-buttons-section {
+  display: flex;
+  box-sizing: border-box;
+}
+
+#cta {
+  margin-left: 11rem;
+  position: relative;
+  margin-right: auto;
+}
+
+#cta:hover {
+  animation: tilt-n-move-shaking 2s;
+}
+
 .carousel-item {
   margin-top: 5rem;
   height: 40rem;
