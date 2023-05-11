@@ -4,7 +4,7 @@ import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
 import { Modal, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faLink, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faLink, faArrowUpRightFromSquare, faPaperclip } from '@fortawesome/free-solid-svg-icons';
 import logo from '../imgs/logo.png'
 
 
@@ -32,20 +32,21 @@ export default function EventCardDeck(props){
     <div className='container-cards justify-content-between'>
       <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
         <div className='d-flex row card-row'>
-          <EventCard name='Green Goblins Gardening Onboarding' date='May 18, 2023' time='5-7pm'
-            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
-            link='https://www.google.com/search?q=hello&rlz=1C5CHFA_enUS924US924&source=lnms&tbm=isch&sa=X&ved=2ahUKEwik9vjV8Ob-AhUeMzQIHayfCfwQ0pQJegQIBRAE&biw=1440&bih=821&dpr=2#imgrc=wYUVME2ids7u2M'
+          <EventCard name='Cooking Fiyah Workshop w/ Fiyah Abakah' date='May 3, 2023' time='5am-7pm'
+            desc="Join us with Cooking Workshop by Fiyah Abakah!  He will be taking us through a fun, interactive, and educational workshop on May 3rd to teach us how to prepare some delicious and clean cuisine! This event will be hosted at Rainier Beach Urban Farm and Wetlands. Stay tuned for what we will be cooking and for more information on how to sign up please refer to the post on our Instagram!"
+            link='https://www.instagram.com/blackfarmerscollective/'
           />
-          <EventCard name='Green Goblins Gardening Onboarding' date='May 21, 2023' time='4-7pm'
-            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
-            link=''
+          <EventCard name='YesFarm Volunteer Day' date='May 6, 2023' time='10am-3pm'
+            desc="Come out to YesFarm for their volunteer days! It is encouraged folks show up in whatever ways feel right for them. It is encouraged folks to read, spark up conversations, lay in the grass, or go on a walk. There will also be arm tasks for those who want to come and work! Wear comfortable clothing, we reccommend close toed shoes, wear warm clothes, and to bring a water and snacks. We look forward to seeing you there!"
+            link='https://www.blackfarmerscollective.com/new-events/yesfarm-volunteer-day-1'
           />
-          <EventCard name='Summer Prep Workshop for Kids' date='May 24, 2023' time='10-2pm'
-            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
-            link=''
+          <EventCard name='QueerTheLand Community Gardening Day' date='May 17, 2023' time='10am-1pm'
+            desc="Join us for another community gardening day. This will take place at 10am-1pm at the QTL house. Snacks and beverages will be provided. We'd appreciate it if you could dedicate at least 2 hours!
+            Please bring gloves if you have them, we will have some to offer. Feel free to bring tools we could really use some rakes! Bring a friend!"
+            link='https://queertheland.org/'
           />
-          <EventCard hideClass={cardStackClass} name='Pumkin Harvest at Parlington' date='June 2, 2023' time='10-4pm'
-            desc="What’s so special about flowers? Three different stories cover the botanical, the poetic, and the soul-sustaining qualities of flowers in this month’s virtual story time videos. Visit the library to color a flower picture anytime this month."
+          <EventCard hideClass={cardStackClass} name='Apricot Harvest at Parlington' date='June 2, 2023' time='10-4pm'
+            desc="We have an overflow of apricots upcoming, come harvest with us!"
           />
         </div>
         <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>
@@ -104,7 +105,7 @@ function EventCard(props){
         <Accordion.Collapse eventKey="0" className='card-drop'>
           <Card.Body>
             <p>{props.desc}</p>
-            {props.link && <button onClick={() => window.open(props.link, "_blank", "noreferrer")} className='link-btn'><FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: '#2D3935', height: "1.3rem"}}/></button>}
+            {props.link && <button onClick={() => window.open(props.link, "_blank", "noreferrer")} className='link-btn'><FontAwesomeIcon icon={faPaperclip} style={{color: '#2D3935', height: "1.45rem"}}/></button>}
             <Button className='px-3 rsvp-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>
               <Modal.Header closeButton style={{textDecoration: 'wavy overline #d9f463'}}>
