@@ -4,6 +4,13 @@ import logo from '../imgs/logo.png'
 import carousel1 from "../imgs/carousel\ 1.png"
 import carousel2 from "../imgs/carousel\ 2.png"
 import carousel3 from "../imgs/carousel\ 3.png"
+import cta1 from "../imgs/cta1.png"
+import cta2 from "../imgs/cta2.png"
+import cta1click from "../imgs/cta1-click.png"
+import cta2click from "../imgs/cta2-click.png"
+import { Link } from 'react-router-dom';
+
+
 
 export default function HomePage(props) {
   return (
@@ -30,15 +37,23 @@ export default function HomePage(props) {
             </p>
           </div>
         </div>
-        <p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>
+        {/*<p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>*/}
       </div>
+          <div className='cta-buttons-section'>
+            <div className="cta-buttons">
+            <Link to="/map"><img id="cta" src={cta1} onMouseOver={e => e.currentTarget.src = cta1click} 
+              onMouseOut={e => e.currentTarget.src = cta1} alt="Find a Garden Button" height={250}/></Link>
+            <Link to="/get-involved"><img id="cta" src={cta2} onMouseOver={e => e.currentTarget.src = cta2click} 
+              onMouseOut={e => e.currentTarget.src = cta2} alt="Get Involved Button" height={250}/></Link>
+            </div>     
+          </div>
       <div className='section-header'>
             <h1>Project Overview</h1>
       </div>
       <div className='section-body'>
         <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as
           part of their Capstone Program. The team, consisting of Pranav Shekar, Niha Gaddam, Andrew Chen, Efra Ahsan,
-          and Easha Dhillon, worked on the project from January 2023 to June 2023. The web application’s mission is to
+          and Easha Dhillon, worked on the project from January 2023 to June 2023. The web application's mission is to
           connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community
           in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for
           individuals to join the BIPOC urban gardening community.</p>
