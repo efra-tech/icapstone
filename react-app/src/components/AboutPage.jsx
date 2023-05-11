@@ -33,10 +33,10 @@ export default function AboutPage(props) {
           organizations, and accessing resources. Whether you're a seasoned gardener or just starting out, GardenSpace is
           here to help you grow your green thumb and discover community in nature.</p>
         <p> </p>
-        <p style={{fontWeight: '800'}}>Cultivate yourself and your block with Garden Space!</p>
+        <p style={{fontWeight: '800'}}>Cultivate yourself and your block with GardenSpace.</p>
       </div>
       <div className="logo">
-      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '35%', marginLeft: '63%', transform: 'scaleX(-1)'}} />
+      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '25%', marginLeft: '73%', transform: 'scaleX(-1)'}} />
       </div>
       <div className='section-header pt-0'>
         <h1>Urban Gardening in Seattle</h1>
