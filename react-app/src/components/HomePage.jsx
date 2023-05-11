@@ -39,13 +39,11 @@ export default function HomePage(props) {
         </div>
         {/*<p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>*/}
       </div>
-          <div className='cta-buttons-section'>
-            <div className="cta-buttons">
-            <Link to="/map"><img id="cta" src={cta1} onMouseOver={e => e.currentTarget.src = cta1click} 
-              onMouseOut={e => e.currentTarget.src = cta1} alt="Find a Garden Button" height={250}/></Link>
-            <Link to="/get-involved"><img id="cta" src={cta2} onMouseOver={e => e.currentTarget.src = cta2click} 
-              onMouseOut={e => e.currentTarget.src = cta2} alt="Get Involved Button" height={250}/></Link>
-            </div>     
+          <div className='d-flex'>
+              <a href="/map"><img id="cta" src={cta1} onMouseOver={e => e.currentTarget.src = cta1click}
+                onMouseOut={e => e.currentTarget.src = cta1} alt="Find a Garden Button" height={250}/></a>
+              <a href="/get-involved"><img id="cta" src={cta2} onMouseOver={e => e.currentTarget.src = cta2click}
+                onMouseOut={e => e.currentTarget.src = cta2} alt="Get Involved Button" height={250}/></a>
           </div>
       <div className='section-header'>
             <h1>Project Overview</h1>

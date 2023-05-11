@@ -70,11 +70,6 @@ h2 {
   height: 15rem;
 }
 
-.cta-buttons-section {
-  display: flex;
-  box-sizing: border-box;
-}
-
 #cta {
   margin-left: 11rem;
   position: relative;
