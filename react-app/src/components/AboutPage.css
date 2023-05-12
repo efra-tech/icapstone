@@ -47,16 +47,16 @@
   padding-bottom: 0;
 }
 
-.section-header {
+h1.section-header {
   font-family: "Fraunces", serif !important;
   font-style: normal;
-  font-weight: 800;
-  font-size: 500%;
-  line-height: 99px;
+  font-weight: 600;
+  font-size: 3.4rem;
+  line-height: 123px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
   color: #746B5D;
-  padding: 5% 5% 2% 5%;
+  padding: 2% 5% 2% 5%;
   margin-top: 0;
 }
 
@@ -71,16 +71,16 @@
   padding: 0% 5% 0% 5%;
 }
 
-.section-header-2 {
+h3.section-header-2 {
   font-family: "Fraunces", serif !important;
   font-style: normal;
   font-weight: 800;
-  font-size: 500%;
+  font-size: 200%;
   line-height: 99px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
   color: #746B5D;
-  padding: 5% 5% 1% 5%;
+  padding: 1% 5% 0% 5%;
 }
 
 .section-body-2 {
