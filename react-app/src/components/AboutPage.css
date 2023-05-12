@@ -133,9 +133,14 @@ a:hover {
 }
 
 #banner-title-resource {
-  font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', serif !important;
   font-weight: 600;
   line-height: normal;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+  text-transform: capitalize;
+  margin-bottom: 5rem;
+  padding-left: 5%;
 }
 
 .about-garden-img {

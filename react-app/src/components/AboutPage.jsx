@@ -114,9 +114,9 @@ export default function AboutPage(props) {
           <p>We look forward to chatting with you.</p>
         </div>
       <div className="resource">
-        <div className="resource-title p-5 text-left text-black">
+        <div className="text-left text-black">
           <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
-          <div>
+          <div className="p-5">
             <Card />
           </div>
         </div>

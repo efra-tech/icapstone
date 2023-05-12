@@ -29,6 +29,10 @@ h2.panel-text {
     height: 100%;
 }
 
+.filter-buttons {
+    margin: auto 11.9%;
+}
+
 .back-button {
     margin-top: .5rem;
     margin-left: .5rem;
