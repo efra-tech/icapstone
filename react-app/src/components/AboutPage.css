@@ -25,12 +25,12 @@
 }
 
 .header-img {
-  background-image: url("../imgs/aboutUs-banner.png");
+  background-image: url("../imgs/about-us-banner.jpg");
   background-size: cover;
   background-position: bottom;
   height: 30rem;
   background-color:rgba(130, 159, 145, 0.53);
-  opacity: 67%;
+  opacity: 95%;
 }
 
 .logo {
