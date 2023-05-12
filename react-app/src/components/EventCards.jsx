@@ -29,24 +29,29 @@ export default function EventCardDeck(props){
   }
 
   return(
-    <div className='container-cards justify-content-between'>
+    <div className='container-cards'>
       <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
-        <div className='d-flex row card-row'>
-          <EventCard name='Cooking Fiyah Workshop w/ Fiyah Abakah' date='May 3, 2023' time='5am-7pm'
-            desc="Join us with Cooking Workshop by Fiyah Abakah!  He will be taking us through a fun, interactive, and educational workshop on May 3rd to teach us how to prepare some delicious and clean cuisine! This event will be hosted at Rainier Beach Urban Farm and Wetlands. Stay tuned for what we will be cooking and for more information on how to sign up please refer to the post on our Instagram!"
-            link='https://www.instagram.com/blackfarmerscollective/'
-          />
-          <EventCard name='YesFarm Volunteer Day' date='May 6, 2023' time='10am-3pm'
-            desc="Come out to YesFarm for their volunteer days! It is encouraged folks show up in whatever ways feel right for them. It is encouraged folks to read, spark up conversations, lay in the grass, or go on a walk. There will also be arm tasks for those who want to come and work! Wear comfortable clothing, we reccommend close toed shoes, wear warm clothes, and to bring a water and snacks. We look forward to seeing you there!"
+        <div className='d-flex row card-row justify-content-around'>
+          <EventCard name='YesFarm Volunteer Day' date='June 3, 2023' time='10am-3pm'
+            desc="Come out to YesFarm for their volunteer days! Come down to YesFarm to volunteer, read, play, seed swap, lay in the sun, make friends, and have lovely conversations with the community. This year, we wish to encourage and highlight slowing down and continue to encourage folkx to exist in the space in whatever way feels good to them. Kick off the 2023 season with familiar faces and new faces! Bring a friend & tell a friend."
             link='https://www.blackfarmerscollective.com/new-events/yesfarm-volunteer-day-1'
           />
-          <EventCard name='QueerTheLand Community Gardening Day' date='May 17, 2023' time='10am-1pm'
-            desc="Join us for another community gardening day. This will take place at 10am-1pm at the QTL house. Snacks and beverages will be provided. We'd appreciate it if you could dedicate at least 2 hours!
-            Please bring gloves if you have them, we will have some to offer. Feel free to bring tools we could really use some rakes! Bring a friend!"
+          <EventCard name='UW Farm Volunteer Party' date='June 9, 2023' time='1pm-4pm'
+            desc="Come down to the UW Farm and help grow sustainable and organic produce! Activities include; planting, weeding, harvesting, and helping farm staff with projects that help the farm function at its best! Event interval: Single-day event. Campus location: Center for Urban Horticulture. For more info visit botanicgardens.uw.edu."
+            link=''
+          />
+          <EventCard name='Gardens for BIPoC' date='June 10, 2023' time='10:30am-12pm'
+            desc="Gardens for BIPoC is a new, free monthly tour that takes place in the Washington Park Arboretum, serving folks that identify as Black, Indigenous, and/or a person of color. UW Botanic gardens hope that these free tours can help remove some barriers BIPoC folks may have to access our gardens as well as create a safe and inviting space for BIPoC to connect with one another in nature! The tours include a casual walk through various areas of the Washington Park Arboretum, feature seasonal viewing of collections plants, explorations of botany, and the cultural significance and history of each plant for the BIPoC community will be highlighted along with the history of the UW Botanic Gardens.  UW Botanic Gardens is committed to enriching the lives of all community members with free public tours."
             link='https://queertheland.org/'
           />
-          <EventCard hideClass={cardStackClass} name='Apricot Harvest at Parlington' date='June 2, 2023' time='10-4pm'
-            desc="We have an overflow of apricots upcoming, come harvest with us!"
+          </div>
+          <div className='d-flex row card-row justify-content-around' >
+          <EventCard hideClass={cardStackClass} name='Juneteenth BIPOC Cookout' date='June 17, 2023' time='12pm-7pm'
+            desc="Details coming soon!" link=''
+          />
+          <EventCard hideClass={cardStackClass} name='Yes Farm Volunteer Day' date='June 24, 2023' time='10am-3pm'
+            desc="Come down to YesFarm to volunteer, read, play, seed swap, lay in the sun, make friends, and have lovely conversation with community. This year, we wish to encourage and highlight slowing down and continue to encourage folkx to exist in the space in whatever ways feels good to them."
+            link='https://www.blackfarmerscollective.com/new-events/yesfarm-volunteer-day-1'
           />
         </div>
         <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>

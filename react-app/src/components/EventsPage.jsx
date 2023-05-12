@@ -43,6 +43,60 @@ export default function EventsPage(props) {
         icon: rsvpIconStr,
         text: '9 RSVPs'
       }
+    },
+    {
+      name: "Farmworker Health Series with Basilica Bio",
+      date: Date.parse('27 May 2023 14:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '9 RSVPs'
+      }
+    },
+    {
+      name: "Gardens for BIPoC",
+      date: Date.parse('10 June 2023 10:30:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '4 RSVPs'
+      }
+    },
+    {
+      name: "UW Farm Volunteer Party",
+      date: Date.parse('9 June 2023 13:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '12 RSVPs'
+      }
+    },
+    {
+      name: "Yes Farm Volunteer Day",
+      date: Date.parse('24 June 2023 10:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '4 RSVPs'
+      }
+    },
+    {
+      name: "Juneteenth BIPOC Cookout ",
+      date: Date.parse('17 June 2023 12:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '12 RSVPs'
+      }
+    },
+    {
+      name: "YesFarm Volunteer Day",
+      date: Date.parse('3 June 2023 10:00:00 GMT-7'),
+      allDay: false,
+      extra: {
+        icon: rsvpIconStr,
+        text: '8 RSVPs'
+      }
     }
   ];
 
