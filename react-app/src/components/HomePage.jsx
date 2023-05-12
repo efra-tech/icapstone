@@ -107,9 +107,7 @@ export default function HomePage(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <div className="carousel-image">
               <img className="d-block w-100" src={carousel2} alt="Second slide"/>
-            </div>
             <div className="container">
               <div className="carousel-caption">
                 <h3>Natalie Garcia tends to the community garden at the MLK FAME Community Center on Oct. 22, 2020.</h3>
@@ -118,9 +116,7 @@ export default function HomePage(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <div className="carousel-image">
               <img className="d-block w-100" src={carousel1} alt="Third slide"/>
-            </div>
             <div className="container">
               <div className="carousel-caption">
                 <h3>The Danny Woo Community Garden, the largest green space in the Chinatown- International District, sitting with a view of the Smith Tower.</h3>
