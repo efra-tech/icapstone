@@ -72,8 +72,7 @@ h2 {
 
 #cta {
   position: relative;
-  margin-top: 0%;
-  margin-left: 5rem;
+  margin: 3rem 0 3rem 2rem;
 }
 
 .cta {
@@ -82,6 +81,10 @@ h2 {
 
 #cta:hover {
   animation: tilt-n-move-shaking 2s;
+}
+
+.carousel {
+  height: auto;
 }
 
 .carousel-item {

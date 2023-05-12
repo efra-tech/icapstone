@@ -98,9 +98,7 @@ export default function HomePage(props) {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="carousel-image">
               <img className="d-block w-100" src={carousel3} alt="First slide"/>
-            </div>
             <div className="container">
               <div className="carousel-caption">
                 <h3>Emily Tzeng of Local Color Farm and Fiber, at home in the lettuce field.</h3>
