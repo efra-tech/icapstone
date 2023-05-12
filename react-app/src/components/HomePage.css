@@ -84,11 +84,11 @@ h2 {
 }
 
 .carousel {
-  height: auto;
+  height: 100%;
+  margin-top: 5rem;
 }
 
 .carousel-item {
-  margin-top: 5rem;
   height: 40rem;
   position: relative;
   background-position: center;
@@ -97,8 +97,7 @@ h2 {
 
 .carousel-control-next, .carousel-control-prev {
   background-color: #00000012;
-  height: 40rem;
-  margin-top: 5rem;
+  height: auto;
 }
 
 .carousel-control-next:hover, .carousel-control-prev:hover {
@@ -116,7 +115,7 @@ h2 {
 }
 
 .carousel-caption {
-  text-shadow: 1em 1em 1em green;
+  text-shadow: 1em 1em 1em black, 1em 1em 1em black;
 }
 
 .message {
