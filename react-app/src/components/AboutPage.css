@@ -128,8 +128,8 @@ a:hover {
 }
 
 .resource-link:hover {
-  color: #F2F2EC;
-  text-decoration: wavy overline #d6f062;
+  color: #4B4438;
+  text-decoration: wavy underline #bdd456;
 }
 
 #banner-title-resource {

@@ -30,7 +30,7 @@ h2.panel-text {
 }
 
 .filter-buttons {
-    margin: auto 11.9%;
+    margin: auto;
 }
 
 .back-button {
@@ -89,6 +89,6 @@ h2.panel-text {
     border: .1rem solid black;
 }
 
-.map button:hover {
+.map button:hover, .back-button:hover {
     background-color: #655c4e51 !important;
 }
