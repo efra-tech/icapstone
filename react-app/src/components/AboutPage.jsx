@@ -20,8 +20,8 @@ export default function AboutPage(props) {
   return (
     <div className='about-us-page'>
       <div className="header-img p-5 text-left text-black"></div>
-      <div className='section-header' id="header-txt">
-        <h1>Our Mission</h1>
+      <div id="header-txt">
+        <h1 className="section-header">Our Mission</h1>
       </div>
       <div className='section-body'>
         <p>Welcome to GardenSpace! </p>
@@ -38,8 +38,8 @@ export default function AboutPage(props) {
       <div className="logo">
       <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '25%', marginLeft: '73%', transform: 'scaleX(-1)'}} />
       </div>
-      <div className='section-header pt-0'>
-        <h1>Urban Gardening in Seattle</h1>
+      <div className='pt-0'>
+        <h1 className="section-header">Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
         <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 1960s.
@@ -49,14 +49,14 @@ export default function AboutPage(props) {
           which were led by BIPOC community members and sought to empower their communities through sustainable agriculture and environmental
           justice.
         </p>
-        <div class="container">
-          <div class="row">
-              <div class="col-sm-6 about-garden-col">
-                <img class="about-garden-img img-responsive" src={tilth_origins} alt="Meeting at Pragtree Farm, August, 27, 1977"/>
+        <div className="container">
+          <div className="row">
+              <div className="col-sm-6 about-garden-col">
+                <img className="about-garden-img img-responsive" src={tilth_origins} alt="Meeting at Pragtree Farm, August, 27, 1977"/>
                 <p className="about-garden-text">Pragtree Farm, August, 27, 1977. Meeting where "Tilth" was coined. (Photo by Jef Jaisun)</p>
               </div>
-              <div class="col-sm-6 about-garden-col">
-                <img class="about-garden-img img-responsive" src={tilth_harvest_fair} alt="Tilth Alliance 2007 Harvest Fair"/>
+              <div className="col-sm-6 about-garden-col">
+                <img className="about-garden-img img-responsive" src={tilth_harvest_fair} alt="Tilth Alliance 2007 Harvest Fair"/>
                 <p className="about-garden-text">Seattle Tilth is called Tilth Alliance today, and they often run community events. This photo is from their 2007 Harvest Fair.</p>
               </div>
           </div>
@@ -66,25 +66,25 @@ export default function AboutPage(props) {
           healthy produce and advocating for food justice in Seattle. The BIPOC urban gardening community is a vibrant and important part of
           Seattle's social and environmental fabric.
         </p>
-        <div class="container">
-          <div class="row">
-            <div class="col-4 about-garden-col">
-              <img class="about-garden-img img-responsive" src={black_farmers_collective_1} alt="Staff of Black Farmers Collective"/>
+        <div className="container">
+          <div className="row">
+            <div className="col-4 about-garden-col">
+              <img className="about-garden-img img-responsive" src={black_farmers_collective_1} alt="Staff of Black Farmers Collective"/>
               <p className="about-garden-text">The Staff Team at Black Farmers Collective</p>
             </div>
-            <div class="col-4 about-garden-col">
-              <img class="about-garden-img img-responsive" src={black_farmers_collective_2} alt="Volunteers at Yes Farm"/>
+            <div className="col-4 about-garden-col">
+              <img className="about-garden-img img-responsive" src={black_farmers_collective_2} alt="Volunteers at Yes Farm"/>
               <p className="about-garden-text">Volunteers at Yes Farm</p>
             </div>
-            <div class="col-4 about-garden-col">
-              <img class="about-garden-img img-responsive" src={got_green_2008} alt="Staff at Got Green"/>
+            <div className="col-4 about-garden-col">
+              <img className="about-garden-img img-responsive" src={got_green_2008} alt="Staff at Got Green"/>
               <p className="about-garden-text">The Team at Got Green</p>
             </div>
           </div>
         </div>
       </div>
-      <div className='section-header'>
-        <h1>Why This Matters</h1>
+      <div>
+        <h1 className='section-header'>Why This Matters</h1>
       </div>
       <div className='section-body'>
         <p>Community-building is a crucial component of the BIPOC urban gardening movement in Seattle, and it plays an important role in
@@ -94,8 +94,8 @@ export default function AboutPage(props) {
           of accessing culturally appropriate foods. Additionally, gardening has been shown to have mental health benefits, including reducing
           stress and promoting feelings of calm and relaxation.
         </p>
-        <div class="container">
-          <img class="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" />
+        <div className="container">
+          <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" />
           <p className="about-garden-text">At BLOOM Giving Garden, visitors are taught about the importance of food sovereignty in combatting inequality. BLOOM, along with other urban gardens, build community through their gardens and then give back to the community as well. (Photo by Davida Ingram)</p>
         </div>
     <p>
@@ -106,8 +106,8 @@ export default function AboutPage(props) {
           the support of our community that we may create a brighter future for us all!
     </p>
   </div>
-        <div className='section-header-2'>
-          <h3>Get in Touch with Us!</h3>
+        <div>
+          <h3 className='section-header-2'>Get in Touch with Us!</h3>
         </div>
         <div className='section-body-2'>
           <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
