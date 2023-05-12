@@ -12,26 +12,26 @@ import resource6 from '../imgs/resource6.jpg';
 class Cards extends Component {
     render() {
         return(
-            <div className="container-fluid d-flex justify-content-center">
-                <div className="row">
-                    <div className="col-md-4">
+            <div className="container-fluid">
+                <div className="row justify-content-around">
+                    <div className="col-xs-5 col-sm-5 col-md-4 col-lg-3">
                     <Card imgsrc={resource1} title="Reclaiming Public Space" link="https://crosscut.com/focus/2020/11/seattles-urban-farmers-are-reclaiming-public-space"/>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-xs-5 col-sm-5 col-md-4 col-lg-3">
                     <Card imgsrc={resource2} title="Yes Farm: Vice Interview" link="https://i-d.vice.com/en/article/88gxq4/yes-farm-seattle-interview" />
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-xs-5 col-sm-10 col-md-4 col-lg-3">
                     <Card imgsrc={resource3} title="Farming for Change" link="https://southseattleemerald.com/2020/04/28/farming-for-change-black-womxn-farmers-fight-the-pandemic-with-a-food-revolution/" />
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-4">
+                <div className="row justify-content-around">
+                    <div className="col-xs-5 col-sm-5 col-md-4 col-lg-3">
                     <Card imgsrc={resource4} title="Public Gardens and Livable Cities" link="https://muse.jhu.edu/book/78593" />
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-xs-5 col-sm-5 col-md-4 col-lg-3">
                     <Card imgsrc={resource5} title="Seattle Youth Urban Farming" link="https://www.seattletimes.com/seattle-news/black-farmers-collective-creates-community-space-for-youth-in-urban-farming-program/" />
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-xs-5 col-sm-10 col-md-4 col-lg-3">
                     <Card imgsrc={resource6} title="Seattle's CHOP guerrilla garden" link="https://www.tandfonline.com/doi/abs/10.1080/13549839.2022.2137788" />
                     </div>
                 </div>
