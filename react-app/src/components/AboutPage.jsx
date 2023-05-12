@@ -121,7 +121,7 @@ export default function AboutPage(props) {
           </div>
         </div>
       </div>
-      <section className='meet-the-team-section'>
+      <section className='meet-the-team-section' style={{marginTop: '13%'}}>
         <div className='section-header meet-the-team-header'>
           <h1>Meet the Team</h1>
         </div>
