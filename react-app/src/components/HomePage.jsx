@@ -39,7 +39,7 @@ export default function HomePage(props) {
         {/*<p className="message-final">Find and cultivate yourself in nature with GardenSpace!</p>*/}
       </div>
         <div className="container cta">
-          <div className='d-flex row cta'>
+          <div className='row cta justify-content-center'>
             <div className="col">
               <a href="/map"><img id="cta" src={cta1} onMouseOver={e => e.currentTarget.src = cta1click}
                 onMouseOut={e => e.currentTarget.src = cta1} alt="Find a Garden Button" height={250}/></a>
