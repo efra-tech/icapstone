@@ -4,13 +4,19 @@
 
 h2.panel-text {
     font-family: 'Fraunces', serif;
-    font-weight: 600;
-    color: #746B5D;
+    font-weight: 500;
+    color: #F2F2EC;
     font-style: normal;
     font-size: 2rem;
     letter-spacing: -0.28px;
     text-align: center;
     margin-top: 2rem;
+    /* border-bottom: 5px solid #756a5a; */
+    border-top: 5px solid #756a5a;
+    background-color: #655C4E;
+    padding-bottom: 2.9%;
+    box-shadow: 1px 5px 5px #50655b24;
+    text-shadow: 1px 1px 1px #756a5a;
 }
 
 .map-container {
@@ -57,11 +63,11 @@ h2.panel-text {
 .map-panel {
     position: absolute;
     height: 100vh;
-    border: 1.5px solid #655C4E;
+    border: 2.5px solid #655C4E;
     border-top: 0px;
     border-bottom: 0px;
     overflow: auto;
-
+    box-shadow: 1px 5px 5px #50655b24;
 }
 
 .clicked {
@@ -79,3 +85,6 @@ h2.panel-text {
     border: .1rem solid black;
 }
 
+.map button:hover {
+    background-color: #655c4e51 !important;
+}
