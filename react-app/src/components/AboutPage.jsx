@@ -116,12 +116,12 @@ export default function AboutPage(props) {
       <div className="resource">
         <div className="text-left text-black">
           <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
-          <div className="p-5">
+          <div className="p-5" style={{marginLeft: '2.2%'}}>
             <Card />
           </div>
         </div>
       </div>
-      <section className='meet-the-team-section' style={{marginTop: '13%'}}>
+      <section className='meet-the-team-section' style={{marginTop: '13%', borderTop: '10px solid #5f574a'}}>
         <div className='section-header meet-the-team-header'>
           <h1>Meet the Team</h1>
         </div>

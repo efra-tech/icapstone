@@ -102,10 +102,10 @@
 .resource {
   background-color: #879F91;
   padding-top: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   margin-top: 10%;
-  border-top: 60px solid #81988b;
-  border-bottom: 60px solid #81988b;
+  border-top: 60px solid #8fa89a;
+  border-bottom: 60px solid #8fa89a;
 }
 
 a {
@@ -139,8 +139,9 @@ a:hover {
   line-height: 4rem;
   letter-spacing: -0.28px;
   text-transform: capitalize;
-  margin-bottom: 5rem;
-  padding-left: 5%;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+  padding-left: 3%;
 }
 
 .about-garden-img {
