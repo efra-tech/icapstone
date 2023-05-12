@@ -62,13 +62,15 @@ a {
 }
 
 .navbar-brand {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
   color: white;
   position: absolute;
   top: 0;
   right: 0;
   padding-right: 2.35%;
   padding-top: 4.3%;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 
 .navbar-brand:hover {
@@ -169,7 +171,12 @@ h1.events-subtitle {
 }
 
 .map-card:hover {
-  background: rgba(130, 159, 145, 0.53);
+  background: #879f9169;
+  box-shadow: none;
+}
+
+.map-card {
+  border: 0.11rem solid #536a65 !important;
 }
 
 .map-card a {
