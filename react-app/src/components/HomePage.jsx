@@ -9,6 +9,8 @@ import cta2 from "../imgs/cta2.png"
 import cta1click from "../imgs/cta1-click.png"
 import cta2click from "../imgs/cta2-click.png"
 import { Link } from 'react-router-dom';
+import { Container} from 'react-bootstrap'
+import logo_img from '../imgs/logo.png';
 
 
 
@@ -62,7 +64,14 @@ export default function HomePage(props) {
           individuals to join the BIPOC urban gardening community.</p>
         <p>As of Spring 2023, this project is turning open-source. If you would like to contribute to GardenSpace, please contact the Information School at the University of Washington.</p>
       </div>
-
+      <Container>
+        <div className='row' style={{width: '100%'}}>
+        <div id="demo-vid" className="ratio ratio-16x9" style={{width: '50%', float: 'left'}}>
+          <iframe src="https://www.youtube.com/embed/D5a3Mq2tybg" title="Demo YouTube video" allowFullScreen></iframe>
+        </div>
+          <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '30%', marginLeft: '70%', paddingTop: '0%', transform: 'scaleX(-1)'}} />
+        </div>
+      </Container>
       {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <ol className="carousel-indicators">
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>

@@ -86,6 +86,13 @@ h2 {
   animation: tilt-n-move-shaking 2s;
 }
 
+#demo-vid {
+  width: 50%;
+  margin-right: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .carousel {
   height: 100%;
   margin-top: 5rem;

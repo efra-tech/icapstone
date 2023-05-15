@@ -36,7 +36,7 @@ export default function AboutPage(props) {
         <p style={{fontWeight: '800'}}>Cultivate yourself and your block with GardenSpace.</p>
       </div>
       <div className="logo">
-      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '25%', marginLeft: '73%', transform: 'scaleX(-1)'}} />
+      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '15%', marginLeft: '80%', transform: 'scaleX(-1)'}} />
       </div>
       <div className='pt-0'>
         <h1 className="section-header">Urban Gardening in Seattle</h1>
