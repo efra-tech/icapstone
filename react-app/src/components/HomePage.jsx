@@ -19,10 +19,9 @@ export default function HomePage(props) {
     <div className="homepage">
       <div className="banner">
         <div className="bg-image p-5 text-left text-black">
-          <h1 id="banner-title"><br></br>GARDENSPACE</h1>
+          <h1 id="banner-title"><br></br>GardenSpace</h1>
         </div>
       </div>
-
       <div className="message">
         <div className="row">
           <div className="col-5 d-flex flex-column p-0">
@@ -66,10 +65,19 @@ export default function HomePage(props) {
       </div>
       <Container>
         <div className='row' style={{width: '100%'}}>
-        <div id="demo-vid" className="ratio ratio-16x9" style={{width: '50%', float: 'left'}}>
-          <iframe src="https://www.youtube.com/embed/D5a3Mq2tybg" title="Demo YouTube video" allowFullScreen></iframe>
-        </div>
-          <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '30%', marginLeft: '70%', paddingTop: '0%', transform: 'scaleX(-1)'}} />
+        
+          <table>
+            <tr>
+            <div id="demo-vid" className="ratio ratio-16x9">
+              <iframe style={{width: '100%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
+              </div>
+              <td style={{width: '50%', float: 'right'}}>
+                <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '50%', marginLeft: '70%', float:'right', paddingTop: '0%', transform: 'scaleX(-1)'}} />
+              </td>
+            </tr>
+          </table>
+     
+
         </div>
       </Container>
       {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">

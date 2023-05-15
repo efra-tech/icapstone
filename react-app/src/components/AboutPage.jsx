@@ -20,8 +20,8 @@ export default function AboutPage(props) {
   return (
     <div className='about-us-page'>
       <div className="header-img p-5 text-left text-black"></div>
-      <div id="header-txt">
-        <h1 className="section-header">Our Mission</h1>
+      <div style={{width: '100%'}}>
+          <h1 className="section-header">Our Mission</h1>
       </div>
       <div className='section-body'>
         <p>Welcome to GardenSpace! </p>
@@ -35,9 +35,9 @@ export default function AboutPage(props) {
         <p> </p>
         <p style={{fontWeight: '800'}}>Cultivate yourself and your block with GardenSpace.</p>
       </div>
-      <div className="logo">
-      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '15%', marginLeft: '80%', transform: 'scaleX(-1)'}} />
-      </div>
+      <div className="logo" style={{width: '50%'}}>
+          <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '30%', marginLeft: '85%', transform: 'scaleX(-1)'}} />
+        </div>
       <div className='pt-0'>
         <h1 className="section-header">Urban Gardening in Seattle</h1>
       </div>
