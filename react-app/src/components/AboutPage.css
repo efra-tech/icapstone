@@ -51,7 +51,7 @@ h1.section-header {
   font-family: "Fraunces", serif !important;
   font-style: normal;
   font-weight: 600;
-  font-size: 3.4rem;
+  font-size: 3rem;
   line-height: 123px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
@@ -75,7 +75,7 @@ h3.section-header-2 {
   font-family: "Fraunces", serif !important;
   font-style: normal;
   font-weight: 800;
-  font-size: 200%;
+  font-size: 3rem;
   line-height: 99px;
   letter-spacing: -0.28px;
   text-transform: capitalize;
@@ -167,10 +167,6 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5rem;
   font-style: italic;
-}
-
-.about-garden-col {
-  margin-bottom: 5rem;
 }
 
 .bloom {
