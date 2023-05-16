@@ -71,7 +71,7 @@ export default function HomePage(props) {
               </div>
             </div>
             <div className="col-md-6 col-sm-12">
-              <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '50%', marginTop: '10rem', transform: 'scaleX(-1)'}} />
+              <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '50%', marginTop: '10rem', transform: 'scaleX(-1)', left: '0'}} />
             </div>
           </div>
       </Container>

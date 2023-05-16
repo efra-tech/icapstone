@@ -45,7 +45,7 @@ export default function EventCardDeck(props){
             link='https://queertheland.org/'
           />
           </div>
-          <div className='d-flex row card-row justify-content-around' >
+          <div className='d-flex row card-row text-left flex-overlay justify-content-start' style={{marginLeft: '0%'}} >
           <EventCard hideClass={cardStackClass} name='Juneteenth BIPOC Cookout' date='June 17, 2023' time='12pm-7pm'
             desc="Details coming soon!" link=''
           />
@@ -109,7 +109,7 @@ function EventCard(props){
         </Card.Header>
         <Accordion.Collapse eventKey="0" className='card-drop'>
           <Card.Body>
-            <p>{props.desc}</p>
+            <p style={{textShadow: '10px 10px 10px #d9f4637f'}}>{props.desc}</p>
             {props.link && <button onClick={() => window.open(props.link, "_blank", "noreferrer")} className='link-btn'><FontAwesomeIcon icon={faPaperclip} style={{color: '#2D3935', height: "1.45rem"}}/></button>}
             <Button className='px-3 rsvp-btn' onClick={handleClick}>RSVP</Button>
             <Modal show={showModal} onHide={() => setShowModal(false)} centered size='lg'>

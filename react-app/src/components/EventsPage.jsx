@@ -186,7 +186,7 @@ export default function EventsPage(props) {
           <EventCardDeck />
       </div>
       <div className='calendar-container lead'>
-        <h1 className='events-subtitle'>Calendar</h1>
+        <h1 className='events-subtitle mt-4'>Calendar</h1>
         <RevoCalendar
           events={eventsList}
           style={{
