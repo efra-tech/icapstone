@@ -90,5 +90,6 @@ h2.panel-text {
 }
 
 .map button:hover, .back-button:hover {
-    background-color: #655c4e51 !important;
+    background-color: #756a5a !important;
+    color: white !important;
 }
