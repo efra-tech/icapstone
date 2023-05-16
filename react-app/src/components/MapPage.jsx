@@ -54,8 +54,9 @@ export default function MapPage(props) {
         <div className="col-3">
           <div className='map map-panel'>
             <div>
-              <h2 className="panel-text pt-2">discover local gardens</h2>
-              <input type="text" placeholder="Search by name.." onChange={event => {props.setSearch(event.target.value)}} style={{marginLeft: '10%', marginBottom: '4%', marginTop: '7%', padding: '0.4em', border: '0.11rem solid #685f51', borderRadius: '0.4em', boxShadow: '1px 5px 5px #50655b10'}} />
+              <div className='static-section'>
+              <h2 className="panel-text pt-2">Discover local gardens</h2>
+              <input type="text" placeholder="Search by name..." onChange={event => {props.setSearch(event.target.value)}} style={{marginLeft: '10%', marginBottom: '4%', marginTop: '7%', padding: '0.4em', border: '0.11rem solid #685f51', borderRadius: '0.4em', boxShadow: '1px 5px 5px #50655b10'}} />
               <div className="container filter-buttons">
                 {!props.showCard && <button className={bipocSelected ? "clicked" : "notClicked"} onClick={handleBIPOC} style={{
                   backgroundColor: bipocSelected ? '#655C4E' : 'white', border: '0.14rem solid #685f51', padding: '0.5rem', boxShadow: '1px 5px 5px #50655b10', marginBottom: '6.5%'
@@ -66,6 +67,7 @@ export default function MapPage(props) {
                 {!props.showCard && <button className={pPatchSelected ? "clicked" : "notClicked"} onClick={handlePPatch} style={{
                   backgroundColor: pPatchSelected ? '#655C4E' : 'white', border: '0.14rem solid #685f51', padding: '0.5rem', boxShadow: '1px 5px 5px #50655b10'
                 }}>P-Patches</button>}
+                </div>
               </div>
               {!props.showCard && <MapCardDeck setCard={props.setCard} setGarden={props.setGarden} searchTerm={props.searchTerm} setCenter={setCenter} setMapRefresh={setMapRefresh} selectedGardens={selectedGardens}/>}
               {props.showCard && <DetailedCard setCard={props.setCard} setGarden={props.setGarden} gardenID={props.gardenID} />}
@@ -75,7 +77,7 @@ export default function MapPage(props) {
       </div>
       <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
-        <p className="text-white">gardenspacemuse@gmail.com
+        <p className="text-white"><a id='email-link' href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a>
         <br></br>
         University of Washington Capstone 2023
         <br></br>

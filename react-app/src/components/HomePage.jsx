@@ -9,6 +9,8 @@ import cta2 from "../imgs/cta2.png"
 import cta1click from "../imgs/cta1-click.png"
 import cta2click from "../imgs/cta2-click.png"
 import { Link } from 'react-router-dom';
+import { Container} from 'react-bootstrap'
+import logo_img from '../imgs/logo.png';
 
 
 
@@ -17,10 +19,9 @@ export default function HomePage(props) {
     <div className="homepage">
       <div className="banner">
         <div className="bg-image p-5 text-left text-black">
-          <h1 id="banner-title"><br></br>GARDENSPACE</h1>
+          <h1 id="banner-title"><br></br>GardenSpace</h1>
         </div>
       </div>
-
       <div className="message">
         <div className="row">
           <div className="col-5 d-flex flex-column p-0">
@@ -30,9 +31,9 @@ export default function HomePage(props) {
           </div>
           <div className="col-7">
             <p className="message-text">GardenSpace is a welcoming community for BIPOC (Black, Indigenous, and People of Color)
-            urban gardeners in Seattle. Our goal is to create a safe space where gardeners can connect with local gardens,
+            urban gardeners in Seattle. Our goal is to create a safe space where all gardeners can connect with local gardens,
             discover new events, and access information about local organizations. We believe that gardening should be a
-            collaborative and inclusive experience, and we're dedicated to helping you find a community that shares your passion.
+            collaborative and inclusive experience, and we're dedicated to helping BIPOC gardeners find a community that shares their passion.
             </p>
           </div>
         </div>
@@ -51,7 +52,7 @@ export default function HomePage(props) {
           </div>
         </div>
       <div className='section-header'>
-            <h1>Project Overview</h1>
+            <h1 style={{fontSize: '3.4rem'}}>Project Overview</h1>
       </div>
       <div className='section-body'>
         <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as
@@ -60,9 +61,20 @@ export default function HomePage(props) {
           connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community
           in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for
           individuals to join the BIPOC urban gardening community.</p>
-        <p>As of Spring 2023, this project is turning open-source. If you would like to contribute to GardenSpace, please contact the Information School at the University of Washington.</p>
+        <p>As of Spring 2023, this project is open-source. If you would like to contribute to GardenSpace, please contact the <a id='contact-link' style={{color: '#829F91'}} href="https://ischool.uw.edu/about/contact" target="_blank">Information School</a> at the University of Washington.</p>
       </div>
-
+      <Container>
+          <div className="row">
+            <div className="col-md-6 col-sm-12">
+              <div id="demo-vid" className="ratio ratio-16x9">
+                <iframe style={{width: '100%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '50%', marginTop: '10rem', transform: 'scaleX(-1)'}} />
+            </div>
+          </div>
+      </Container>
       {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <ol className="carousel-indicators">
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
@@ -89,7 +101,9 @@ export default function HomePage(props) {
           <span className="sr-only">Next</span>
         </a>
       </div> */}
-
+      <div className='section-header'>
+            <h1 style={{fontSize: '3.4rem'}}>Community Highlights</h1>
+      </div>
       <div id="homeCarousel" className="carousel slide pointer-event" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
@@ -107,9 +121,7 @@ export default function HomePage(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <div className="carousel-image">
               <img className="d-block w-100" src={carousel2} alt="Second slide"/>
-            </div>
             <div className="container">
               <div className="carousel-caption">
                 <h3>Natalie Garcia tends to the community garden at the MLK FAME Community Center on Oct. 22, 2020.</h3>
@@ -118,9 +130,7 @@ export default function HomePage(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <div className="carousel-image">
               <img className="d-block w-100" src={carousel1} alt="Third slide"/>
-            </div>
             <div className="container">
               <div className="carousel-caption">
                 <h3>The Danny Woo Community Garden, the largest green space in the Chinatown- International District, sitting with a view of the Smith Tower.</h3>
@@ -145,7 +155,7 @@ export default function HomePage(props) {
 
       <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
-        <p className="text-white">gardenspacemuse@gmail.com
+        <p className="text-white"><a id='email-link' href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a>
         <br></br>
         University of Washington Capstone 2023
         <br></br>

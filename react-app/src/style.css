@@ -19,6 +19,12 @@ footer {
   border-bottom: 15px solid #655C4E;
 }
 
+#email-link:hover {
+  text-decoration: wavy overline #bbd496;
+  color: white;
+  text-shadow: 1px 2px 4px #bbd49629;
+}
+
 .contact-title {
   padding-top: 2%;
 }
@@ -79,7 +85,7 @@ a {
   color: #bbd496;
   font-weight: 900;
   text-shadow: 70px 170px 370px #d0ff00;
-  text-decoration: wavy underline #423c32;
+  text-decoration: wavy overline #423c32;
 }
 
 .list-unstyled a:hover {
@@ -348,3 +354,4 @@ h1.events-subtitle {
   text-decoration: wavy overline #d9f463;
   font-style: normal;
 }
+

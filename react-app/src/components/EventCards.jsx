@@ -40,8 +40,8 @@ export default function EventCardDeck(props){
             desc="Come down to the UW Farm and help grow sustainable and organic produce! Activities include; planting, weeding, harvesting, and helping farm staff with projects that help the farm function at its best! Event interval: Single-day event. Campus location: Center for Urban Horticulture. For more info visit botanicgardens.uw.edu."
             link=''
           />
-          <EventCard name='Gardens for BIPoC' date='June 10, 2023' time='10:30am-12pm'
-            desc="Gardens for BIPoC is a new, free monthly tour that takes place in the Washington Park Arboretum, serving folks that identify as Black, Indigenous, and/or a person of color. UW Botanic gardens hope that these free tours can help remove some barriers BIPoC folks may have to access our gardens as well as create a safe and inviting space for BIPoC to connect with one another in nature! The tours include a casual walk through various areas of the Washington Park Arboretum, feature seasonal viewing of collections plants, explorations of botany, and the cultural significance and history of each plant for the BIPoC community will be highlighted along with the history of the UW Botanic Gardens.  UW Botanic Gardens is committed to enriching the lives of all community members with free public tours."
+          <EventCard name='Gardens for BIPOC' date='June 10, 2023' time='10:30am-12pm'
+            desc="Gardens for BIPOC is a new, free monthly tour that takes place in the Washington Park Arboretum, serving folks that identify as Black, Indigenous, and/or a person of color. UW Botanic gardens hope that these free tours can help remove some barriers BIPoC folks may have to access our gardens as well as create a safe and inviting space for BIPoC to connect with one another in nature! The tours include a casual walk through various areas of the Washington Park Arboretum, feature seasonal viewing of collections plants, explorations of botany, and the cultural significance and history of each plant for the BIPoC community will be highlighted along with the history of the UW Botanic Gardens.  UW Botanic Gardens is committed to enriching the lives of all community members with free public tours."
             link='https://queertheland.org/'
           />
           </div>
@@ -104,7 +104,7 @@ function EventCard(props){
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
-            event details
+            Event details
           </CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0" className='card-drop'>
@@ -160,7 +160,7 @@ function EventCard(props){
                     </div>
                   </Form.Group>
                   <Form.Group className="mb-3 form-extra-text" controlId="form-text-area">
-                    <Form.Label>Questions/Comments/Concerns?</Form.Label>
+                    <Form.Label>Any questions, comments, or concerns?</Form.Label>
                     <Form.Control as="textarea" rows={2} placeholder="Enter them here" onChange={handleDetailEntry} />
                   </Form.Group>
                 </Form>

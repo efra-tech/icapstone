@@ -20,8 +20,8 @@ export default function AboutPage(props) {
   return (
     <div className='about-us-page'>
       <div className="header-img p-5 text-left text-black"></div>
-      <div id="header-txt">
-        <h1 className="section-header">Our Mission</h1>
+      <div style={{width: '100%'}}>
+          <h1 className="section-header">Our Mission</h1>
       </div>
       <div className='section-body' style={{marginLeft: '3.3%', marginRight: '3.3%'}}>
         <p>Welcome to GardenSpace! </p>
@@ -35,11 +35,11 @@ export default function AboutPage(props) {
         <p> </p>
         <p style={{fontWeight: '800'}}>Cultivate yourself and your block with GardenSpace.</p>
       </div>
-      <div className="logo">
-      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '25%', marginLeft: '73%', transform: 'scaleX(-1)'}} />
-      </div>
+      <div className="logo" style={{width: '50%'}}>
+          <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '30%', marginLeft: '85%', transform: 'scaleX(-1)'}} />
+        </div>
       <div className='pt-0'>
-        <h1 className="section-header">Urban Gardening in Seattle</h1>
+        <h1 className="section-header">History of Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
         <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 1960s.
@@ -98,7 +98,7 @@ export default function AboutPage(props) {
           stress and promoting feelings of calm and relaxation.
         </p>
         <div className="container">
-          <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" />
+          <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" style={{borderRadius: '4.5rem'}}/>
           <p className="about-garden-text">At BLOOM Giving Garden, visitors are taught about the importance of food sovereignty in combatting inequality. BLOOM, along with other urban gardens, build community through their gardens and then give back to the community as well. (Photo by Davida Ingram)</p>
         </div>
     <p>
@@ -109,6 +109,7 @@ export default function AboutPage(props) {
           the support of our community that we may create a brighter future for us all!
     </p>
   </div>
+
         <div className='d-flex align-content-center align-self-center flex-overlay justify-content-center my-5' style={{marginLeft: '12%'}}>
           <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '16%', marginLeft: '3%', transform: 'scaleX(-1)', marginTop: '4%'}} />
           <div className='p-3 py-5'>
@@ -186,7 +187,7 @@ export default function AboutPage(props) {
       </div>
       <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
-        <p className="text-white">gardenspacemuse@gmail.com
+        <p className="text-white"><a id='email-link' href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a>
         <br></br>
         University of Washington Capstone 2023
         <br></br>
@@ -195,3 +196,5 @@ export default function AboutPage(props) {
     </div>
   );
 }
+
+

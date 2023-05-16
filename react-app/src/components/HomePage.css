@@ -42,6 +42,9 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.482);
 }
 
+#contact-link:hover {
+  text-decoration: wavy underline #bbd496;
+}
 
 #banner-title-resource {
   opacity: 100%;
@@ -86,13 +89,29 @@ h2 {
   animation: tilt-n-move-shaking 2s;
 }
 
+#demo-vid {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+#homeCarousel {
+background-color:#2A3B37;
+padding-top: 2%;
+padding-bottom: 2%;
+margin-top: 0%;
+border-top: 60px solid #24322f;
+border-bottom: 60px solid #24322f;
+}
+
 .carousel {
-  height: auto;
+  height: 100%;
+  margin-top: 5rem;
 }
 
 .carousel-item {
-  margin-top: 5rem;
-  height: 40rem;
+  height: 100%;
+  max-height: 40rem;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -100,8 +119,7 @@ h2 {
 
 .carousel-control-next, .carousel-control-prev {
   background-color: #00000012;
-  height: 40rem;
-  margin-top: 5rem;
+  height: auto;
 }
 
 .carousel-control-next:hover, .carousel-control-prev:hover {
@@ -109,17 +127,14 @@ h2 {
 }
 
 .carousel-image { /* doesn't work */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
   background-position: center;
   background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 .carousel-caption {
-  text-shadow: 1em 1em 1em green;
+  text-shadow: 1em 1em 1em black, 1em 1em 1em black;
 }
 
 .message {
