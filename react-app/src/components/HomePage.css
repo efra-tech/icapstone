@@ -134,7 +134,7 @@ border-bottom: 60px solid #24322f;
 }
 
 .carousel-caption {
-  text-shadow: 1em 1em 1em black, 1em 1em 1em black;
+  text-shadow: 1em 1em 1em rgba(255, 255, 255, 0.537), 1em 1em 1em black;
 }
 
 .message {

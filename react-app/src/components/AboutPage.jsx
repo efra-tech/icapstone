@@ -96,7 +96,7 @@ export default function AboutPage(props) {
           <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" style={{borderRadius: '4.5rem'}}/>
           <p className="about-garden-text">At BLOOM Giving Garden, visitors are taught about the importance of food sovereignty in combatting inequality. BLOOM, along with other urban gardens, build community through their gardens and then give back to the community as well. (Photo by Davida Ingram)</p>
         </div>
-    <p>
+    <p className='pt-4'>
           GardenSpace recognizes the importance of community-building and is committed to providing spaces where new gardeners can get involved,
           feel supported, and make lifelong connections. Gardening has a long radical history of liberation, and GardenSpace aims to continue this
           tradition by creating access points for individuals to join the BIPOC urban gardening community in Seattle. Through community-building

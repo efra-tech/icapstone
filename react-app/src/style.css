@@ -76,7 +76,7 @@ a {
   right: 0;
   padding-right: 2.35%;
   padding-top: 4.4%;
-  font-size: 2.1rem;
+  font-size: 2.2rem;
 }
 
 .navbar-brand:hover {
@@ -211,8 +211,8 @@ h1.events-subtitle {
 }
 
 .details-btn, .rsvp-btn {
-  border: 4px solid #435c56;
-  background-color: #3a524c;
+  border: 4px solid #435c56d6;
+  background-color: #3a524cbc;
   color: #F2F2EC;
   border-radius: 0.9em;
   padding: 2.5%;
@@ -334,7 +334,8 @@ h1.events-subtitle {
 }
 
 .modal {
-  background-color: #f7f4f0bf;
+  background-color: #f7f4f091;
+  border: 31px dotted #a3ba81;
 }
 
 .form-extra-text {
@@ -346,7 +347,8 @@ h1.events-subtitle {
 }
 
 .confirmation {
-  background-color: #b5c37b6e;
+  background-color: #a7b56e99;
+  border: 90px ridge rgba(255, 192, 203, 0.127);
 }
 
 .confirmation .modal-header {

@@ -115,7 +115,7 @@ export default function HomePage(props) {
               <img className="d-block w-100" src={carousel3} alt="First slide"/>
             <div className="container">
               <div className="carousel-caption">
-                <h3>Emily Tzeng of Local Color Farm and Fiber, at home in the lettuce field.</h3>
+                <h3>Emily Tzeng with Local Color Farm and Fiber, at home in the lettuce field.</h3>
                 <p>IMAGE: Rylea Foehl/ SeattleMet Rylea Foehl</p>
               </div>
             </div>
