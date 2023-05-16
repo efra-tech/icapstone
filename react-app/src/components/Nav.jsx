@@ -8,7 +8,7 @@ export default function Navbar(props) {
     <nav className='navbar-expand-lg navbar-nav'>
       <div>
         <ul className="list-unstyled navbar-nav">
-          <a href='/home' className='nav-logo'><img src={logo} alt="gardenspace logo" height={129}/></a>
+          <a href='/home' className='nav-logo' style={{filter: "grayscale(0.24)", paddingTop: '1%'}}><img src={logo} alt="gardenspace logo" height={100} /></a>
           <li className='nav-item m-4'><NavLink to="/home"> Home </NavLink></li>
           <li className='nav-item m-4'><NavLink to="/map"> Map </NavLink></li>
           <li className='nav-item m-4'><NavLink to="/get-involved"> Get Involved </NavLink></li>
