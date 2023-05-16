@@ -20,10 +20,8 @@ export default function AboutPage(props) {
   return (
     <div className='about-us-page'>
       <div className="header-img p-5 text-left text-black"></div>
-      <div style={{width: '100%'}}>
           <h1 className="section-header">Our Mission</h1>
-      </div>
-      <div className='section-body' style={{marginLeft: '3.3%', marginRight: '3.3%'}}>
+      <div className='section-body' style={{marginRight: '3.3%'}}>
         <p>Welcome to GardenSpace! </p>
         <p> </p>
         <p>A web application developed by a group of Informatics students from the University of Washington. As part of our
@@ -35,9 +33,6 @@ export default function AboutPage(props) {
         <p> </p>
         <p style={{fontWeight: '800'}}>Cultivate yourself and your block with GardenSpace.</p>
       </div>
-      <div className="logo" style={{width: '50%'}}>
-          <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '30%', marginLeft: '85%', transform: 'scaleX(-1)'}} />
-        </div>
       <div className='pt-0'>
         <h1 className="section-header">History of Urban Gardening in Seattle</h1>
       </div>
@@ -115,7 +110,7 @@ export default function AboutPage(props) {
           <div className='p-3 py-5'>
             <div className='section-body-2 text-center' style={{marginRight: '15%'}}>
               <h3 className='section-header-2 text-center' style={{fontSize: '2rem'}}>Get in Touch with Us!</h3>
-              <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
+              <p>Feel free to contact us at <a id='email-link' style={{color:'#829F91'}} href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a> for any questions or additional information.</p>
               <p>We look forward to chatting with you.</p>
             </div>
           </div>
