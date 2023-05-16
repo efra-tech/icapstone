@@ -93,6 +93,15 @@ h2 {
   margin-bottom: 10rem;
 }
 
+#homeCarousel {
+background-color: #829F91;
+padding-top: 2%;
+padding-bottom: 2%;
+margin-top: 0%;
+border-top: 60px solid #8fa89a;
+border-bottom: 60px solid #8fa89a;
+}
+
 .carousel {
   height: 100%;
   margin-top: 5rem;
