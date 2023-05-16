@@ -95,7 +95,7 @@ export default function AboutPage(props) {
           stress and promoting feelings of calm and relaxation.
         </p>
         <div className="container">
-          <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" />
+          <img className="about-garden-img bloom img-responsive" src={bloom_giving_garden} alt="BLOOM Giving Garden guide with volunteer farmers" style={{borderRadius: '4.5rem'}}/>
           <p className="about-garden-text">At BLOOM Giving Garden, visitors are taught about the importance of food sovereignty in combatting inequality. BLOOM, along with other urban gardens, build community through their gardens and then give back to the community as well. (Photo by Davida Ingram)</p>
         </div>
     <p>

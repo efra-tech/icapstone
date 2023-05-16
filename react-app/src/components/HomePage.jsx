@@ -52,7 +52,7 @@ export default function HomePage(props) {
           </div>
         </div>
       <div className='section-header'>
-            <h1>Project Overview</h1>
+            <h1 style={{fontSize: '3.4rem'}}>Project Overview</h1>
       </div>
       <div className='section-body'>
         <p>GardenSpace is a web application developed by a team of the University of Washington iSchool students as
@@ -106,7 +106,9 @@ export default function HomePage(props) {
           <span className="sr-only">Next</span>
         </a>
       </div> */}
-
+      <div className='section-header'>
+            <h1 style={{fontSize: '3.4rem'}}>Community Highlights</h1>
+      </div>
       <div id="homeCarousel" className="carousel slide pointer-event" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
