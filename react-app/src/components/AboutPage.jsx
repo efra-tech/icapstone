@@ -23,7 +23,7 @@ export default function AboutPage(props) {
       <div id="header-txt">
         <h1 className="section-header">Our Mission</h1>
       </div>
-      <div className='section-body'>
+      <div className='section-body' style={{marginLeft: '3.3%', marginRight: '3.3%'}}>
         <p>Welcome to GardenSpace! </p>
         <p> </p>
         <p>A web application developed by a group of Informatics students from the University of Washington. As part of our
@@ -50,18 +50,18 @@ export default function AboutPage(props) {
           justice.
         </p>
         <div className="container">
-          <div className="row">
+          <div className="row" style={{marginTop: '6%', marginBottom: '0'}}>
               <div className="col-sm-6 about-garden-col">
-                <img className="about-garden-img img-responsive" src={tilth_origins} alt="Meeting at Pragtree Farm, August, 27, 1977"/>
+                <img className="about-garden-img img-responsive" src={tilth_origins} alt="Meeting at Pragtree Farm, August, 27, 1977" style={{height: '65%'}}/>
                 <p className="about-garden-text">Pragtree Farm, August, 27, 1977. Meeting where "Tilth" was coined. (Photo by Jef Jaisun)</p>
               </div>
               <div className="col-sm-6 about-garden-col">
-                <img className="about-garden-img img-responsive" src={tilth_harvest_fair} alt="Tilth Alliance 2007 Harvest Fair"/>
+                <img className="about-garden-img img-responsive" src={tilth_harvest_fair} alt="Tilth Alliance 2007 Harvest Fair" style={{height: '65%'}}/>
                 <p className="about-garden-text">Seattle Tilth is called Tilth Alliance today, and they often run community events. This photo is from their 2007 Harvest Fair.</p>
               </div>
           </div>
         </div>
-        <p>
+        <p className='pb-5'>
           Nowadays, groups like the Black Farmers Collective and Got Green continue to build upon this legacy by growing fresh,
           healthy produce and advocating for food justice in Seattle. The BIPOC urban gardening community is a vibrant and important part of
           Seattle's social and environmental fabric.
@@ -83,8 +83,11 @@ export default function AboutPage(props) {
           </div>
         </div>
       </div>
+      {/* <div className="logo">
+      <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '25%', marginLeft: '73%', transform: 'scaleX(-1)', marginTop: '4%'}} />
+      </div> */}
       <div>
-        <h1 className='section-header'>Why This Matters</h1>
+        <h1 className='section-header mt-4'>Why This Matters</h1>
       </div>
       <div className='section-body'>
         <p>Community-building is a crucial component of the BIPOC urban gardening movement in Seattle, and it plays an important role in
@@ -106,22 +109,25 @@ export default function AboutPage(props) {
           the support of our community that we may create a brighter future for us all!
     </p>
   </div>
-        <div>
-          <h3 className='section-header-2'>Get in Touch with Us!</h3>
-        </div>
-        <div className='section-body-2'>
-          <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
-          <p>We look forward to chatting with you.</p>
+        <div className='d-flex align-content-center align-self-center flex-overlay justify-content-center my-5' style={{marginLeft: '12%'}}>
+          <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '16%', marginLeft: '3%', transform: 'scaleX(-1)', marginTop: '4%'}} />
+          <div className='p-3 py-5'>
+            <div className='section-body-2 text-center' style={{marginRight: '15%'}}>
+              <h3 className='section-header-2 text-center' style={{fontSize: '2rem'}}>Get in Touch with Us!</h3>
+              <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
+              <p>We look forward to chatting with you.</p>
+            </div>
+          </div>
         </div>
       <div className="resource">
         <div className="text-left text-black">
-          <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
+          <h2 id="banner-title-resource">Readings on Urban Gardening</h2>
           <div className="p-4">
             <Card />
           </div>
         </div>
       </div>
-      <section className='meet-the-team-section' style={{marginTop: '13%', borderTop: '10px solid #5f574a'}}>
+      <section className='meet-the-team-section' style={{marginTop: '13%'}}>
         <div className='section-header meet-the-team-header'>
           <h1>Meet the Team</h1>
         </div>
