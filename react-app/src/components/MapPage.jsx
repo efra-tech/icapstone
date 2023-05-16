@@ -77,7 +77,7 @@ export default function MapPage(props) {
       </div>
       <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
-        <p className="text-white">gardenspacemuse@gmail.com
+        <p className="text-white"><a id='email-link' href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a>
         <br></br>
         University of Washington Capstone 2023
         <br></br>

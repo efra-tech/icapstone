@@ -42,6 +42,9 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.482);
 }
 
+#contact-link:hover {
+  text-decoration: wavy underline #bbd496;
+}
 
 #banner-title-resource {
   opacity: 100%;
@@ -93,12 +96,12 @@ h2 {
 }
 
 #homeCarousel {
-background-color: #829F91;
+background-color:#2A3B37;
 padding-top: 2%;
 padding-bottom: 2%;
 margin-top: 0%;
-border-top: 60px solid #8fa89a;
-border-bottom: 60px solid #8fa89a;
+border-top: 60px solid #24322f;
+border-bottom: 60px solid #24322f;
 }
 
 .carousel {
