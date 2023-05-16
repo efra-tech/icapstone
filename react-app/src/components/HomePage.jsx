@@ -31,9 +31,9 @@ export default function HomePage(props) {
           </div>
           <div className="col-7">
             <p className="message-text">GardenSpace is a welcoming community for BIPOC (Black, Indigenous, and People of Color)
-            urban gardeners in Seattle. Our goal is to create a safe space where gardeners can connect with local gardens,
+            urban gardeners in Seattle. Our goal is to create a safe space where all gardeners can connect with local gardens,
             discover new events, and access information about local organizations. We believe that gardening should be a
-            collaborative and inclusive experience, and we're dedicated to helping you find a community that shares your passion.
+            collaborative and inclusive experience, and we're dedicated to helping BIPOC gardeners find a community that shares their passion.
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function HomePage(props) {
           connect BIPOC urban gardeners in Seattle who may feel disconnected from the larger urban gardening community
           in the city. GardenSpace aims to empower individuals by fostering connections and providing access points for
           individuals to join the BIPOC urban gardening community.</p>
-        <p>As of Spring 2023, this project is turning open-source. If you would like to contribute to GardenSpace, please contact the Information School at the University of Washington.</p>
+        <p>As of Spring 2023, this project is open-source. If you would like to contribute to GardenSpace, please contact the <a id='ischool-link' style={{color: '#829F91'}} href="https://ischool.uw.edu/about/contact" target="_blank">Information School</a> at the University of Washington.</p>
       </div>
       <Container>
         <div className='row' style={{width: '100%'}}>

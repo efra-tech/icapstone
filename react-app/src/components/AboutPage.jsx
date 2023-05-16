@@ -39,7 +39,7 @@ export default function AboutPage(props) {
           <img className='logo-img p-0' src={logo} alt={"garden space logo"} style={{width: '30%', marginLeft: '85%', transform: 'scaleX(-1)'}} />
         </div>
       <div className='pt-0'>
-        <h1 className="section-header">Urban Gardening in Seattle</h1>
+        <h1 className="section-header">History of Urban Gardening in Seattle</h1>
       </div>
       <div className='section-body'>
         <p>Seattle's BIPOC (Black, Indigenous, People of Color) urban gardening scene has a rich history that dates back to the 1960s.
@@ -110,12 +110,12 @@ export default function AboutPage(props) {
           <h3 className='section-header-2'>Get in Touch with Us!</h3>
         </div>
         <div className='section-body-2'>
-          <p>Feel free to contact us at gardenspacemuse@gmail.com for any questions or additional information.</p>
+          <p>Feel free to contact us at <a id='email-link' href="mailto:gardenspacemuse@gmail.com" style={{color: '#829F91'}}>gardenspacemuse@gmail.com</a> for any questions or additional information.</p>
           <p>We look forward to chatting with you.</p>
         </div>
       <div className="resource">
         <div className="text-left text-black">
-          <h2 id="banner-title-resource">Learn More About the History of Urban Gardening in Seattle</h2>
+          <h2 id="banner-title-resource">Learn More About Urban Gardening in Seattle</h2>
           <div className="p-4">
             <Card />
           </div>
@@ -180,7 +180,7 @@ export default function AboutPage(props) {
       </div>
       <div className="contact">
         <h3 className="contact-title text-white">Contact Us!</h3>
-        <p className="text-white">gardenspacemuse@gmail.com
+        <p className="text-white"><a id='email-link' href="mailto:gardenspacemuse@gmail.com">gardenspacemuse@gmail.com</a>
         <br></br>
         University of Washington Capstone 2023
         <br></br>
@@ -189,3 +189,5 @@ export default function AboutPage(props) {
     </div>
   );
 }
+
+
