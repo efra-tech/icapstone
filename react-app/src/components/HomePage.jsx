@@ -63,44 +63,19 @@ export default function HomePage(props) {
           individuals to join the BIPOC urban gardening community.</p>
         <p>As of Spring 2023, this project is open-source. If you would like to contribute to GardenSpace, please contact the <a id='contact-link' style={{color: '#829F91'}} href="https://ischool.uw.edu/about/contact" target="_blank">Information School</a> at the University of Washington.</p>
       </div>
-      <Container>
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <div id="demo-vid" className="ratio ratio-16x9">
-                <iframe style={{width: '100%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12">
-              <img className='logo-img p-0' src={logo_img} alt={"garden space logo"} style={{width: '50%', marginTop: '10rem', transform: 'scaleX(-1)', left: '0'}} />
-            </div>
-          </div>
-      </Container>
-      {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-        <ol className="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src="https://d23.com/app/uploads/2015/07/23-jobs-donald-duck-has-tried_OMD-feat-1-780x440-1440537749.jpg" alt="First slide"/>
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="https://www.fortressofsolitude.co.za/wp-content/uploads/2023/01/Donald-Duck-Disney.jpeg" alt="Second slide"/>
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="https://nationaltoday.com/wp-content/uploads/2021/06/donald_duck.jpg" alt="Third slide"/>
+
+      <div className='section-header'>
+            <h1 style={{fontSize: '3.4rem'}}>Demo Video</h1>
+      </div>
+      <div id="demo-vid-section" className="row">
+        <div className="col">
+          <div id="demo-vid" className="ratio ratio-16x9">
+            <iframe style={{width: '100%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
           </div>
         </div>
-        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div> */}
+      </div>
+
+
       <div className='section-header'>
             <h1 style={{fontSize: '3.4rem'}}>Community Highlights</h1>
       </div>
