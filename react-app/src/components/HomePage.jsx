@@ -115,7 +115,7 @@ export default function HomePage(props) {
               <img className="d-block w-100" src={carousel3} alt="First slide"/>
             <div className="container">
               <div className="carousel-caption">
-                <h3>Emily Tzeng with Local Color Farm and Fiber, at home in the lettuce field.</h3>
+                <h3 className="carousel-caption-title">Emily Tzeng with Local Color Farm and Fiber.</h3>
                 <p>IMAGE: Rylea Foehl/ SeattleMet Rylea Foehl</p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function HomePage(props) {
               <img className="d-block w-100" src={carousel2} alt="Second slide"/>
             <div className="container">
               <div className="carousel-caption">
-                <h3>Natalie Garcia tends to the community garden at the MLK FAME Community Center on Oct. 22, 2020.</h3>
+                <h3 className="carousel-caption-title">Natalie Garcia tends to the community garden at the MLK FAME Community Center on Oct. 22, 2020.</h3>
                 <p>IMAGE: Dorothy Edwards/Crosscut</p>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function HomePage(props) {
               <img className="d-block w-100" src={carousel1} alt="Third slide"/>
             <div className="container">
               <div className="carousel-caption">
-                <h3>The Danny Woo Community Garden, the largest green space in the Chinatown- International District, sitting with a view of the Smith Tower.</h3>
+                <h3 className="carousel-caption-title">The Danny Woo Community Garden, the largest green space in the Chinatown- International District, sitting with a view of the Smith Tower.</h3>
                 <p>IMAGE: Interim CDA</p>
               </div>
             </div>

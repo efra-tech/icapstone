@@ -137,6 +137,10 @@ border-bottom: 60px solid #24322f;
   text-shadow: 1em 1em 1em rgba(255, 255, 255, 0.537), 1em 1em 1em black;
 }
 
+h3.carousel-caption-title {
+  font-size: 1.5rem;
+}
+
 .message {
   padding-top: 5rem;
   padding-bottom: 0rem;
