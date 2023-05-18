@@ -93,3 +93,11 @@ h2.panel-text {
     background-color: #756a5a !important;
     color: white !important;
 }
+
+.static-section {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #F2F2EC;
+    z-index: 1;
+}
