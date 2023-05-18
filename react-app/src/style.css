@@ -121,12 +121,13 @@ h1.events-subtitle {
 
 .angle-btn {
   border: none;
-  background: transparent;
+  background: #BDC8BF;
   padding-left: 0.09%;
   width: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
   padding-top: 4%;
+  border-bottom: 10px solid #B0BEB3;
 }
 
 .angle-btn:hover {
@@ -195,10 +196,10 @@ h1.events-subtitle {
 
 /* Event Cards */
 .card-row {
-  width: 100%;
-  padding-right: 4%;
-  padding-left: 0.2%;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 10px;
+  grid-auto-rows: 100px;
 }
 
 .cardy {
@@ -360,4 +361,3 @@ h1.events-subtitle {
   text-decoration: wavy overline #d9f463;
   font-style: normal;
 }
-

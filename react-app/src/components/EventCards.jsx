@@ -30,8 +30,8 @@ export default function EventCardDeck(props){
 
   return(
     <div className='container-cards'>
-      <div style={{backgroundColor: '#BDC8BF', paddingTop: '7%', borderTop: "10px solid #B0BEB3", borderBottom: "10px solid #B0BEB3"}}>
-        <div className='d-flex row card-row justify-content-around'>
+      <div style={{backgroundColor: '#BDC8BF', paddingTop: '4%', borderTop: "10px solid #B0BEB3", paddingBottom: '14%', paddingLeft: ''}}>
+        <div className='card-row' style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1%', gapBottom: '30%', rowGap: '15rem', position: 'relative'}}>
           <EventCard name='YesFarm Volunteer Day' date='June 3, 2023' time='10am-3pm'
             desc="Come out to YesFarm for their volunteer days! Come down to YesFarm to volunteer, read, play, seed swap, lay in the sun, make friends, and have lovely conversations with the community. This year, we wish to encourage and highlight slowing down and continue to encourage folkx to exist in the space in whatever way feels good to them. Kick off the 2023 season with familiar faces and new faces! Bring a friend & tell a friend."
             link='https://www.blackfarmerscollective.com/new-events/yesfarm-volunteer-day-1'
@@ -44,8 +44,6 @@ export default function EventCardDeck(props){
             desc="Gardens for BIPOC is a new, free monthly tour that takes place in the Washington Park Arboretum, serving folks that identify as Black, Indigenous, and/or a person of color. UW Botanic gardens hope that these free tours can help remove some barriers BIPoC folks may have to access our gardens as well as create a safe and inviting space for BIPoC to connect with one another in nature! The tours include a casual walk through various areas of the Washington Park Arboretum, feature seasonal viewing of collections plants, explorations of botany, and the cultural significance and history of each plant for the BIPoC community will be highlighted along with the history of the UW Botanic Gardens.  UW Botanic Gardens is committed to enriching the lives of all community members with free public tours."
             link='https://queertheland.org/'
           />
-          </div>
-          <div className='d-flex row card-row text-left flex-overlay justify-content-start' style={{marginLeft: '0%'}} >
           <EventCard hideClass={cardStackClass} name='Juneteenth BIPOC Cookout' date='June 17, 2023' time='12pm-7pm'
             desc="Details coming soon!" link=''
           />
@@ -54,8 +52,8 @@ export default function EventCardDeck(props){
             link='https://www.blackfarmerscollective.com/new-events/yesfarm-volunteer-day-1'
           />
         </div>
-        <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>
       </div>
+      <button onClick={handleAngleClick} className='angle-btn'><FontAwesomeIcon icon={faAngleDown} style={{color: '#2D3935', height: "3rem", transform: angleTransformClass, marginBottom: '3rem'}}/></button>
     </div>
   );
 }
@@ -100,7 +98,7 @@ function EventCard(props){
   }
 
   return(
-    <Accordion defaultActiveKey="1" className={'mx-4 ml-4 col-md-9 my-2' + (props.hideClass && props.hideClass)} style={{width: "25rem"}}>
+    <Accordion defaultActiveKey="1" className={'mx-4 ml-4 col-md-9 my-2 ' + (props.hideClass && props.hideClass)} style={{width: "25rem"}}>
       <Card className='cardy d-flex'>
         <Card.Header className='card-header'>
           <CustomToggle eventKey="0" name={props.name} date={props.date} time={props.time} >
