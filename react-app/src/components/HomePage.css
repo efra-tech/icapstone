@@ -90,7 +90,7 @@ h2 {
 }
 
 #demo-vid {
-  width: 75%;
+  width: 50%;
   height: auto;
   margin: auto;
   margin-top: 1.5rem;
@@ -98,10 +98,10 @@ h2 {
 }
 
 #demo-vid-section {
-  background-color: rgb(189, 200, 191);
+  background-color: rgb(176, 190, 179);
   margin-bottom: 5%;
-  border-top: 60px solid rgb(176, 190, 179); 
-  border-bottom: 60px solid rgb(176, 190, 179);
+  border-top: 60px solid rgb(189, 200, 191); 
+  border-bottom: 60px solid rgb(189, 200, 191);
 }
 
 #homeCarousel {
