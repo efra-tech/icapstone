@@ -56,7 +56,7 @@ export default function MapPage(props) {
             <div>
               <div className='static-section'>
                 <h2 className="panel-text pt-2">Discover local gardens</h2>
-                <input type="text" placeholder="Search by name..." onChange={event => {props.setSearch(event.target.value)}} style={{marginLeft: '10%', marginBottom: '4%', marginTop: '7%', padding: '0.4em', border: '0.11rem solid #685f51', borderRadius: '0.4em', boxShadow: '1px 5px 5px #50655b10'}} />
+                <input type="text" placeholder="Search by name, address, or phone..." onChange={event => {props.setSearch(event.target.value)}} style={{marginLeft: '10%', marginBottom: '4%', marginTop: '7%', padding: '0.4em', border: '0.11rem solid #685f51', borderRadius: '0.4em', boxShadow: '1px 5px 5px #50655b10'}} />
                 <div className="container filter-buttons">
                   {!props.showCard && <button className={bipocSelected ? "clicked" : "notClicked"} onClick={handleBIPOC} style={{
                     backgroundColor: bipocSelected ? '#655C4E' : 'white', border: '0.14rem solid #685f51', padding: '0.5rem', boxShadow: '1px 5px 5px #50655b10', marginBottom: '6.5%'

@@ -70,7 +70,7 @@ export default function HomePage(props) {
       <div id="demo-vid-section" className="row">
         <div className="col">
           <div id="demo-vid" className="ratio ratio-16x9">
-            <iframe style={{width: '100%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
+            <iframe style={{width: '100%', height: '80%'}} src="https://www.youtube.com/embed/pXYXfrh1Kv0" title="Demo YouTube video" allowFullScreen></iframe>
           </div>
         </div>
       </div>
