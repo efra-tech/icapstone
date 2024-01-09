@@ -7,8 +7,9 @@ This application was developed for a capstone project as part of the undergradua
 
 As the Capstone project ended, we decided to make the source code available to anyone wanting to improve on the application. Below are starting documentation and instructions on how to acquire relevant API keys and libraries.
 
+Check out the hosted application here: https://gardenspace-muse.web.app/home
+
 ### Starting Documentation
-- Hosted Application: https://gardenspace-muse.web.app/home
 - Quarter 1 Minimum Viable Product Presentation: https://pitch.com/public/c73361f2-ac7c-4611-bda3-f41e03ae78e9/a0f506d9-fb5d-4b84-9787-688d6876a8c7
 - Survey: https://docs.google.com/forms/d/e/1FAIpQLSfksUv3SuByLZC70aJwq9NPAu9TQY-HJoIHEDcZJVPjpvVDeA/viewform?pli=1
 - Presentation Deck Link: https://pitch.com/public/5e80ae9b-fbd2-4f1b-bf14-9f6ec16aa010
